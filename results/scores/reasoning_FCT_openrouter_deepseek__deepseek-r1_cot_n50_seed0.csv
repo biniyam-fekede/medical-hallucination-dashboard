@@ -1,0 +1,2 @@
+provider,model,config,mode,sample_size,seed,correct,total,accuracy,pointwise_score
+openrouter,deepseek/deepseek-r1,reasoning_FCT,cot,50,0,49,50,0.98,0.975

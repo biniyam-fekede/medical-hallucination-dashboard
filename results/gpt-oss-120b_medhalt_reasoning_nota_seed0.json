@@ -1,0 +1,707 @@
+{
+  "seed": 0,
+  "results": [
+    {
+      "question": "In what type of dissociative disorder does the patient feel distanced as if he were an external observer of his body or mental processes ?:",
+      "options": {
+        "A": "The dissociative escape",
+        "B": "The conversion disorder.",
+        "C": "None of the above",
+        "D": "Hysterical psychosis"
+      },
+      "base_output": "The description corresponds to **depersonalization** (feeling like an outside observer of one\u2019s own body or mental processes), which is not captured by any of the listed options.  \n\n**Correct choice: 3. None of the above**",
+      "prompting_output": "The description corresponds to **depersonalization** (feeling like an outside observer of one\u2019s own body or mental processes), which is not captured by any of the listed options. Therefore the correct choice is:\n\n**3. None of the above**",
+      "cot_output": "The description corresponds to **depersonalization (feeling detached from one\u2019s own body or mental processes)**, which is classified as a depersonalization\u2011derealization disorder. Since none of the listed options name this condition, the correct choice is:\n\n**3. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Amalia is a 3 year old girl who has been operated on tetralogy of Fallot. He also presented a thymic dysfunction in the neonatal period and a hypocalcemia as well as a nasal voice together with psychomotor retardation. What genetic test do you consider most appropriate to reach your etiological diagnosis?",
+      "options": {
+        "A": "None of the above",
+        "B": "Study of the expansion of the FMR1 gene, responsible for the X fragil syndrome.",
+        "C": "Sequencing of genes related to HRAS (Noonan syndrome)",
+        "D": "Genetic study of Williams Beuren syndrome."
+      },
+      "base_output": "**Answer: 1. None of the above**  \n\nThe clinical picture (tetralogy of Fallot, thymic dysfunction, hypocalcemia, nasal voice, psychomotor delay) is classic for **22q11.2 deletion syndrome (DiGeorge/Velocardiofacial syndrome)**. The appropriate genetic test would be a FISH or microarray analysis for the 22q11.2 deletion, which is not listed among the options. Hence, \u201cNone of the above\u201d is the correct choice.",
+      "prompting_output": "The clinical picture (tetralogy of Fallot, neonatal thymic hypoplasia, hypocalcemia, nasal voice and neurodevelopmental delay) is classic for a 22q11.2 microdeletion (DiGeorge/velo\u2011cardio\u2011facial syndrome). The appropriate laboratory test would be a targeted analysis for the 22q11.2 deletion (e.g., FISH, MLPA, or a chromosomal microarray), which is **not listed among the answer choices**.  \n\n**Therefore, the correct option is:**  \n\n**1. None of the above**.",
+      "cot_output": "The constellation of findings (tetralogy of Fallot, neonatal thymic hypoplasia/aplasia with consequent hypocalcemia, nasal speech and psychomotor delay) is classic for **22q11.2 deletion syndrome (DiGeorge/velocardiofacial syndrome)**.  \n\nThe appropriate genetic test for this disorder is a **targeted analysis for the 22q11.2 microdeletion** (most commonly by FISH, MLPA, or chromosomal microarray).  \n\nSince none of the listed options (FMR1 expansion, HRAS sequencing, Williams\u2011Beuren study) addresses the 22q11.2 deletion, the correct choice among the given alternatives is:\n\n**1. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Nick oxide is synthesized from?",
+      "options": {
+        "A": "None of the above",
+        "B": "L-citrulline",
+        "C": "Lysine",
+        "D": "Tryptophan"
+      },
+      "base_output": "**Answer:** 1. None of the above.",
+      "prompting_output": "**Answer: 1. None of the above**  \n\nNitric oxide (NO) is produced enzymatically from the amino acid **L\u2011arginine** by nitric\u2011oxide synthase (NOS). The reaction converts L\u2011arginine to NO and L\u2011citrulline. Since L\u2011arginine is not among the listed options, the correct choice is \u201cNone of the above.\u201d",
+      "cot_output": "Nitric oxide (NO) is produced enzymatically from the amino acid **L\u2011arginine** (via nitric\u2011oxide synthase, which also yields L\u2011citrulline as a by\u2011product). Since L\u2011arginine is not listed among the answer choices, the correct option is:\n\n**1. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Parasitic infestation which can lead to malabsorption syndrome?",
+      "options": {
+        "A": "Amoebiasis",
+        "B": "Ascariasis",
+        "C": "Hookworm infestation",
+        "D": "None of the above"
+      },
+      "base_output": "**3. Hookworm infestation**",
+      "prompting_output": "**Answer: 3. Hookworm infestation**",
+      "cot_output": "**Answer: 3. Hookworm infestation**  \n\nHookworms (e.g., *Ancylostoma duodenale*, *Necator americanus*) attach to the intestinal mucosa, feed on blood, and cause chronic loss of protein, iron, and other nutrients. This ongoing loss can lead to a malabsorption\u2011type picture with weight loss, anemia, and hypoalbuminemia. While amoebiasis and ascariasis can produce diarrhoea and intestinal irritation, they are not classic causes of malabsorption syndrome in the same way that hookworm infection is.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "In a patient diagnosed with pneumonia and with metaneumonic pleural effusion in 2/3 of the right hemithorax, which of the following sign associations is frequent to observe?",
+      "options": {
+        "A": "Normal vesicular murmur - normal vocal vibrations-matt percussion.",
+        "B": "Diminished vesicular murmur - increased vocal vibrations - percussion mate.",
+        "C": "None of the above",
+        "D": "Diminished vesicular murmur - diminished vocal vibrations - percussion mate."
+      },
+      "base_output": "The typical physical\u2011exam findings over a sizable pleural effusion are:\n\n* **Breath sounds** \u2013 markedly reduced or absent (diminished vesicular murmur)  \n* **Vocal fremitus** \u2013 reduced because the fluid dampens transmission of vocal vibrations (diminished vocal vibrations)  \n* **Percussion** \u2013 dull (mate) over the area occupied by fluid  \n\nThus the combination that is most frequently observed is:\n\n**4. Diminished vesicular murmur \u2013 diminished vocal vibrations \u2013 percussion mate.**",
+      "prompting_output": "**Answer: 4. Diminished vesicular murmur \u2013 diminished vocal vibrations \u2013 dull (mate) percussion.**  \n\n**Rationale**\n\n- **Pleural effusion** (especially a large, metaneumonic one occupying most of the hemithorax) produces **fluid in the pleural space**.  \n- The fluid **attenuates** the transmission of air\u2011filled lung sounds and of vocal vibrations from the bronchi to the chest wall.  \n- Consequently:\n  * **Auscultation:** breath sounds are markedly **decreased or absent** (diminished vesicular murmur).  \n  * **Voice transmission (tactile fremitus / vocal fremitus):** **diminished** because the fluid blocks the transmission of vocal vibrations.  \n  * **Percussion:** the area over the fluid is **dull** (mate) rather than resonant.  \n\nThese findings are classic for a large pleural effusion and differ from pneumonia with consolidation, where vocal vibrations are **increased** and percussion remains resonant. Hence, option\u202f4 correctly describes the frequent sign association.",
+      "cot_output": "**Answer: 4. Diminished vesicular murmur \u2013 diminished vocal vibrations \u2013 percussion dull (mate).**  \n\nIn a pleural effusion the fluid replaces air\u2011filled lung tissue, so:\n\n* **Auscultation:** breath sounds (vesicular murmur) are markedly reduced or absent.  \n* **Vocal fremitus:** transmission of vocal vibrations through the chest wall is decreased.  \n* **Percussion:** the area sounds dull (mate) because fluid conducts sound differently than aerated lung.\n\nThus the typical triad for a sizable pleural effusion, such as the metaneumonic effusion occupying two\u2011thirds of the right hemithorax, is the combination described in option\u202f4.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 36-year-old woman, gravida 3, para 2, at 31 weeks' gestation comes to the emergency department because of painless, bright red vaginal bleeding for one day. She has not felt any contractions. Her other children were delivered by Cesarean section because of breech position. Fetal heart rate is reactive with no decelerations. Which of the following findings is most likely on ultrasound?",
+      "options": {
+        "A": "Retroplacental hematoma",
+        "B": "Adnexal bleeding",
+        "C": "None of the above",
+        "D": "Gestational sac in a dilated cervix"
+      },
+      "base_output": "The presentation (painless, bright\u2011red vaginal bleeding in the third trimester) is classic for **placenta previa**.  \n- A retroplacental hematoma would be seen with abruptio placentae, which is typically painful.  \n- Adnexal bleeding would suggest a ruptured ovarian cyst or similar adnexal pathology, not painless vaginal bleeding.  \n- A gestational sac in a dilated cervix would be seen with an inevitable or incomplete abortion, not with a stable third\u2011trimester pregnancy.\n\nSince none of the listed ultrasound findings correspond to placenta previa, the most appropriate answer is:\n\n**3. None of the above**.",
+      "prompting_output": "The presentation (painless, bright\u2011red vaginal bleeding in the third trimester) is classic for **placenta previa**\u2014especially in a woman with prior cesarean deliveries, which increase the risk of a low\u2011lying or previa placenta.  \n\nOn ultrasound, placenta previa is identified by the placenta lying **over or within 2\u202fcm of the internal cervical os**. None of the answer choices describe this finding:\n\n- **Retroplacental hematoma** is seen with placental abruption, which is typically painful and associated with uterine tenderness.  \n- **Adnexal bleeding** would suggest a hemorrhage from the ovary or fallopian tube, not a cause of painless third\u2011trimester bleeding.  \n- **Gestational sac in a dilated cervix** would be seen with a cervical ectopic pregnancy, which is extremely rare and not the classic presentation here.\n\nSince the appropriate ultrasound finding (placenta covering the internal os) is not listed, the correct answer is:\n\n**3. None of the above**.",
+      "cot_output": "The presentation (painless, bright\u2011red vaginal bleeding in the second\u2011half of pregnancy with a reassuring fetal heart tracing) is classic for **placenta previa**.  \nPlacenta previa is diagnosed on ultrasound by visualizing the placenta covering or lying within 2\u202fcm of the internal cervical os. None of the answer choices describe this finding; a retroplacental hematoma would be seen with painful bleeding from placental abruption, adnexal bleeding and a gestational sac in a dilated cervix are unrelated.\n\n**Therefore, the most appropriate choice is:**\n\n**3. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Nucleus ambiguus is not associated with which cranial nerve:",
+      "options": {
+        "A": "X",
+        "B": "XI",
+        "C": "IX",
+        "D": "None of the above"
+      },
+      "base_output": "The nucleus ambiguus gives rise to motor fibers of cranial nerves **IX (glossopharyngeal), X (vagus), and XI (accessory)**. Since it is associated with all three of the listed nerves, the correct choice is:\n\n**4. None of the above**.",
+      "prompting_output": "The nucleus ambiguus gives rise to motor fibers of cranial nerves **IX (glossopharyngeal), X (vagus), and XI (accessory)**.  \nSince it is associated with all three of those nerves, the correct choice is:\n\n**4. None of the above**.",
+      "cot_output": "The nucleus ambiguus contains the motor nuclei of cranial nerves **IX (glossopharyngeal), X (vagus), and XI (accessory)**.  \nTherefore it is associated with all three of the listed nerves, and there is no nerve among the options that is *not* linked to the nucleus ambiguus.\n\n**Correct choice:** **4. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 50 years old patient presented with progressive jaundice. Liver function test was done in which conju!gated serum bilirubin-4.8% and total bilirubin-6.7%, alkaline phosphatase- 550 IU, SGOT-50, SGPT-65. Most probable diagnosis is;",
+      "options": {
+        "A": "None of the above",
+        "B": "Dubin-Johnson syndrome",
+        "C": "Viral hepatitis",
+        "D": "Malignant obstructive jaundice"
+      },
+      "base_output": "The pattern shows a markedly elevated conjugated (direct) bilirubin with a very high alkaline phosphatase and relatively modest transaminase rise \u2013 the classic picture of a **cholestatic/obstructive process**, most often due to a malignant obstruction of the biliary tree.\n\n**Answer: 4. Malignant obstructive jaundice**",
+      "prompting_output": "The pattern shows a markedly elevated **conjugated (direct) bilirubin** (\u2248\u202f4.8\u202fmg/dL) with a high alkaline phosphatase (\u2248\u202f550\u202fIU/L) and only modest rises in transaminases (SGOT\u202f\u2248\u202f50\u202fU/L, SGPT\u202f\u2248\u202f65\u202fU/L). This biochemical picture is typical of **cholestatic/obstructive jaundice**, where bile flow is blocked, leading to a predominance of direct bilirubin and a pronounced alkaline phosphatase elevation. Among the given choices, the condition that best fits an obstructive, likely malignant, etiology is:\n\n**4. Malignant obstructive jaundice**.",
+      "cot_output": "The pattern shows a predominance of conjugated (direct) hyperbilirubinemia (\u2248\u202f4.8\u202fmg/dL of a total 6.7\u202fmg/dL), markedly elevated alkaline phosphatase (\u2248\u202f550\u202fIU/L) and only mild transaminase rises (SGOT\u202f\u2248\u202f50\u202fU/L, SGPT\u202f\u2248\u202f65\u202fU/L). This biochemical profile is typical of **obstructive (cholestatic) jaundice**, most commonly due to a malignant obstruction of the biliary tree (e.g., pancreatic carcinoma, cholangiocarcinoma).  \n\n**Correct choice:** **4. Malignant obstructive jaundice**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Linoleic acid is -",
+      "options": {
+        "A": "w-3 fatty acid",
+        "B": "None of the above",
+        "C": "w-9 fatty acid",
+        "D": "Saturated fatty acid"
+      },
+      "base_output": "**Answer:** 2. None of the above\n\n*Explanation:* Linoleic acid is an 18\u2011carbon polyunsaturated fatty acid with two double bonds located at the 9th and 12th carbons from the carboxyl end, which corresponds to the **omega\u20116 (\u03c9\u20116)** family. Since none of the options list \u03c9\u20116, the correct choice is \u201cNone of the above.\u201d",
+      "prompting_output": "Linoleic acid is an **omega\u20116 (\u03c9\u20116) polyunsaturated fatty acid**. Since none of the listed options correctly describe it, the correct choice is:\n\n**2. None of the above**.",
+      "cot_output": "Linoleic acid is an\u202fomega\u20116 (w\u20116) polyunsaturated fatty acid. Since \u201cw\u20116\u201d is not among the listed choices, the correct answer is **2. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 42-year-old man is being treated by his female family medicine physician for chronic depression. Recently, he has been scheduling more frequent office visits. He does not report any symptoms or problems with his SSRI medication during these visits. Upon further questioning, the patient confesses that he is attracted to her and says \"You are the only one in the world who understands me\". The physician also manages his hypertension. Which of the following is the most appropriate next step in management?",
+      "options": {
+        "A": "Re-evaluate this patient for borderline personality disorder",
+        "B": "None of the above",
+        "C": "Immediately tell this patient that you can not continue to treat him and avoid any further communication",
+        "D": "Increase the dosage of this patient\u2019s SSRI"
+      },
+      "base_output": "**Answer: 3. Immediately tell this patient that you can not continue to treat him and avoid any further communication.**  \n\nThe patient\u2019s romantic attraction to his physician constitutes a clear boundary violation (a type of transference). The appropriate response is to terminate the therapeutic relationship in a professional manner and refer the patient to another qualified provider for continued care, thereby preserving professional ethics and protecting both the patient and the physician.",
+      "prompting_output": "The appropriate response is to **maintain professional boundaries and arrange for the patient\u2019s care to be transferred to another clinician**.  \nThe physician should calmly explain that a romantic or sexual relationship with a patient is unethical and that, to protect both the patient\u2019s well\u2011being and the integrity of the therapeutic relationship, the patient will need to be referred to another provider for ongoing treatment. This should be done promptly, with a clear plan for continuity of care (e.g., providing a summary of the patient\u2019s medical history to the new provider).  \n\n**Why the other options are not appropriate**\n\n1. **Re\u2011evaluate for borderline personality disorder** \u2013 While personality pathology can be considered in the overall assessment, the immediate priority is to address the boundary issue. Diagnosing a personality disorder does not resolve the ethical breach and could be perceived as dismissing the patient\u2019s expressed feelings.\n\n2. **None of the above** \u2013 This is the correct choice because the listed specific actions (re\u2011evaluation, immediate termination without transition, increasing the SSRI dose) are not the best next step.\n\n3. **Immediately tell the patient you cannot continue to treat him and avoid any further communication** \u2013 Abrupt termination without providing a proper hand\u2011off can jeopardize the patient\u2019s mental\u2011health care and may be considered abandonment. A structured transfer of care is required.\n\n4. **Increase the dosage of his SSRI** \u2013 The patient\u2019s romantic feelings are not a pharmacologic side effect that can be corrected by adjusting the antidepressant dose; changing medication would not address the ethical issue.\n\n**Key point:** When a patient expresses romantic or sexual attraction to his physician, the physician must protect the therapeutic relationship by ending the doctor\u2011patient relationship in an ethical, organized manner\u2014informing the patient of the boundary, arranging a timely transfer of care, and documenting the encounter.",
+      "cot_output": "The appropriate response is to **arrange for the patient to be transferred to another clinician** and to do so in a professional, non\u2011abrupt manner (e.g., explain that, for the benefit of both the therapeutic relationship and the patient\u2019s care, a different provider will take over and ensure a smooth hand\u2011off).  \n\nThe options presented do not include this correct course of action. \u201cImmediately tell the patient you cannot continue to treat him and avoid any further communication\u201d (option\u202f3) is too abrupt and could be considered abandonment if a proper transition is not arranged. Re\u2011evaluating for borderline personality disorder (option\u202f1) or changing the medication dose (option\u202f4) does not address the boundary issue. Therefore, the most appropriate choice among the listed answers is **\u201cNone of the above.\u201d**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "In a patient with obstructive jaundice, what is the possible explanation for a bilirubin level of 40 mg/dL?",
+      "options": {
+        "A": "Malignant obstruction",
+        "B": "Complete obstruction of common bile duct",
+        "C": "None of the above",
+        "D": "Liver failure"
+      },
+      "base_output": "**Answer: 2. Complete obstruction of the common bile duct**",
+      "prompting_output": "**Answer: 2. Complete obstruction of the common bile duct**",
+      "cot_output": "**Answer: 2. Complete obstruction of the common bile duct**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 39-year-old woman is brought to the emergency room by her fianc\u00e9 for severe abdominal pain for the past 5 hours. She was watching TV after dinner when she felt a sudden, sharp, 10/10 pain at the epigastric region that did not go away. Ibuprofen also did not help. She reports recurrent abdominal pain that would self-resolve in the past but states that \u201cthis one is way worse.\u201d Her past medical history is significant for diabetes and an appendectomy 2 years ago. The patient endorses nausea and 1 episode of emesis, but denies fevers, chills, chest pain, shortness of breath, diarrhea, constipation, urinary symptoms, paresthesia, or weakness. She used to smoke marijuana in college and drinks about 2 beers a week. A physical examination demonstrates an overweight woman in acute distress with diffuse abdominal tenderness. Her vitals are within normal limits. Laboratory values are shown below:",
+      "options": {
+        "K+: 4": "8 mEq/L",
+        "Ca2+:  6": "9 mg/dL",
+        "A": "Abdominal computed tomography without IV contrast",
+        "B": "Abdominal magnetic resonance imaging",
+        "C": "None of the above",
+        "D": "Upright chest and abdominal radiograph"
+      },
+      "base_output": "**Answer: 3. None of the above**\n\n**Rationale**\n\nThe patient\u2019s presentation (sudden, severe epigastric pain, nausea/vomiting, markedly elevated lipase) meets the clinical criteria for acute pancreatitis. The initial work\u2011up after establishing the diagnosis is to determine the underlying etiology, because management (e.g., early cholecystectomy for gallstone pancreatitis) depends on it.\n\n* The most important next test is a **right upper\u2011quadrant abdominal ultrasound** to look for gallstones or biliary sludge, the leading cause of pancreatitis in adults.  \n* An abdominal CT scan (with or without IV contrast) or MRI is reserved for patients in whom the diagnosis is uncertain, who have a severe clinical course, or when complications (e.g., necrosis, abscess, pseudocyst) are suspected.  \n* A plain upright chest/abdominal radiograph is not useful for evaluating the cause of pancreatitis and would not change immediate management.\n\nSince none of the answer choices list a right upper\u2011quadrant ultrasound, the correct selection is **\u201cNone of the above.\u201d**",
+      "prompting_output": "The presentation (sudden, severe epigastric pain radiating to the back, nausea/vomiting, lipase >3\u202f\u00d7\u202fupper limit of normal, and modest transaminase elevation) is classic for **acute pancreatitis**.  \n\nWhen acute pancreatitis is diagnosed clinically (typical pain\u202f+\u202flipase \u22653\u00d7 normal), the initial work\u2011up is directed at **identifying the underlying etiology**, not at cross\u2011sectional imaging of the abdomen. The first imaging study that should be obtained is a **right upper\u2011quadrant (RUQ) abdominal ultrasound**, which can detect gallstones or biliary sludge\u2014the most common cause of pancreatitis in adults.  \n\nNone of the answer choices (CT without IV contrast, MRI, or upright chest/abdominal radiographs) is the appropriate next step. Therefore the correct answer is:\n\n**4. None of the above** (the next step should be a RUQ abdominal ultrasound).",
+      "cot_output": "The patient meets diagnostic criteria for acute pancreatitis (typical epigastric pain and a lipase level >3\u202f\u00d7\u202f the upper limit of normal).  \nAfter confirming the diagnosis, the next priority is to look for the **most common cause**\u2014gallstone disease\u2014especially because her liver enzymes are mildly elevated (AST/ALT\u202f\u2248\u202f300\u202fU/L) and she has hypocalcemia, both of which are frequently seen in biliary pancreatitis. The initial imaging study of choice to evaluate for gallstones or biliary obstruction is a **right\u2011upper\u2011quadrant (RUQ) abdominal ultrasound**.\n\nSince a RUQ ultrasound is not listed among the answer choices, the appropriate selection is:\n\n**3. None of the above** (the correct next step would be a RUQ abdominal ultrasound).",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Relieve pain patients on principle, Which statement is correct?",
+      "options": {
+        "A": "If non-cancer pain in patients with chronic pain, the physician must be unused opioids to control their pain",
+        "B": "None of the above",
+        "C": "Patients with a history of drug abuse if the pain should first note after psychiatrists, before treatment",
+        "D": "If cancer patients need to use opioids for pain relief, the dose should be less the better, so as not to become addicted patients"
+      },
+      "base_output": "**Answer: 2.\u202fNone of the above**",
+      "prompting_output": "**Correct answer: 2.\u202fNone of the above**  \n\n**Why the other statements are incorrect**\n\n| Option | Statement | Why it is wrong |\n|--------|------------|-----------------|\n| 1 | \u201cIf non\u2011cancer pain in patients with chronic pain, the physician must be unused opioids to control their pain.\u201d | Opioids are **not** automatically required for chronic non\u2011cancer pain. Current guidelines (e.g., CDC, WHO, EAPC) advise trying non\u2011opioid pharmacologic and non\u2011pharmacologic therapies first, reserving opioids for selected cases where benefits clearly outweigh risks. |\n| 3 | \u201cPatients with a history of drug abuse if the pain should first note after psychiatrists, before treatment.\u201d | While a history of substance\u2011use disorder warrants careful assessment and possibly a multidisciplinary approach, it does **not** mandate that a psychiatrist must evaluate the patient **before** any pain treatment. Collaboration with addiction specialists, pain specialists, or primary care can be appropriate, but the statement is overly restrictive and not a universal rule. |\n| 4 | \u201cIf cancer patients need to use opioids for pain relief, the dose should be less the better, so as not to become addicted patients.\u201d | In cancer\u2011related pain, the primary goal is adequate analgesia. Opioid dosing should be titrated **to effect**, not kept \u201cas low as possible\u201d at the expense of pain control. While vigilance for side effects and dependence is important, under\u2011dosing can lead to unnecessary suffering. |\n\nSince each of the specific statements contains inaccurate or misleading information, the only correct choice is **\u201cNone of the above.\u201d**",
+      "cot_output": "**Correct answer: 2.\u202fNone of the above**  \n\n**Rationale**\n\n| Option | Statement | Why it is incorrect |\n|--------|------------|----------------------|\n| 1 | \u201cIf non\u2011cancer pain in patients with chronic pain, the physician must be unused opioids to control their pain.\u201d | Opioids are **not** automatically required for chronic non\u2011cancer pain; they should be used only after a careful risk\u2011benefit assessment, trial of non\u2011opioid therapies, and in accordance with guidelines. |\n| 2 | \u201cNone of the above.\u201d | Since each of the other statements contains a factual error, the \u201cnone of the above\u201d choice is the only correct one. |\n| 3 | \u201cPatients with a history of drug abuse if the pain should first note after psychiatrists, before treatment.\u201d | A history of substance\u2011use disorder does **not** mandate a psychiatric referral before any pain management. Such patients can be treated by the prescribing clinician with appropriate risk mitigation (e.g., opioid treatment agreements, urine drug testing, close monitoring). |\n| 4 | \u201cIf cancer patients need to use opioids for pain relief, the dose should be less the better, so as not to become addicted patients.\u201d | In cancer pain, the priority is adequate analgesia. Opioid dosing should be titrated to achieve effective pain control, not intentionally kept low to avoid addiction, because under\u2011treatment of pain is unethical and can worsen outcomes. Addiction risk in properly managed cancer patients is low when opioids are used appropriately. |\n\nTherefore, none of the statements presented is correct.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Anti epileptic of choice in pregnancy is?",
+      "options": {
+        "A": "Valproate",
+        "B": "Carbamazepine",
+        "C": "Phenytoin",
+        "D": "None of the above"
+      },
+      "base_output": "**Answer: 4. None of the above**  \n\n*Rationale:* The safest antiepileptic drugs during pregnancy are typically lamotrigine and levetiracetam, which are not among the listed options. Valproate, carbamazepine, and phenytoin are associated with higher risks of teratogenicity and are therefore avoided when possible. Hence, the correct choice is \u201cNone of the above.\u201d",
+      "prompting_output": "The safest antiepileptic drug (AED) for use during pregnancy is **not** any of the three agents listed (valproate, carbamazepine, or phenytoin), all of which carry significant teratogenic risks. Therefore, the correct choice among the given options is:\n\n**4. None of the above**.",
+      "cot_output": "The safest antiepileptic drugs for use in pregnancy are those with the lowest teratogenic risk, such as lamotrigine or levetiracetam.  \n\nValproate, carbamazepine, and phenytoin are all associated with an increased risk of major congenital malformations and neurodevelopmental problems when taken during pregnancy. Therefore, none of the listed agents would be considered the drug of choice for a pregnant woman with epilepsy.\n\n**Answer: 4. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Age of preoperational stage is",
+      "options": {
+        "A": "1-2 years",
+        "B": "None of the above",
+        "C": "8-11 years",
+        "D": "0-2 years"
+      },
+      "base_output": "The preoperational stage (according to Piaget) spans roughly from about 2\u202fyears to 7\u202fyears of age. Since none of the listed intervals matches this range, the correct choice is:\n\n**2. None of the above**",
+      "prompting_output": "The preoperational stage in Piaget\u2019s theory typically spans roughly **2\u202f\u2013\u202f7\u202fyears of age**. Since none of the listed ranges correspond to this interval, the correct choice is:\n\n**2. None of the above**.",
+      "cot_output": "The preoperational stage in Piaget\u2019s theory typically spans roughly **2\u202f\u2013\u202f7\u202fyears of age**. Since none of the listed ranges match this interval, the correct answer is:\n\n**2. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Which of the following causes of malabsorption occurs with alteration of the intestinal mucosa ?:",
+      "options": {
+        "A": "The Crigler-Najjar syndrome.",
+        "B": "A cholestasis",
+        "C": "None of the above",
+        "D": "Achalasia"
+      },
+      "base_output": "**Answer: 3. None of the above**",
+      "prompting_output": "The correct choice is **3.\u202fNone of the above**.  \n\nCrigler\u2011Najjar syndrome is a hepatic enzyme defect, cholestasis involves impaired bile flow, and achalasia is a motility disorder of the esophagus; none of these conditions cause malabsorption by altering the intestinal mucosa.",
+      "cot_output": "**Answer: 3. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Gas chromatography is the method of choice for the separation of substances:",
+      "options": {
+        "A": "None of the above",
+        "B": "Non-volatile and thermally stable.",
+        "C": "Organic with very high molecular weights.",
+        "D": "Non-volatile high polarity."
+      },
+      "base_output": "**Answer: 1. None of the above**  \n\nGas chromatography works best for compounds that are **volatile** and **thermally stable** (generally low\u2011 to medium\u2011molecular\u2011weight, not highly polar). None of the listed options describe such substances, so the correct choice is \u201cNone of the above.\u201d",
+      "prompting_output": "**Answer: 1.\u202fNone of the above**  \n\nGas chromatography is most suitable for **volatile, thermally stable, and relatively low\u2011molecular\u2011weight** compounds (often with moderate polarity). None of the listed options correctly describe this requirement.",
+      "cot_output": "**Answer: 1. None of the above**  \n\nGas chromatography is most suitable for **volatile, thermally stable, and relatively low\u2011polarity** compounds. None of the listed options correctly describe that class of substances.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "What neurotransmitter has been associated with the development of Obsessive Compulsive Disorder ?:",
+      "options": {
+        "A": "None of the above",
+        "B": "Dopamine",
+        "C": "Noradrenaline",
+        "D": "Somatostatin."
+      },
+      "base_output": "**Answer:** 1. None of the above.",
+      "prompting_output": "The neurotransmitter most consistently implicated in the pathophysiology of Obsessive\u2011Compulsive Disorder (OCD) is **serotonin**. Since serotonin is not listed among the options, the correct choice is:\n\n**1. None of the above**.",
+      "cot_output": "The neurotransmitter most strongly linked to obsessive\u2011compulsive disorder is serotonin. Because serotonin is not among the listed options, the correct choice is:\n\n**1. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Stimulated saliva as compared to unstimulated saliva has more",
+      "options": {
+        "A": "None of the above",
+        "B": "Cl",
+        "C": "Na",
+        "D": "H"
+      },
+      "base_output": "**2. Na**",
+      "prompting_output": "**Na\u207a (sodium)** \u2013 stimulated saliva contains a higher sodium concentration than unstimulated saliva.",
+      "cot_output": "**Answer: 3.\u202fNa**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Indicate which of the following monoclonal antibodies has demonstrated its efficacy in the treatment of paroxysmal nocturnal hemoglobinuria:",
+      "options": {
+        "A": "Rituximab",
+        "B": "Alemtuzumab",
+        "C": "None of the above",
+        "D": "Ocrelizumab."
+      },
+      "base_output": "**Answer: 3. None of the above**",
+      "prompting_output": "The monoclonal antibody that is approved and has demonstrated efficacy in paroxysmal nocturnal hemoglobinuria (PNH) is **eculizumab**, which targets complement component C5. Since eculizumab is not among the listed options, the correct choice is:\n\n**3. None of the above**",
+      "cot_output": "**Answer: 3.\u202fNone of the above**  \n\nParoxysmal nocturnal hemoglobinuria (PNH) is treated effectively with complement\u2011inhibiting monoclonal antibodies such as eculizumab (anti\u2011C5) and its longer\u2011acting counterpart ravulizumab. The agents listed\u2014rituximab (anti\u2011CD20), alemtuzumab (anti\u2011CD52), and ocrelizumab (anti\u2011CD20)\u2014have not shown efficacy for PNH.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "3-grade homework Li Xiaodi recent setbacks, the teacher said he often trance in class, sometimes also moving around the mouth, I do not know what to eat; ask him afterwards, he was always very innocent, said: In the \"no ah!\" Please Li Xiaodi outpatient continuous deep breathing three minutes, the results do half of what he started in a daze. Following a check that Li Xiaodi most diagnosed disease?",
+      "options": {
+        "A": "Psychological Tests",
+        "B": "24 hours ECG",
+        "C": "None of the above",
+        "D": "Determination of growth hormone"
+      },
+      "base_output": "**Answer: 3. None of the above**",
+      "prompting_output": "The description is most consistent with an absence\u2011type seizure (brief \u201cblanking\u2011out\u201d episodes with automatisms such as lip\u2011smacking). The appropriate diagnostic test for that is a routine electroencephalogram (EEG) performed while the child is awake and, if possible, during an event.  \n\nSince none of the offered choices (psychological testing, 24\u2011hour ECG, determination of growth hormone) includes an EEG, the correct selection is:\n\n**4.\u202fNone of the above**.",
+      "cot_output": "**Answer: 3. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "The equation that describes the effect of the dielectric constant of the solvent on the velocity constant of the reactions in solution between ionic compounds, predicts that:",
+      "options": {
+        "A": "The representation of the velocity constant, k, versus the inverse of the dielectric constant of the solvent must be linear.",
+        "B": "Replacing the water with a solvent of lower dielectric constant will always reduce the reaction rate.",
+        "C": "Reactions involving ions of the same sign are accelerated with solvents of low dielectric constant, \u03b5.",
+        "D": "None of the above"
+      },
+      "base_output": "**Answer: 4. None of the above**",
+      "prompting_output": "The relationship that is usually invoked for ionic reactions in solution is the **Br\u00f8nsted\u2013Bjerrum equation** (or its modern form derived from transition\u2011state theory). For a bimolecular reaction between ions of charges \\(z_A\\) and \\(z_B\\),\n\n\\[\nk = k^{\\circ}\\,\\exp\\!\\left[-\\frac{z_A z_B e^{2}}{4\\pi\\varepsilon_{0}\\,\\varepsilon\\,r_{\\ddagger}\\,RT}\\right]\n\\]\n\nor, taking natural logarithms,\n\n\\[\n\\ln k = \\ln k^{\\circ} - \\frac{z_A z_B e^{2}}{4\\pi\\varepsilon_{0}\\,r_{\\ddagger}\\,RT}\\;\\frac{1}{\\varepsilon}.\n\\]\n\nThus **\\(\\ln k\\) varies linearly with the inverse dielectric constant (\\(1/\\varepsilon\\))**, not the rate constant \\(k\\) itself.  \n\nFrom this equation we can infer:\n\n* For oppositely charged ions (\\(z_A z_B < 0\\)), decreasing the dielectric constant (i.e., moving to a solvent with lower \\(\\varepsilon\\)) **increases** the magnitude of the exponential term, thereby **increasing the rate constant**.  \n* For ions of the same sign (\\(z_A z_B > 0\\)), a lower dielectric constant **decreases** the rate constant because the repulsive term in the activation free energy becomes larger.\n\nConsequently:\n\n1. **False** \u2013 the linear relationship is between \\(\\ln k\\) and \\(1/\\varepsilon\\), not between \\(k\\) and \\(1/\\varepsilon\\).  \n2. **False** \u2013 a solvent with a lower dielectric constant does **not** always reduce the rate; it accelerates reactions of oppositely charged ions.  \n3. **False** \u2013 reactions between ions of the same sign are *slowed* in solvents of lower dielectric constant.  \n\nTherefore the correct choice is:\n\n**4. None of the above.**",
+      "cot_output": "The relationship derived from transition\u2011state theory for ionic reactions is  \n\n\\[\n\\ln k = \\text{constant} - \\frac{A\\,z_Az_B}{\\varepsilon}\n\\]\n\nwhere \\(z_A\\) and \\(z_B\\) are the charges of the reacting ions, \\(A\\) is a constant that includes the elementary charge, the distance of closest approach, and physical constants, and \\(\\varepsilon\\) is the dielectric constant of the solvent.  \n\nFrom this equation:\n\n* A plot of **\\(\\ln k\\) versus \\(1/\\varepsilon\\)** is linear, not a plot of \\(k\\) versus \\(1/\\varepsilon\\).  \n* Lowering the dielectric constant does **not** always reduce the rate. For reactions between oppositely charged ions (\\(z_Az_B<0\\)) a smaller \\(\\varepsilon\\) actually **increases** the rate, while for like\u2011charged ions (\\(z_Az_B>0\\)) it decreases the rate.  \n* Consequently, reactions between ions of the same sign are **not** accelerated in solvents of low dielectric constant; they are slowed.\n\nSince none of the statements 1\u20133 correctly describe the predicted behavior, the correct choice is:\n\n**4. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "The breath test for the diagnosis of Helicobacter pylori depends on the production by the bacteria of:",
+      "options": {
+        "A": "Surface antigens of the blood type.",
+        "B": "None of the above",
+        "C": "CagA secreted effector toxin.",
+        "D": "Catalase"
+      },
+      "base_output": "The correct answer is **2.\u202fNone of the above**.  \n\nThe urea (breath) test for *Helicobacter pylori* relies on the bacterium\u2019s production of **urease**, an enzyme that hydrolyzes ingested ^13C\u2011 or ^14C\u2011labeled urea to ammonia and labeled carbon dioxide, which is then measured in the exhaled breath. None of the listed options (surface blood\u2011type antigens, CagA toxin, catalase) describe this urease activity.",
+      "prompting_output": "The urea breath test detects the activity of **urease** produced by *Helicobacter pylori*, which hydrolyzes ingested ^13C\u2011 or ^14C\u2011labeled urea to carbon dioxide and ammonia. Since none of the listed items (blood\u2011type antigens, CagA toxin, catalase) are involved in this reaction, the correct choice is:\n\n**2. None of the above**",
+      "cot_output": "The urea\u2011breath test detects the bacterial urease that hydrolyzes ingested\u202f\u00b9\u00b3C\u2011 or\u202f\u00b9\u2074C\u2011urea to ammonia and labeled carbon dioxide. Since none of the listed items (blood\u2011type antigens, CagA toxin, catalase) are involved, the correct choice is:\n\n**2. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "According to the model of the Big Five, in what dimension would an imaginative, creative woman, interested in new ideas and experiences, score high ?:",
+      "options": {
+        "A": "Activity.",
+        "B": "None of the above",
+        "C": "Extraversion",
+        "D": "Search for Impulsive Sensations."
+      },
+      "base_output": "The description corresponds to high **Openness to Experience**, which isn\u2019t listed among the options. So the correct choice is:\n\n**2. None of the above**.",
+      "prompting_output": "The description corresponds to the **Openness to Experience** factor of the Big Five. Since that specific dimension is not listed among the options, the correct choice is:\n\n**2. None of the above**",
+      "cot_output": "The description corresponds to the **Openness to Experience** factor of the Big Five. Since that option isn\u2019t listed, the correct choice is:\n\n**2. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "The most characteristic feature of basal cell carcinoma is:",
+      "options": {
+        "A": "Keratin pearls",
+        "B": "Foam cells",
+        "C": "None of the above",
+        "D": "Psammoma bodies"
+      },
+      "base_output": "**Answer: 3. None of the above**",
+      "prompting_output": "**Answer: 3.\u202fNone of the above**\n\nBasal cell carcinoma is most characteristically identified by histologic features such as nests of basaloid cells with peripheral palisading of nuclei and a stromal retraction (cleft) artifact. It does **not** typically show keratin pearls (a feature of squamous cell carcinoma), foam cells, or psammoma bodies. Hence, none of the listed options correctly describes the hallmark finding of basal cell carcinoma.",
+      "cot_output": "The hallmark microscopic pattern of basal cell carcinoma is nests of basaloid cells with peripheral palisading of nuclei \u2013 a feature not listed among the options. Therefore, the correct choice is **3. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Pain receptors are ?",
+      "options": {
+        "A": "Meissners corpuscle",
+        "B": "Pacinian corpuscle",
+        "C": "None of the above",
+        "D": "Merkel disc"
+      },
+      "base_output": "**Answer:** 3. None of the above  \n\n*Explanation:* Pain receptors (nociceptors) are primarily free nerve endings, not the specialized mechanoreceptors listed (Meissner\u2019s corpuscle, Pacinian corpuscle, Merkel disc).",
+      "prompting_output": "Pain receptors are called **nociceptors**. They are distinct from the mechanoreceptors listed (Meissner\u2019s corpuscles, Pacinian corpuscles, and Merkel discs). Therefore, the correct choice is:\n\n**3. None of the above**.",
+      "cot_output": "The correct choice is **3. None of the above**.  \n\nPain is detected by specialized free\u2011nerve\u2011ending receptors called **nociceptors**, which are distinct from the mechanoreceptors listed (Meissner\u2019s corpuscles, Pacinian corpuscles, and Merkel discs).",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A patient presented with a steering wheel injury to the right side of chest with breathlessness and shock. How will you differentiate tension pneumothorax and cardiac tamponade?",
+      "options": {
+        "A": "Pulse pressure",
+        "B": "JVP",
+        "C": "None of the above",
+        "D": "Hea sounds"
+      },
+      "base_output": "**4. Heart sounds**  \n\nIn cardiac tamponade the heart sounds are classically muffled/soft (Beck\u2019s triad), whereas in a tension pneumothorax the heart sounds are usually normal or may be distant but not characteristically muffled. Thus auscultation of the heart sounds helps to differentiate the two conditions.",
+      "prompting_output": "**Answer: 4. Heart sounds**  \n\nIn cardiac tamponade the classic triad includes muffled (quiet) heart sounds, whereas in a tension pneumothorax the heart sounds are usually normal but breath sounds are markedly diminished or absent on the affected side. Thus auscultation of the heart helps to distinguish the two entities.",
+      "cot_output": "**Answer: 4\u202f\u2013\u202fHeart sounds**  \n\nIn a patient with a right\u2011sided chest injury the two life\u2011threatening possibilities are tension pneumothorax and cardiac tamponade. Both can present with hypotension, jugular venous distension and respiratory distress, so many of the \u201cclassic\u201d bedside signs overlap. The single bedside finding that most reliably separates the two entities is the quality of the **heart sounds**:\n\n| Finding | Tension pneumothorax | Cardiac tamponade |\n|---------|----------------------|-------------------|\n| **Heart sounds** | Normally audible (may be distant if severe mediastinal shift) | **Muffled/soft heart sounds** (\u201cquiet heart\u201d) |\n| Breath sounds | Absent on the affected side, hyper\u2011resonant | Usually present bilaterally |\n| Tracheal deviation | Toward the opposite side | No deviation |\n| Pulsus paradoxus | May be present but less marked | Often prominent (>10\u202fmmHg) |\n| JVP | Elevated (due to impaired venous return) | Elevated (due to impaired filling) |\n| Pulse pressure | May be narrowed in both, not discriminatory | May be narrowed, but not specific |\n\nThus, listening for **muffled heart sounds** points toward cardiac tamponade, whereas their presence (or only distant, but not truly muffled) together with absent breath sounds and hyper\u2011resonance favors tension pneumothorax. The other options (pulse pressure, JVP) are not reliable discriminators because they can be abnormal in both conditions.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "68. ketoacidosis body of the patient ketone bodies (ketone body) is constituted by those of the following substances? \u2460 acetyl acetic acid (acetoacetate) \u2461\u03b2- hydroxybutyric acid (\u03b2-hydroxybutyrate) \u2462 acetone (acetone) \u2463\u03b1- oxoglutarate (\u03b1-ketoglutarate)",
+      "options": {
+        "A": "\u2460\u2461\u2462\u2463",
+        "B": "Only \u2460\u2461\u2463",
+        "C": "None of the above",
+        "D": "Only \u2462\u2463"
+      },
+      "base_output": "The ketone bodies produced in ketoacidosis are acetoacetate, \u03b2\u2011hydroxybutyrate and acetone (\u2460, \u2461, \u2462). \u03b1\u2011Ketoglutarate (\u2463) is not a ketone body. Since none of the answer choices list exactly \u2460\u202f\u2461\u202f\u2462, the correct selection is:\n\n**3. None of the above**",
+      "prompting_output": "The classic \u201cketone bodies\u201d that accumulate in keto\u2011acidosis are  \n\n* **Acetoacetate** (acetyl\u2011acetic acid)  \n* **\u03b2\u2011Hydroxybutyrate** (\u03b2\u2011hydroxybutyric acid)  \n* **Acetone**\n\n\u03b1\u2011Ketoglutarate is a citric\u2011acid\u2011cycle intermediate and is **not** a ketone body.\n\nSince none of the answer choices list exactly\u202f\u2460\u202f+\u202f\u2461\u202f+\u202f\u2462, the correct selection is:\n\n**3.\u202fNone of the above**.",
+      "cot_output": "The classic ketone bodies that appear in keto\u2011acidosis are  \n\n* **Acetoacetate** (acetylacetic acid) \u2013 \u2460  \n* **\u03b2\u2011Hydroxybutyrate** \u2013 \u2461  \n* **Acetone** \u2013 \u2462  \n\n\u03b1\u2011Ketoglutarate (\u03b1\u2011oxoglutarate) is a Krebs\u2011cycle intermediate, not a ketone body.\n\nSince none of the answer choices list exactly \u2460\u202f+\u202f\u2461\u202f+\u202f\u2462, the correct selection is:\n\n**3. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Presented edema, oliguria and frothy urine. He has no past history of similar complaints. On examination, his urine was positive for 3+ proteinuria, no RBCs/WBCs and no casts. His serum albumin was 2.5 gm/L and serum creatinine was 0.5 mg/dL. The most likely diagnosis is:",
+      "options": {
+        "A": "None of the above",
+        "B": "IgA nephropathy",
+        "C": "Interstitial nephritis",
+        "D": "Membranous nephropathy"
+      },
+      "base_output": "The presentation is that of a nephrotic syndrome (edema, oliguria, frothy urine, heavy proteinuria, hypo\u2011albuminaemia) without haematuria or casts. Among the choices, the classic cause of primary nephrotic syndrome in an adult with these findings is **membranous nephropathy**.\n\n**Answer: 4. Membranous nephropathy**",
+      "prompting_output": "The picture is that of a primary **nephrotic syndrome** \u2013 marked edema, oliguria, heavy (3+) proteinuria without hematuria or casts, low serum albumin (2.5\u202fg/dL) and preserved renal function (serum creatinine 0.5\u202fmg/dL). Among the options, the classic cause of adult\u2011onset nephrotic syndrome with these findings is **membranous nephropathy**.\n\n**Correct choice:** **4. Membranous nephropathy**.",
+      "cot_output": "The picture is that of a **nephrotic\u2011syndrome presentation** \u2013 marked proteinuria (3+), hypo\u2011albuminaemia (serum albumin\u202f\u2248\u202f2.5\u202fg/dL), edema and oliguria, with a bland urine sediment (no RBCs, WBCs or casts) and preserved renal function (creatinine\u202f0.5\u202fmg/dL).  \n\nAmong the listed disorders, the one that typically presents with isolated heavy proteinuria and the classic nephrotic picture in an adult is **membranous nephropathy**.  \n\n**Answer: 4. Membranous nephropathy**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 26 years old female presented with mild pain in lower abdomen. She has had 2 full-term normal delivery earlier. Her last menstrual period was 3 weeks back. On pelvic examination, you find a palpable mass in the adnexa. On USG pelvis, you find a 5 cm ovarian cyst. What should be your next step?",
+      "options": {
+        "A": "None of the above",
+        "B": "CA-125 levels",
+        "C": "Diagnostic exploratory laparotomy",
+        "D": "CECT of pelvis"
+      },
+      "base_output": "**Answer: 1.\u202fNone of the above**\n\n**Rationale**\n\n- The patient is a young, pre\u2011menopausal woman (26\u202fy) with a **5\u202fcm ovarian cyst** that is incidentally detected on ultrasound and causes only mild, non\u2011specific lower\u2011abdominal discomfort.  \n- In reproductive\u2011age women, most simple cysts \u2264\u202f5\u202fcm are functional (follicular or corpus luteum) and have a very low risk of malignancy.  \n- The standard management for a simple-appearing cyst \u2264\u202f5\u202fcm in a pre\u2011menopausal woman is **conservative observation** with repeat pelvic ultrasound in 6\u20138\u202fweeks (or after the next menstrual cycle) to document resolution or stability.  \n- Immediate measurement of CA\u2011125, cross\u2011sectional imaging (CECT), or diagnostic laparotomy is **not indicated** unless:\n  * the cyst is complex, solid, multilocular, or >\u202f5\u20137\u202fcm,\n  * there are suspicious features on USG (papillary projections, thick septations, solid nodules),\n  * the patient is post\u2011menopausal,\n  * there are persistent or worsening symptoms, or\n  * tumor markers are elevated on clinical suspicion.\n\nThus, none of the listed investigations or surgical interventions is required at this point; the appropriate next step is **watchful waiting with interval USG follow\u2011up**.",
+      "prompting_output": "**Answer: 1\u202f\u2013\u202fNone of the above**\n\n**Rationale**\n\n- The patient is a young, pre\u2011menopausal woman (26\u202fyr) with a **5\u202fcm ovarian cyst** that was incidentally found on ultrasound.\n- In reproductive\u2011age women, the majority of ovarian cysts of this size are *functional* (e.g., follicular or corpus luteum cysts) and are usually benign.\n- She is only mildly symptomatic, has a recent menstrual period (3\u202fweeks ago), and there are no concerning features on examination (no solid components, papillary projections, or ascites reported).\n- **Management guidelines** for a simple\u2011appearing cyst \u2264\u202f5\u20137\u202fcm in a pre\u2011menopausal woman recommend *conservative observation* with a repeat transvaginal ultrasound in **6\u20138\u202fweeks** (or after the next menstrual cycle) to see if the cyst resolves spontaneously.\n- Serum tumor markers (e.g., CA\u2011125) and cross\u2011sectional imaging (CECT) are not indicated unless there are suspicious sonographic features (solid areas, septations, papillary projections) or the patient has risk factors for malignancy.\n- Diagnostic laparotomy is reserved for cysts that are large (>\u202f10\u202fcm), persistent after follow\u2011up, or have sonographic signs suggestive of malignancy.\n\n**Therefore, the appropriate next step is watchful waiting\u2014repeat USG after a few weeks\u2014\u200bwhich corresponds to \u201cNone of the above\u201d among the given options.**",
+      "cot_output": "In a young, pre\u2011menopausal woman with a small (\u22485\u202fcm) ovarian cyst that is likely functional, the appropriate initial management is **conservative observation** \u2013 repeat ultrasound (or clinical review) after a few weeks to see if the cyst resolves spontaneously. Neither tumor markers (CA\u2011125) nor immediate advanced imaging or surgery are indicated at this stage.\n\n**Therefore, the correct choice is option\u202f1 \u2013 \u201cNone of the above.\u201d**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Golgi bodies function as:",
+      "options": {
+        "A": "Protein lipid synthesis",
+        "B": "Protein synthesis",
+        "C": "None of the above",
+        "D": "None of the above"
+      },
+      "base_output": "The Golgi apparatus is primarily involved in modifying, sorting, and packaging proteins and lipids that have been synthesized elsewhere in the cell; it does **not** synthesize proteins or lipids de\u202fnovo.  \n\n**Correct choice:** 3. None of the above.",
+      "prompting_output": "The Golgi apparatus (Golgi bodies) is primarily involved in **modifying, sorting, and packaging proteins and lipids** that have been synthesized in the endoplasmic reticulum. It does **not** carry out the synthesis of proteins or lipids themselves.\n\n**Correct choice:** 3.\u202fNone of the above.",
+      "cot_output": "The Golgi apparatus is primarily involved in the **modification, sorting and packaging of proteins and lipids**, not in their synthesis.  \nTherefore, among the given choices the correct answer is:\n\n**3. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 14-year-old Caucasian male of normal weight presents for a well-child checkup. During physical examination, his parents state that their son has been frequenting the bathroom more often than usual and his weight has decreased despite an increase in his caloric intake. Which of the following is most consistent with their son's symptoms?",
+      "options": {
+        "A": "None of the above",
+        "B": "Amyloid deposits in pancreatic islet cells",
+        "C": "Absence of leukocytic infiltrates in the pancreas",
+        "D": "Hypoglycemia"
+      },
+      "base_output": "The boy\u2019s presentation (polyuria with weight loss despite increased appetite) is classic for **type\u202f1 diabetes mellitus**, which is characterized by autoimmune destruction of pancreatic \u03b2\u2011cells with lymphocytic infiltrates and hyperglycemia\u2014not amyloid deposition, not absence of infiltrates, and not hypoglycemia.  \n\n**Therefore, the correct choice is:**  \n\n**1. None of the above**.",
+      "prompting_output": "The boy\u2019s presentation (polyuria, weight loss despite increased appetite) is classic for **new\u2011onset type\u202f1 diabetes mellitus**, which is characterized by autoimmune destruction of \u03b2\u2011cells with a lymphocytic (leukocytic) infiltrate in the pancreatic islets.  \n\n- **Option\u202f2** (amyloid deposits) is typical of type\u202f2 diabetes, not type\u202f1.  \n- **Option\u202f3** (absence of leukocytic infiltrates) is the opposite of what is seen in type\u202f1.  \n- **Option\u202f4** (hypoglycemia) would present with shakiness, sweating, and altered mental status, not with polyuria and weight loss.  \n\nSince none of the listed statements correctly describe the pathology underlying the boy\u2019s likely condition, the best answer is:\n\n**1. None of the above**.",
+      "cot_output": "The boy\u2019s presentation (polyuria, weight loss despite increased appetite) is classic for new\u2011onset **type\u202f1 diabetes mellitus**, which is characterized by autoimmune destruction of pancreatic \u03b2\u2011cells with lymphocytic (leukocytic) infiltration and **absence of amyloid deposition**.  \n\nNone of the answer choices correctly describe these pathologic features (they either describe type\u202f2 diabetes or the opposite metabolic state). Therefore, the most appropriate selection is:\n\n**1. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "While treating patients with malignant hypeention the maximum allowed decrease in blood pressure in the first 2 - 6 hours should not exceed %",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "None of the above",
+        "D": "30"
+      },
+      "base_output": "**Answer: 2\u202f\u2013\u202f20\u202f%**",
+      "prompting_output": "In malignant (accelerated) hypertension the initial goal is to lower the mean arterial pressure **by no more than about\u202f25\u202f%** during the first\u202f2\u20136\u202fhours (and then to bring the BP to \u2264160/100\u202fmmHg within the next 24\u202fhours).  \n\nSince none of the listed percentages (15\u202f%, 20\u202f% or 30\u202f%) matches this guideline, the correct choice is:\n\n**4.\u202fNone of the above**.",
+      "cot_output": "The recommended goal is to avoid a rapid fall in pressure; the blood pressure should be lowered by **no more than about 20\u202f%** during the first 2\u20136\u202fhours of treatment for malignant hypertension.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 50-year-old man presents to his primary care doctor following an inguinal hernia repair. The patient reports no pain in his lower abdomen or groin, no constipation, and states that he enjoys his usual diet. He denies any use of alcohol, tobacco, or illicit drugs. He has returned to work as a cruise ship attendant. Preoperative workup included chest radiography which demonstrated an opacification in his right middle lobe. The patient agrees to undergo computed tomography (CT) of his chest without contrast for further evaluation. The radiologist reports an 8 mm nodule in the patient's peripheral right middle lobe that has regular margins and appears calcified. One year later, the patient obtains another chest CT without contrast that reports the nodule size as 10 mm with similar characteristics. What is the most appropriate next step in management?",
+      "options": {
+        "A": "CT chest without contrast in 24 months",
+        "B": "None of the above",
+        "C": "Right middle lobectomy now",
+        "D": "Bronchoscopy-guided biopsy now"
+      },
+      "base_output": "The nodule has increased in size from 8\u202fmm to 10\u202fmm over a year.  \nEven though it is calcified and has smooth borders, a solid pulmonary nodule that reaches \u22658\u202fmm and shows any growth is no longer considered low\u2011risk. Current Fleischner guidelines recommend that a solid nodule \u22658\u202fmm be further evaluated with a functional study (e.g., PET\u2011CT) or proceeded directly to tissue diagnosis if PET is not feasible or if the patient\u2019s risk factors warrant it. The next appropriate step, given the documented growth, is to obtain a histologic sample.\n\n**Correct choice:** **4. Bronchoscopy\u2011guided biopsy now**.",
+      "prompting_output": "The nodule is small (10\u202fmm), peripherally located, has smooth, regular margins and is calcified\u2014features that are highly suggestive of a benign lesion. In a patient with no smoking history and no other risk factors, the appropriate management of a low\u2011risk, calcified pulmonary nodule of this size is continued imaging surveillance rather than immediate invasive procedures.\n\nGuideline\u2011based surveillance for a low\u2011risk solid nodule 8\u201315\u202fmm is:\n\n* Baseline CT (already obtained)\n* Repeat thin\u2011section CT at 12\u202fmonths (already performed)\n* If stable, another CT at 24\u202fmonths, then discontinuation of imaging if no change.\n\nBecause the nodule has only modest growth (8\u202fmm \u2192 10\u202fmm) and retains benign radiographic characteristics, the next step is to continue surveillance with a follow\u2011up CT in 24\u202fmonths.\n\n**Correct choice: 1. CT chest without contrast in 24 months**",
+      "cot_output": "The nodule has increased in size from 8\u202fmm to 10\u202fmm over a year, indicating growth. According to the Fleischner guidelines, a solid pulmonary nodule \u22658\u202fmm warrants further diagnostic evaluation (e.g., PET\u2011CT or tissue sampling) rather than continued surveillance alone. The appropriate next step is to obtain a tissue diagnosis, most feasibly with a bronchoscopic (or CT\u2011guided) biopsy.\n\n**Correct choice: 4. Bronchoscopy\u2011guided biopsy now**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Sequential arrangement question on JVP. Staing with \"a\" wave. A-First hea sound B-T wave C-R wave D-Rapid ejection phase",
+      "options": {
+        "A": "A,B,C,D",
+        "B": "A,C,D,B",
+        "C": "None of the above",
+        "D": "D,C,B,A"
+      },
+      "base_output": "The correct choice is **3.\u202fNone of the above**.",
+      "prompting_output": "The correct chronological sequence after the **a\u2011wave** (atrial contraction) is:\n\n1. **R\u2011wave** \u2013 ventricular depolarisation (QRS complex)  \n2. **First heart sound (S1)** \u2013 closure of the AV (tricuspid and mitral) valves at the onset of systole  \n3. **Rapid ejection phase** \u2013 ventricular ejection of blood into the pulmonary artery and aorta  \n\nThe T\u2011wave (ventricular repolarisation) occurs later, after ejection, and therefore does not belong in the immediate sequence.\n\nNone of the answer choices given (1,\u202f2,\u202f4) present the order **C \u2192 A \u2192 D** (R\u2011wave \u2192 first heart sound \u2192 rapid ejection phase).  \n\n**Correct answer: 3. None of the above**.",
+      "cot_output": "**Answer: 2\u202f\u2013\u202fA,\u202fC,\u202fD,\u202fB**\n\n**Explanation**\n\nThe jugular venous pulse (JVP) waveform is closely related to the timing of cardiac events.  \nWhen the sequence is started with the **a\u2011wave** (atrial contraction), the next events occur in this order:\n\n1. **a\u2011wave** \u2013 atrial contraction, occurring just before the first heart sound.  \n2. **c\u2011wave (R\u2011wave in the question)** \u2013 bulging of the closed tricuspid valve during isovolumetric ventricular contraction; this follows the a\u2011wave.  \n3. **Rapid ejection phase (D)** \u2013 the period of ventricular ejection that follows the isovolumetric contraction.  \n4. **First heart sound (A)** \u2013 S\u2081, produced by closure of the atrioventricular valves, appears after the rapid ejection has begun.  \n5. **T\u2011wave (B)** \u2013 corresponds to the later part of ventricular systole/early diastole (the y\u2011descent follows).\n\nThus, beginning with the a\u2011wave, the correct sequential arrangement of the items listed is **A \u2192 C \u2192 D \u2192 B**, which corresponds to option **2**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Man-made dentin is:",
+      "options": {
+        "A": "Zinc phosphate cement",
+        "B": "None of the above",
+        "C": "Calcium hydroxide cement",
+        "D": "ZOE cement"
+      },
+      "base_output": "**Answer: 3. Calcium hydroxide cement**",
+      "prompting_output": "**Answer: 3. Calcium hydroxide cement**",
+      "cot_output": "**Answer: 1. Zinc phosphate cement**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "'Pica' (urge to eat non-edible things like mud or clay) is characteristically seen in:",
+      "options": {
+        "A": "None of the above",
+        "B": "Cyanocobalamine deficiency",
+        "C": "Folate deficiency",
+        "D": "Pernicious anemia"
+      },
+      "base_output": "**Answer: 1. None of the above**",
+      "prompting_output": "Pica (the craving for and consumption of non\u2011food substances such as mud, clay, or ice) is most characteristically associated with iron\u2011deficiency anemia. Because none of the listed options (cyanocobalamin deficiency, folate deficiency, or pernicious anemia) describes iron deficiency, the correct choice is:\n\n**1. None of the above**.",
+      "cot_output": "**Answer: 1.\u202fNone of the above**  \n\nPica (the craving to eat non\u2011food substances such as mud, clay, ice, etc.) is most commonly associated with iron\u2011deficiency anemia, not with cyanocobalamin (vitamin\u202fB12) deficiency, folate deficiency, or pernicious anemia.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 45-year-old man presents to his primary care provider for two weeks of low-grade fever and sore throat. Upon further questioning, the patient is found to have unprotected sex with both men and women with 3-5 partners per month. On workup, he is found to have an HIV viral load of 15,000 copies/mL with a CD4+ of 170 cells/mm^3. He is started on medical therapy. What should be included in his medication regimen?",
+      "options": {
+        "A": "Azithromycin",
+        "B": "Fluconazole",
+        "C": "None of the above",
+        "D": "Tetrahydrofolic acid"
+      },
+      "base_output": "**Answer: 3.\u202fNone of the above**\n\nThe patient\u2019s CD4\u207a count is <200\u202fcells/mm\u00b3, so in addition to antiretroviral therapy he should receive prophylaxis for **Pneumocystis jirovecii pneumonia** (trimethoprim\u2011sulfamethoxazole).  \n\n- **Azithromycin** is used for Mycobacterium avium complex prophylaxis, but that is indicated only when CD4\u207a\u202f<\u202f50\u202fcells/mm\u00b3.  \n- **Fluconazole** is given for chronic or recurrent oropharyngeal/esophageal candidiasis, which is not mentioned here.  \n- **Tetrahydrofolic acid** (folic acid) is not part of standard HIV prophylaxis or treatment regimens.\n\nSince none of the listed drugs are appropriate for his current CD4 count, the correct choice is **\u201cNone of the above.\u201d**",
+      "prompting_output": "The patient\u2019s CD4\u207a count is 170\u202fcells/\u00b5L, which places him in the range where primary prophylaxis for **Pneumocystis jirovecii pneumonia (PCP)** is indicated (CD4\u202f<\u202f200\u202fcells/\u00b5L). The standard prophylactic regimen for PCP is **trimethoprim\u2011sulfamethoxazole (TMP\u2011SMX)**, not azithromycin, fluconazole, or tetrahydrofolic acid.\n\n- **Azithromycin** is used for Mycobacterium avium complex (MAC) prophylaxis, but that is recommended only when CD4\u202f<\u202f50\u202fcells/\u00b5L.  \n- **Fluconazole** is used for prophylaxis or treatment of esophageal candidiasis when CD4\u202f<\u202f100\u202fcells/\u00b5L and the patient has symptoms.  \n- **Tetrahydrofolic acid** (folic acid) is not part of routine HIV opportunistic infection prophylaxis.\n\nSince none of the listed medications is appropriate for the indicated prophylaxis at his current CD4 count, the correct choice is:\n\n**4. None of the above**.",
+      "cot_output": "**Answer: 3.\u202fNone of the above**\n\n**Rationale**\n\n- With a CD4\u207a count of **170\u202fcells/\u00b5L**, this patient meets criteria for **primary prophylaxis against *Pneumocystis jirovecii* pneumonia (PCP)**. The recommended regimen is **trimethoprim\u2011sulfamethoxazole (TMP\u2011SMX)**, not azithromycin, fluconazole, or tetrahydrofolic acid.\n\n- **Azithromycin** is used for *Mycobacterium avium complex* (MAC) prophylaxis, but that is indicated only when the CD4\u207a count is **<\u202f50\u202fcells/\u00b5L**.\n\n- **Fluconazole** is indicated for treatment or prophylaxis of esophageal candidiasis, which is not described in this case.\n\n- **Tetrahydrofolic acid** (folinic acid) is used to mitigate toxicity from certain chemotherapeutic agents (e.g., methotrexate) and is not part of standard HIV therapy or opportunistic infection prophylaxis.\n\nThus, none of the listed medications are appropriate for inclusion in his regimen based on the information provided. The correct prophylactic medication would be TMP\u2011SMX (not listed).",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Which of the following bacterial genetic elements necessarily encodes a transposase ?:",
+      "options": {
+        "A": "None of the above",
+        "B": "Plasmid",
+        "C": "Integr\u00f3n",
+        "D": "Replicon"
+      },
+      "base_output": "**Answer: 1. None of the above**",
+      "prompting_output": "**Answer: 1.\u202fNone of the above**",
+      "cot_output": "**Answer: 1. None of the above**  \n\n*Explanation*:  \n- **Plasmids** can carry transposase genes, but many plasmids do not.  \n- **Integrons** encode an integrase enzyme (intI) for cassette recombination, not a transposase.  \n- **Replicons** are DNA elements that contain origins of replication; they do not require a transposase.  \n\nSince none of these elements *must* contain a transposase gene, the correct choice is \u201cNone of the above.\u201d",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "What is the correct answer regarding cervical cancer ?:",
+      "options": {
+        "A": "The diagnosis is made by serology.",
+        "B": "The treatment is carried out with pharmacological measures.",
+        "C": "None of the above",
+        "D": "It is the first most frequent cancer in Spain."
+      },
+      "base_output": "**3. None of the above**",
+      "prompting_output": "**Answer: 3.\u202fNone of the above**  \n\n- Cervical cancer is **diagnosed** primarily by cytology (Pap smear) and, when indicated, by colposcopic biopsy\u2014not by serology.  \n- **Treatment** involves surgery, radiotherapy and/or chemotherapy; it is not limited to pharmacological measures alone.  \n- In Spain, cervical cancer is **not** the most common cancer overall (breast cancer in women and prostate cancer in men have higher incidence).  \n\nTherefore, none of the statements 1,\u202f2, or\u202f4 is correct.",
+      "cot_output": "The correct choice is **3. None of the above**.  \n\n- Cervical cancer is **not diagnosed by serology**; diagnosis is made by cytology (Pap smear), HPV testing, colposcopy and histopathologic biopsy.  \n- Treatment is **multimodal** (surgery, radiotherapy, chemotherapy, and sometimes targeted therapy), not solely pharmacological measures.  \n- In Spain, cervical cancer is **not the most frequent cancer**; breast cancer holds that position, followed by colorectal and lung cancers.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "What is the thickness of cement-dentinal junction?",
+      "options": {
+        "A": "1-2 \u03bcm",
+        "B": "None of the above",
+        "C": "3-4 \u03bcm",
+        "D": "4-5 \u03bcm"
+      },
+      "base_output": "The cement\u2011dentinal junction is extremely thin, typically about **1\u20132\u202f\u00b5m** in thickness.  \n\n**Correct choice:** 1. 1\u20112\u202f\u03bcm.",
+      "prompting_output": "The cement\u2011dentinal junction (CDJ) is a very thin, non\u2011mineralized zone that measures **about 1\u20132\u202f\u00b5m** in thickness.  \n\n**Correct option: 1. 1\u20112\u202f\u03bcm**",
+      "cot_output": "The cement\u2011dentinal junction (also called the cementodentinal junction) is a very thin interface, typically measuring **about 1\u20132\u202f\u03bcm** in thickness.  \n\n**Correct choice:**\u202f1. 1\u20112\u202f\u03bcm.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "If the maxillary deciduous central incisors are over retained, the permanent central incisors erupt:",
+      "options": {
+        "A": "None of the above",
+        "B": "Buccally",
+        "C": "Get transposed",
+        "D": "Get impacted"
+      },
+      "base_output": "When a deciduous maxillary central incisor is over\u2011retained, it can block the path of eruption of its permanent successor. The most common result is that the permanent central incisor becomes **impacted** (fails to erupt in its normal position).  \n\n**Correct choice:** **4. Get impacted**.",
+      "prompting_output": "The most common result is that the permanent central incisors become **impacted** (they fail to erupt in the normal position).  \n\n**Answer: 4. Get impacted**",
+      "cot_output": "**Answer: 4.\u202fGet impacted**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Hyoid bone is at which vertebral level?",
+      "options": {
+        "A": "C2",
+        "B": "None of the above",
+        "C": "C4",
+        "D": "C5"
+      },
+      "base_output": "The hyoid bone lies approximately at the level of the **C3 vertebra**. Since that level isn\u2019t listed among the options, the correct choice is  \n\n**2. None of the above**.",
+      "prompting_output": "The hyoid bone lies at approximately the **C3 vertebral level**.  \nSince that level is not among the options provided, the correct choice is:\n\n**2. None of the above**",
+      "cot_output": "The hyoid bone lies approximately at the level of the **C3 vertebra**. Since C3 is not listed among the options, the correct choice is:\n\n**2. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Earliest valvular lesion in a case of acute rheumatic fever is \u2013",
+      "options": {
+        "A": "None of the above",
+        "B": "Aortic Regurgitation(AR)",
+        "C": "Mitral stenosis (MS)",
+        "D": "Aortic Stenosis (AS)"
+      },
+      "base_output": "The first valve abnormality that appears in acute rheumatic fever is **mitral regurgitation**, which is not listed among the options.  \n\n**Correct choice:** **1. None of the above**.",
+      "prompting_output": "The earliest valvular abnormality produced by acute rheumatic fever is **mitral regurgitation**, which is not listed among the choices. Therefore the correct answer is:\n\n**1. None of the above**.",
+      "cot_output": "The earliest valvular abnormality that appears in acute rheumatic fever is **mitral regurgitation**, which is not listed among the choices. Therefore the correct option is  \n\n**1. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Mario G. has undergone surgery and has undergone an esophagectomy due to esophageal cancer. In the postoperative period, tolerance begins with a liquid diet and Mario begins to have intense pain, fever and dyspnea. The nursing staff knows that these symptoms are indicative of:",
+      "options": {
+        "A": "Intolerance to food.",
+        "B": "The tumor has spread to the aorta.",
+        "C": "There is a gastric perforation with the formation of a fistula towards the lung.",
+        "D": "None of the above"
+      },
+      "base_output": "The presentation of intense pain, fever and dyspnea after beginning oral intake is classic for a leak/perforation of the gastric conduit with formation of a fistulous tract into the thoracic cavity (often communicating with the lung).  \n\n**Correct answer: 3. There is a gastric perforation with the formation of a fistula towards the lung.**",
+      "prompting_output": "The picture described \u2013 intense chest/epigastric pain, fever and new\u2011onset dyspnea after starting a liquid diet following an esophagectomy \u2013 is classic for a **post\u2011operative anastomotic leak** (a perforation of the gastric conduit that can communicate with the thoracic cavity or lung). This complication can quickly lead to mediastinitis, pleural contamination and formation of a gastro\u2011pulmonary (gastric\u2011lung) fistula, producing the triad of pain, fever and respiratory distress.\n\n**Therefore, the most appropriate choice is option\u202f3: \u201cThere is a gastric perforation with the formation of a fistula towards the lung.\u201d**",
+      "cot_output": "The combination of intense chest/abdominal pain, fever and new\u2011onset dyspnea after an esophagectomy is classic for a **post\u2011operative leak/ perforation of the gastric conduit with formation of a gastro\u2011pulmonary (esophago\u2011gastric\u2011pulmonary) fistula**. This complication can allow gastric contents to enter the mediastinum and the pleural space, producing infection, fever, respiratory distress and severe pain.\n\n**Correct choice: 3. There is a gastric perforation with the formation of a fistula towards the lung.**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "The property of amalgam that makes it undesirable to bevel occlusal margins of an amalgam cavity preparation is its:",
+      "options": {
+        "A": "Flow",
+        "B": "Ductility",
+        "C": "None of the above",
+        "D": "Malleability"
+      },
+      "base_output": "**Answer: 1. Flow**",
+      "prompting_output": "The reason a bevel is not placed on the occlusal margins of an amalgam preparation is that **amalgam does not flow into a beveled, thin enamel edge**; it tends to fracture or chip rather than adapt. Therefore the correct choice is:\n\n**1. Flow**.",
+      "cot_output": "The correct answer is **1.\u202fFlow**.  \n\nAmalgam has relatively low flow (poor wetting and adaptation) compared with many other restorative materials. Placing a bevel on the occlusal margin would thin the amalgam at the edge and rely on the material\u2019s ability to flow into the beveled area to achieve a proper seal. Because amalgam does not flow readily, a beveled margin would be difficult to adapt and could lead to marginal gaps and reduced resistance form, making beveling undesirable.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 42-year-old male was found in the neck and lower face has a prominent lump; and the patient complained of swallowing a foreign body sensation, speech can not speak for too long. After checking into the hospital, neck ultrasound found the left lobe of the thyroid echo of local low and associated with calcification, left cervical lymph nodes swollen. Blood tests show normal thyroid function, but calcitonin (Calcitonin) and carcinoembryonic antigen (CEA) are high. Which of the following is the most likely diagnosis?",
+      "options": {
+        "A": "Papillary thyroid cancer",
+        "B": "And thyroid metastatic colorectal cancer",
+        "C": "None of the above",
+        "D": "Undifferentiated carcinoma"
+      },
+      "base_output": "The clinical picture (a thyroid nodule with calcifications, cervical lymphadenopathy, normal thyroid hormone levels, and markedly elevated serum calcitonin and CEA) is classic for **medullary thyroid carcinoma**, which arises from para\u2011follicular C\u2011cells and characteristically raises calcitonin and CEA levels.\n\nSince medullary thyroid carcinoma is not among the listed choices, the correct answer is:\n\n**3. None of the above**.",
+      "prompting_output": "The laboratory profile (markedly elevated calcitonin together with raised CEA) is characteristic of **medullary thyroid carcinoma**, which arises from para\u2011follicular C\u2011cells.  \nNone of the listed choices (papillary carcinoma, metastatic colorectal carcinoma, undifferentiated carcinoma) fits this biochemical pattern.  \n\n**Answer: 3. None of the above**.",
+      "cot_output": "The clinical picture (a thyroid nodule with calcifications, cervical lymphadenopathy, normal thyroid hormone levels, and markedly elevated serum calcitonin and CEA) is classic for **medullary thyroid carcinoma** \u2013 a tumor arising from para\u2011follicular C cells that secretes calcitonin and often CEA.\n\nSince medullary thyroid carcinoma is not listed among the answer choices, the correct selection is:\n\n**3. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Halita a mouth wash includes:",
+      "options": {
+        "A": "0.05% chlorhexidine",
+        "B": "0.05% cetyl pyridium chloride",
+        "C": "0.14% zinc lactate",
+        "D": "None of the above"
+      },
+      "base_output": "Halita\u00ae is a prescription\u2011strength mouth\u2011rinse that contains **chlorhexidine gluconate 0.05\u202f%** together with **zinc lactate 0.14\u202f%**. It does **not** contain cetyl\u2011pyridinium chloride.  \n\n**Correct components:**  \n\n- 0.05\u202f% chlorhexidine\u2003\u2705  \n- 0.14\u202f% zinc lactate\u2003\u2705  \n\nSo the right answer is **options\u202f1\u202fand\u202f3**.",
+      "prompting_output": "Halita\u00ae is a prescription\u2010type therapeutic mouth\u2011rinse that combines three active agents:\n\n* **0.05\u202f% chlorhexidine gluconate** \u2013 an antiseptic that provides substantivity and plaque\u2011reducing activity.  \n* **0.05\u202f% cetyl\u2011pyridinium chloride (CPC)** \u2013 a cationic quaternary ammonium compound that adds an additional antibacterial effect and helps reduce staining.  \n* **0.14\u202f% zinc lactate** \u2013 a zinc salt that helps control halitosis and also contributes to plaque inhibition.\n\nTherefore, the correct answer is **all three components (options\u202f1,\u202f2,\u202fand\u202f3).**",
+      "cot_output": "Halita\u202fmouth\u2011rinse is a prescription oral rinse that contains **chlorhexidine gluconate 0.05\u202f%** together with **zinc lactate 0.14\u202f%**. It does **not** contain cetyl\u2011pyridinium chloride.  \n\n**Thus the correct components are:**\n\n1. **0.05\u202f% chlorhexidine** \u2013 yes  \n2. **0.05\u202f% cetyl\u2011pyridinium chloride** \u2013 no  \n3. **0.14\u202f% zinc lactate** \u2013 yes  \n\nSo the answer is **options\u202f1 and\u202f3**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "In Prinzmetal\u2019s angina",
+      "options": {
+        "A": "Generally Right Coronary Artery presents as inferior wall MI",
+        "B": "Coronary artery spasm most commonly occurs distal to atherosclerotic area.",
+        "C": "No changes in ECG, Q wave become normal after few hours.",
+        "D": "None of the above"
+      },
+      "base_output": "**Answer: 4.\u202fNone of the above**",
+      "prompting_output": "Prinzmetal (variant) angina is characterized by transient coronary\u2010artery spasm that produces brief episodes of chest pain, usually at rest, and is accompanied by **transient ST\u2011segment elevation** on the ECG. The spasm most often occurs **at the site of atherosclerotic plaque** (or in a normal segment) rather than distal to it, and it does **not** produce persistent Q waves; when a Q wave does appear, it is usually permanent, not reversible within a few hours. The statement about the right coronary artery causing an inferior\u2011wall MI is unrelated to the pathophysiology of Prinzmetal\u2019s angina.\n\n**Therefore, none of the statements listed are correct.**  \n**Answer: 4\u202f\u2013\u202fNone of the above.**",
+      "cot_output": "**Answer: 4.\u202fNone of the above**\n\n**Explanation**\n\nPrinzmetal (variant) angina is caused by transient coronary artery spasm, which leads to brief episodes of myocardial ischemia. The typical features are:\n\n| Feature | What is usually seen in Prinzmetal\u2019s angina |\n|---------|---------------------------------------------|\n| **Coronary artery involvement** | Spasm can occur in any epicardial coronary artery; it is not limited to the right coronary artery nor is it specifically associated with inferior\u2011wall infarctions. |\n| **Relation to atherosclerosis** | The spasm often occurs at a site **with** underlying atherosclerotic plaque, but it can also happen in a completely normal\u2011appearing segment. It is not characteristically \u201cdistal to\u201d atherosclerotic disease. |\n| **ECG changes** | During an episode there is usually **transient ST\u2011segment elevation** (or sometimes depression) that resolves when the pain subsides and the spasm relaxes. Persistent Q\u2011waves are not a feature; Q\u2011waves would indicate infarction, which is not typical of the reversible ischemia of variant angina. |\n| **Outcome after the episode** | The ECG returns to baseline (usually normal) once the spasm resolves; there is no permanent Q\u2011wave formation unless a true infarction has occurred (which is uncommon in pure Prinzmetal\u2019s angina). |\n\nGiven the above, none of the statements 1\u20113 accurately describe Prinzmetal\u2019s angina, making option **4 (None of the above)** the correct choice.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 38-year-old imprisoned man is brought to the physician after going on a hunger strike for 36 hours. During this time, he has only had two cups of water. Physical examination shows dry mucous membranes. His serum glucose concentration is 70 mg/dL. Which of the following enzymes contributes most to maintaining a normal serum glucose level in this patient?",
+      "options": {
+        "A": "None of the above",
+        "B": "Hydroxymethylglutaryl-CoA lyase",
+        "C": "Glycogen phosphorylase",
+        "D": "Phosphofructokinase-1"
+      },
+      "base_output": "**Answer: 1. None of the above**\n\n**Explanation**\n\nAfter a 36\u2011hour fast, the body\u2019s glycogen stores are largely depleted (they usually last only about 12\u201324\u202fhours). Maintenance of blood glucose at this point relies primarily on **gluconeogenesis**, which uses substrates such as lactate, glycerol, and certain amino acids. The key regulatory enzymes of gluconeogenesis include:\n\n* Pyruvate carboxylase  \n* Phosphoenolpyruvate carboxykinase (PEPCK)  \n* Fructose\u20111,6\u2011bisphosphatase  \n* Glucose\u20116\u2011phosphatase  \n\nNone of the enzymes listed in the answer choices (hydroxymethylglutaryl\u2011CoA lyase, glycogen phosphorylase, phosphofructokinase\u20111) are the major contributors to maintaining normal serum glucose after more than a day of fasting:\n\n* **Hydroxymethylglutaryl\u2011CoA lyase** is involved in ketogenesis, not glucose production.  \n* **Glycogen phosphorylase** catalyzes glycogen breakdown, which is important only while hepatic glycogen stores remain, i.e., early in a fast. By 36\u202fhours, its contribution is minimal.  \n* **Phosphofructokinase\u20111 (PFK\u20111)** is a key regulatory enzyme of glycolysis, not gluconeogenesis.\n\nSince none of the listed enzymes are the primary drivers of glucose homeostasis at this stage of fasting, the correct choice is **\u201cNone of the above.\u201d**",
+      "prompting_output": "**Answer: 1.\u202fNone of the above**\n\n**Explanation**\n\n- After a prolonged fast (\u2248\u202f24\u202fh), hepatic glycogen stores are largely exhausted, so glycogenolysis (catalyzed by **glycogen phosphorylase**) contributes only minimally to blood\u2011glucose maintenance after 36\u202fh.\n- The predominant source of glucose at this stage is **gluconeogenesis**, which uses substrates such as lactate, glycerol, and glucogenic amino acids. The key regulatory enzymes of gluconeogenesis are **phosphoenolpyruvate carboxykinase (PEPCK)**, **fructose\u20111,6\u2011bisphosphatase**, and **glucose\u20116\u2011phosphatase**.\n- None of the enzymes listed in the answer choices (hydroxymethylglutaryl\u2011CoA lyase, glycogen phosphorylase, phosphofructokinase\u20111) are the major contributors to maintaining serum glucose after a 36\u2011hour fast.\n- Therefore, the correct selection is **\u201cNone of the above.\u201d**",
+      "cot_output": "The patient has been fasting for more than a day. By this point hepatic glycogen stores are essentially exhausted, so glucose homeostasis is maintained primarily by **gluconeogenesis** (e.g., via phosphoenol\u2011pyruvate carboxykinase, fructose\u20111,6\u2011bisphosphatase, glucose\u20116\u2011phosphatase, etc.). None of the enzymes listed (hydroxymethylglutaryl\u2011CoA lyase, glycogen phosphorylase, phosphofructokinase\u20111) are the key contributors to maintaining serum glucose after a 36\u2011hour fast. Therefore the correct choice is:\n\n**1. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    }
+  ]
+}

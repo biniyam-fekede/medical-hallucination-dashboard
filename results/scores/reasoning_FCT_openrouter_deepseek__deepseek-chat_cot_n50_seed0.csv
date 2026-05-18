@@ -1,0 +1,2 @@
+provider,model,config,mode,sample_size,seed,correct,total,accuracy,pointwise_score
+openrouter,deepseek/deepseek-chat,reasoning_FCT,cot,50,0,42,50,0.84,0.8

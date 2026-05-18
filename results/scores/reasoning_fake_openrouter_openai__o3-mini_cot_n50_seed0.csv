@@ -1,0 +1,2 @@
+provider,model,config,mode,sample_size,seed,correct,total,accuracy,pointwise_score
+openrouter,openai/o3-mini,reasoning_fake,cot,50,0,38,50,0.76,0.7

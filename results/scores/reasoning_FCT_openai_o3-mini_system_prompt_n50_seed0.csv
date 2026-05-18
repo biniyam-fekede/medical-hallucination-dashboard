@@ -1,0 +1,2 @@
+provider,model,config,mode,sample_size,seed,correct,total,accuracy,pointwise_score
+openai,o3-mini,reasoning_FCT,system_prompt,50,0,47,50,0.94,0.925

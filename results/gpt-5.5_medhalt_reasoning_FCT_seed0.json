@@ -1,0 +1,755 @@
+{
+  "seed": 0,
+  "results": [
+    {
+      "question": "Volkmanns contracture, which aery is involved",
+      "options": {
+        "A": "Radial",
+        "B": "Brachial",
+        "C": "Ulnar",
+        "D": "Interosseus",
+        "E": "Ulnar"
+      },
+      "base_output": "**Volkmann\u2019s contracture involves the _brachial artery_** \u2014 especially after supracondylar fracture of the humerus.\n\n\u2705 **Correct option: 2. Brachial**",
+      "prompting_output": "**Answer: 2. Brachial artery**\n\nVolkmann\u2019s ischemic contracture is classically due to **ischemia of the forearm muscles**, often following a **supracondylar fracture of the humerus** causing injury or obstruction of the **brachial artery**.",
+      "cot_output": "**Answer: 2. Brachial artery**\n\nVolkmann\u2019s ischemic contracture classically occurs after **supracondylar fracture of the humerus**, where the **brachial artery** may be injured or compressed, leading to ischemia of the forearm flexor muscles.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Computers have a part that serves to store the program that is running, its data and intermediate results while it is on; being this temporary storage since it is lost when turning off the computer. Indicate the name of the hardware element of the computer that is alluded to:",
+      "options": {
+        "A": "RAM.",
+        "B": "ROM",
+        "C": "CPU.",
+        "D": "Pen Drive.",
+        "E": "Pen Drive."
+      },
+      "base_output": "1. RAM.",
+      "prompting_output": "The correct option is **1. RAM**.\n\n**RAM (Random Access Memory)** is the temporary, volatile memory used to store programs, data, and intermediate results while the computer is running. Its contents are lost when the computer is turned off.",
+      "cot_output": "The hardware element described is **1. RAM**.\n\n**RAM (Random Access Memory)** temporarily stores the running programs, data, and intermediate results while the computer is on. Its contents are lost when the computer is turned off.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "64-year-old woman, obese, with intense epigastric pain irradiated in belt, low-grade fever, marked hyperamylasemia, 48% hematocrit and discretely elevated serum creatinine. Abdominal CT shows a pancreas with diffuse enlargement, irregular contour, inflammation around the gland and an accumulation of intrapancreatic fluid. Which of these options is CERTAIN in relation to the management of the patient?",
+      "options": {
+        "A": "Resuscitation by energetic fluid therapy is basic in the treatment.",
+        "B": "Antibiotic therapy should be administered from the beginning for prophylactic purposes to avoid infected necrosis.",
+        "C": "Total parenteral nutrition is indicated after 48-72 hours.",
+        "D": "The use of protease inhibitors (aprotinin) has shown a beneficial effect in these cases.",
+        "E": "Antibiotic therapy should be administered from the beginning for prophylactic purposes to avoid infected necrosis."
+      },
+      "base_output": "**Correct option: 1. Resuscitation by energetic fluid therapy is basic in the treatment.**\n\nThis patient has **acute pancreatitis**, likely severe given **hemoconcentration** with hematocrit 48%, elevated creatinine, fever, and CT evidence of inflammatory pancreatic changes/fluid. Early management includes:\n\n- **Aggressive IV fluid resuscitation**\n- Analgesia\n- Monitoring for organ failure/complications\n- Early enteral nutrition if needed\n\nThe other options are not correct:\n\n- **Prophylactic antibiotics** are **not routinely recommended** to prevent infected necrosis.\n- **Total parenteral nutrition** is avoided unless enteral feeding is impossible; **enteral nutrition is preferred**.\n- **Protease inhibitors such as aprotinin** have not shown clear clinical benefit.",
+      "prompting_output": "The correct option is:\n\n**1. Resuscitation by energetic fluid therapy is basic in the treatment.**\n\nThis patient has **acute pancreatitis**, likely with severity criteria suggested by:\n\n- Intense epigastric pain radiating \u201cin a belt\u201d\n- Marked hyperamylasemia\n- CT showing diffuse pancreatic enlargement and peripancreatic inflammation/fluid\n- **Hemoconcentration**: hematocrit 48%\n- Mildly elevated creatinine, suggesting hypovolemia/early organ dysfunction\n\nEarly management of acute pancreatitis is mainly supportive, and **aggressive early intravenous fluid resuscitation** with isotonic crystalloids is a cornerstone, especially in the first 24\u201348 hours.\n\nWhy the other options are not correct:\n\n- **Prophylactic antibiotics** are **not recommended** routinely to prevent infected necrosis.\n- **Total parenteral nutrition** is not routinely indicated; if nutritional support is needed, **enteral nutrition** is preferred.\n- **Protease inhibitors such as aprotinin** have not shown clear clinical benefit in acute pancreatitis.\n\nSo the certain management principle is **early vigorous fluid resuscitation**.",
+      "cot_output": "The correct option is:\n\n**1. Resuscitation by energetic fluid therapy is basic in the treatment.**\n\nThis patient has **acute pancreatitis**, likely with severity features: obesity, intense pain, low-grade fever, hemoconcentration with **hematocrit 48%**, and mildly elevated creatinine suggesting **intravascular volume depletion**. Early and adequate **IV fluid resuscitation** is a cornerstone of management, especially in the first 24\u201348 hours.\n\nWhy the others are not correct:\n\n- **Antibiotic prophylaxis** to prevent infected necrosis is **not routinely recommended** in acute pancreatitis, even severe cases, unless there is proven or strongly suspected infection.\n- **Total parenteral nutrition** is not routinely indicated after 48\u201372 hours; if nutritional support is needed, **enteral nutrition** is preferred.\n- **Protease inhibitors such as aprotinin** have not shown consistent clinical benefit and are not standard treatment.\n\nSo the certain management principle is **early aggressive fluid resuscitation**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Ganer's cyst are seen at ?",
+      "options": {
+        "A": "Antero lateral vaginal wall",
+        "B": "Antero - lateral cervix",
+        "C": "Posterolateral vaginal wall",
+        "D": "Posterolateral cervix",
+        "E": "Posterolateral cervix"
+      },
+      "base_output": "**Gartner\u2019s cysts** are seen in the **anterolateral vaginal wall**.\n\n\u2705 **Correct option: 1. Antero lateral vaginal wall**",
+      "prompting_output": "**Gartner\u2019s cysts** are typically seen in the **anterolateral vaginal wall**.\n\n\u2705 **Correct option: 1. Antero-lateral vaginal wall**  \nThey arise from remnants of the **mesonephric/Wolffian duct (Gartner duct)**.",
+      "cot_output": "**Gartner\u2019s duct cysts** are seen in the **anterolateral wall of the vagina**.\n\n\u2705 **Correct option: 1. Antero-lateral vaginal wall**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "In Kreb's cycle and Urea cycle the linking amino acid is",
+      "options": {
+        "A": "Fumarate",
+        "B": "Alanine",
+        "C": "Arginine",
+        "D": "Aspaate",
+        "E": "Alanine"
+      },
+      "base_output": "**Correct option: 4. Aspartate**\n\n**Aspartate** links the Krebs/TCA cycle and the urea cycle via the **aspartate\u2013argininosuccinate shunt**. It donates one nitrogen to the urea cycle, and fumarate produced in the urea cycle can enter the TCA cycle.\n\n*Note:* If the question asked for the **intermediate/metabolite** linking the two cycles, **fumarate** would be considered. But since it asks for an **amino acid**, the answer is **Aspartate**.",
+      "prompting_output": "**Option 4. Aspartate**\n\nAspartate links the **Krebs cycle** and **urea cycle** via the **aspartate\u2013argininosuccinate shunt**. It donates one nitrogen atom to the urea cycle, and fumarate produced in the urea cycle can enter the Krebs cycle.",
+      "cot_output": "The linking **amino acid** between the **Krebs cycle (TCA cycle)** and the **urea cycle** is:\n\n**4. Aspartate**\n\nAspartate is formed from oxaloacetate in the Krebs cycle and enters the urea cycle by combining with citrulline to form argininosuccinate.\n\n**Note:** Fumarate also links the two cycles, but it is not an amino acid.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Good clinical practice is observed in all phases of clinical trials, EXCEPT?",
+      "options": {
+        "A": "Preclinical",
+        "B": "Phase I",
+        "C": "Phase II",
+        "D": "Phase V",
+        "E": "Phase I"
+      },
+      "base_output": "**Answer: 1. Preclinical**\n\n**Good Clinical Practice (GCP)** applies to clinical trials involving human participants, such as **Phase I\u2013IV** trials.  \n**Preclinical studies** are conducted before human trials, usually in labs/animals, and follow **Good Laboratory Practice (GLP)** instead.",
+      "prompting_output": "**Answer: 1. Preclinical**\n\n**Good Clinical Practice (GCP)** applies to **clinical trials involving human participants**\u2014typically Phase I, II, III, and IV studies.\n\n**Preclinical studies** are conducted in laboratories and animals before human trials, so they follow **Good Laboratory Practice (GLP)** rather than GCP.",
+      "cot_output": "**Correct answer: 1. Preclinical**\n\n**Explanation:**  \nGood Clinical Practice (**GCP**) applies to **clinical trials involving human participants**, such as **Phase I, II, III, and IV** trials.\n\n**Preclinical studies** are done **before human trials**, usually in laboratories and animals, and are governed mainly by **Good Laboratory Practice (GLP)** rather than GCP.\n\n*Note:* \u201cPhase V\u201d is not a standard conventional phase of clinical trials.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "What is the mechanism responsible for the excretion of drugs through the bile ?:",
+      "options": {
+        "A": "Passive diffusion.",
+        "B": "Active transport.",
+        "C": "Pinocytosis",
+        "D": "Phagocytosis",
+        "E": "Passive diffusion."
+      },
+      "base_output": "**Answer: 2. Active transport.**\n\nDrugs are excreted into bile mainly by **active transport** from hepatocytes into the bile canaliculi, often via carrier-mediated transporters.",
+      "prompting_output": "The correct answer is **2. Active transport**.\n\n**Biliary excretion of drugs** mainly occurs by **active, carrier-mediated transport** from hepatocytes into the bile canaliculi. This process is especially important for **polar drugs**, **drug conjugates** such as glucuronides, and compounds with relatively **high molecular weight**.\n\nExamples include transporters such as **P-glycoprotein**, **MRP2**, and **BCRP**.",
+      "cot_output": "**Correct answer: 2. Active transport.**\n\nDrug excretion into bile mainly occurs via **carrier-mediated active transport** from hepatocytes into the bile canaliculi, especially for **polar, ionized, or conjugated drugs/metabolites** such as glucuronides. This process can be saturable and may involve transporters such as **P-glycoprotein, MRP2, and BCRP**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Only available depolarizing muscle relaxant is ?",
+      "options": {
+        "A": "Decamethonium",
+        "B": "Suxamethonium",
+        "C": "Mivacurium",
+        "D": "None",
+        "E": "Decamethonium"
+      },
+      "base_output": "**Answer: 2. Suxamethonium**\n\nSuxamethonium (succinylcholine) is the **only clinically available depolarizing muscle relaxant**.",
+      "prompting_output": "**Correct answer: 2. Suxamethonium**\n\n**Suxamethonium** (also called **succinylcholine**) is the **only clinically available depolarizing neuromuscular blocker**.\n\n- **Decamethonium**: depolarizing but obsolete/not clinically available.\n- **Mivacurium**: non-depolarizing muscle relaxant.",
+      "cot_output": "**Answer: 2. Suxamethonium**\n\n**Suxamethonium (succinylcholine)** is the only depolarizing neuromuscular blocking agent in current clinical use.  \n- **Decamethonium** is a depolarizing blocker but is no longer clinically available/used.  \n- **Mivacurium** is a non-depolarizing muscle relaxant.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "TH17 lymphocytes:",
+      "options": {
+        "A": "They are induced by IL-17.",
+        "B": "They mediate allergic reactions.",
+        "C": "Cooperate with TH1 in cellular immunity.",
+        "D": "They produce TGF-beta in an important way.",
+        "E": "They mediate allergic reactions."
+      },
+      "base_output": "Correct option: **3. Cooperate with TH1 in cellular immunity.**\n\nTH17 cells are **CD4+ T helper cells** that mainly produce **IL-17**, IL-21, and IL-22. They are important in **inflammation**, recruitment of **neutrophils**, defense against **extracellular bacteria and fungi**, and autoimmune disease.\n\nWhy the others are incorrect:\n\n1. **They are induced by IL-17** \u2014 False. They **produce IL-17**; their differentiation is promoted by cytokines such as **TGF-\u03b2, IL-6, IL-1, and IL-23**.  \n2/5. **They mediate allergic reactions** \u2014 False. Allergic reactions are mainly mediated by **TH2 cells** via IL-4, IL-5, and IL-13.  \n4. **They produce TGF-\u03b2 in an important way** \u2014 False. **TGF-\u03b2 helps induce TH17 differentiation**, but TH17 cells are not mainly defined by TGF-\u03b2 production.",
+      "prompting_output": "Correct option: **3. Cooperate with TH1 in cellular immunity.**\n\n**Explanation:**\n- **TH17 cells** are a subset of CD4\u207a T helper cells that mainly produce **IL-17**, **IL-22**, and other inflammatory cytokines.\n- They are important in defense against **extracellular bacteria and fungi** and contribute to **inflammation and autoimmunity**.\n- They can act alongside **TH1 cells** in cell-mediated inflammatory responses.\n\nWhy the others are incorrect:\n1. **Induced by IL-17** \u2014 False. TH17 cells **produce IL-17**; they are induced by cytokines such as **TGF-\u03b2, IL-6, IL-1, and IL-23**.\n2 & 5. **Mediate allergic reactions** \u2014 False. Allergic reactions are mainly mediated by **TH2 cells**, IgE, mast cells, and eosinoph",
+      "cot_output": "Correct option: **3. Cooperate with TH1 in cellular immunity.**\n\nExplanation of each option:\n\n1. **They are induced by IL-17** \u2014 **False**  \n   TH17 cells **produce IL-17**; they are not induced by IL-17. Their differentiation is promoted by cytokines such as **TGF-\u03b2, IL-6, IL-1, and IL-23**.\n\n2. **They mediate allergic reactions** \u2014 **False**  \n   Allergic reactions are mainly mediated by **TH2 cells**, which promote IgE production and eosinophil activation.\n\n3. **Cooperate with TH1 in cellular immunity** \u2014 **True**  \n   TH17 cells contribute to cell-mediated inflammation, especially by recruiting neutrophils and monocytes, and can act alongside TH1 responses in inflammatory immunity.\n\n4. **They produce TGF-beta in an important way** \u2014 **",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "An 8-year-old boy, because the gums black, examination revealed decreased cortisol, ACTH rise, the diagnosis of Addison's disease. Children with supplement regular cortisone acetate, but a year and a half after treatment and found that the phenomenon of regression of learning, and walking is not very stable. The following diagnostic follow-up found that what works best is unreasonable?",
+      "options": {
+        "A": "Brain MRI examination revealed white matter degeneration phenomenon",
+        "B": "Very long chain fatty acid blood analysis result is not normal",
+        "C": "4-year-old boy brother diseased",
+        "D": "Family history analysis found that paternal relatives also have a boy onset",
+        "E": "Very long chain fatty acid blood analysis result is not normal"
+      },
+      "base_output": "**Answer: 4. Family history analysis found that paternal relatives also have a boy onset**\n\nThis child most likely has **X-linked adrenoleukodystrophy (X-ALD)**, which can present with:\n\n- **Addison\u2019s disease** in boys\n- Later **neurologic regression**, gait instability\n- **Brain MRI white matter degeneration**\n- **Abnormal/elevated very-long-chain fatty acids (VLCFA)**\n\nBecause X-ALD is **X-linked recessive**, affected males usually inherit the mutation from their **mother**, so affected boys are typically found among **maternal relatives**, not paternal relatives. A father does not pass his X chromosome to his son.\n\nSo the unreasonable/inconsistent finding is **option 4**.",
+      "prompting_output": "The most unreasonable finding is:\n\n**4. Family history analysis found that paternal relatives also have a boy onset**\n\nThis child\u2019s presentation suggests **X-linked adrenoleukodystrophy\uff08X-ALD\uff09**, which can present with:\n\n- **Primary adrenal insufficiency/Addison disease**: low cortisol, high ACTH, hyperpigmentation\n- Later **neurologic regression**, learning decline, gait instability\n- **Brain MRI** showing white matter demyelination\n- **Elevated very long-chain fatty acids\uff08VLCFA\uff09** in blood\n\nX-ALD is **X-linked recessive**, so affected boys usually inherit the mutation from their **carrier mother**. Therefore, a family history would more typically involve **maternal male relatives**\u2014such as maternal uncles or male cousins\u2014not paternal male relatives. A father passes his **Y chromosome** to his son, not his X chromosome, so paternal male relatives being affected is not the expected inheritance pattern.\n\nSo the answer is **Option 4**.",
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "When a patient to relieve anxiety makes a compulsive and poorly adaptive use of a substance, we say that it presents:",
+      "options": {
+        "A": "Attraction.",
+        "B": "Consumption.",
+        "C": "Tolerance.",
+        "D": "Addiction.",
+        "E": "Consumption."
+      },
+      "base_output": "4. **Addiction**",
+      "prompting_output": "The correct option is **4. Addiction**.\n\nA **compulsive, poorly adaptive use of a substance**\u2014especially when used to relieve anxiety or distress\u2014is characteristic of **addiction** or a substance use disorder.",
+      "cot_output": "Correct answer: **4. Addiction.**\n\nA **compulsive and poorly adaptive use of a substance**, especially to relieve anxiety or distress, is characteristic of **addiction** or substance dependence.\n\n- **Tolerance** = needing increasing amounts to get the same effect.\n- **Consumption** = simply using the substance.\n- **Attraction** is not the correct clinical term here.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Multiple draining sinuses from the neck with sulphur granules is a feature of:",
+      "options": {
+        "A": "Actinomycosis",
+        "B": "Tuberculosis",
+        "C": "Staphylococcal",
+        "D": "Streptococcal",
+        "E": "Staphylococcal"
+      },
+      "base_output": "**Answer: 1. Actinomycosis**\n\nMultiple draining sinuses in the neck with **sulphur granules** are characteristic of **cervicofacial actinomycosis**.",
+      "prompting_output": "**Correct answer: 1. Actinomycosis**\n\nMultiple draining sinuses in the neck with **sulphur granules** are characteristic of **cervicofacial actinomycosis**, classically caused by *Actinomyces israelii*. These granules are colonies of the organism seen in the discharge.",
+      "cot_output": "**Correct answer: 1. Actinomycosis**\n\nMultiple draining sinuses in the neck with **sulphur granules** are characteristic of **cervicofacial actinomycosis**, commonly caused by *Actinomyces israelii*. It often presents as a chronic indurated swelling with sinus tracts discharging yellow \u201csulphur granules.\u201d",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Second messenger for smooth muscle relaxation mediated by NO is:",
+      "options": {
+        "A": "Ca'",
+        "B": "cAMP",
+        "C": "cGMP",
+        "D": "Magnesium",
+        "E": "cAMP"
+      },
+      "base_output": "**3. cGMP**\n\nNitric oxide (NO) activates **soluble guanylyl cyclase**, increasing **cGMP**, which mediates smooth muscle relaxation.",
+      "prompting_output": "The correct answer is:\n\n**3. cGMP**\n\nNitric oxide (NO) diffuses into smooth muscle cells and activates **soluble guanylyl cyclase**, which increases **cyclic GMP (cGMP)**. cGMP then mediates **smooth muscle relaxation**.",
+      "cot_output": "The second messenger for smooth muscle relaxation mediated by nitric oxide (NO) is:\n\n**3. cGMP**\n\nNO activates **soluble guanylyl cyclase**, which increases **cyclic GMP (cGMP)** levels. cGMP then promotes smooth muscle relaxation, such as in blood vessels.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "In relation to lipoproteins:",
+      "options": {
+        "A": "Chylomicrons are synthesized in the intestinal mucosa and contain Apo B-48.",
+        "B": "Apo B-100 is the most abundant in HDL.",
+        "C": "VLDL transport exogenous triglycerides.",
+        "D": "The chylomicrons are the highest density.",
+        "E": "The chylomicrons are the highest density."
+      },
+      "base_output": "Correct option: **1. Chylomicrons are synthesized in the intestinal mucosa and contain Apo B-48.**\n\nWhy the others are false:\n\n- **Apo B-100** is found in **VLDL, IDL, and LDL**, not HDL. HDL mainly contains **Apo A-I**.\n- **VLDL transports endogenous triglycerides** from the liver; **chylomicrons transport exogenous triglycerides** from the intestine.\n- **Chylomicrons have the lowest density**, not the highest. **HDL has the highest density**.",
+      "prompting_output": "Correct option: **1 only**\n\n1. **True** \u2014 **Chylomicrons** are synthesized in the **intestinal mucosa** and contain **Apo B-48**. They transport **exogenous/dietary triglycerides**.\n\n2. **False** \u2014 **Apo B-100** is found in **VLDL, IDL, and LDL**. The main apolipoprotein in **HDL** is **Apo A-I**.\n\n3. **False** \u2014 **VLDL** transports **endogenous triglycerides** synthesized by the liver. **Chylomicrons** transport exogenous triglycerides.\n\n4/5. **False** \u2014 Chylomicrons are the **largest** and **least dense** lipoproteins. **HDL** has the **highest density**.",
+      "cot_output": "Correct option: **1. Chylomicrons are synthesized in the intestinal mucosa and contain Apo B-48.**\n\nExplanation of each:\n\n1. **True** \u2014 Chylomicrons are formed in the **intestinal mucosal cells** and contain **Apo B-48**. They transport **exogenous/dietary triglycerides**.\n2. **False** \u2014 **HDL** mainly contains **Apo A-I** and Apo A-II. **Apo B-100** is found in **VLDL, IDL, LDL**.\n3. **False** \u2014 **VLDL transports endogenous triglycerides** synthesized by the liver. Chylomicrons transport exogenous triglycerides.\n4. **False** \u2014 Chylomicrons are the **largest and least dense** lipoproteins.\n5. **False** \u2014 Duplicate of option 4; also false.\n\nTherefore, the correct answer is **Option 1 only**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A process has been clinically suspected loss of vision and eye cancer, following surgery that is more suitable?",
+      "options": {
+        "A": "In addition to evisceration (evisceration)",
+        "B": "Enucleation (enucleation)",
+        "C": "Orbital enucleation (exenteration)",
+        "D": "Corneal transplants (Transplantation)",
+        "E": "In addition to evisceration (evisceration)"
+      },
+      "base_output": "**Correct option: 2. Enucleation**\n\nIf an eye has **loss of vision with suspected intraocular cancer**, the more suitable surgery is **enucleation**\u2014removal of the entire eyeball intact.  \n\n**Evisceration is contraindicated** when malignancy is suspected because it may leave tumor tissue behind or spread cancer cells.",
+      "prompting_output": "The most suitable surgery is:\n\n**2. Enucleation**\n\n**Why:** If an eye has **loss of vision** and there is **clinical suspicion of intraocular eye cancer**, the eye is usually removed by **enucleation** (removal of the entire eyeball).  \n\n**Evisceration is contraindicated** when cancer is suspected because it leaves the scleral shell behind and may risk spreading tumor cells.\n\n**Exenteration** is reserved for cancers that involve the **orbit** or surrounding tissues, not just the eyeball.",
+      "cot_output": "**Most suitable surgery: 2. Enucleation**\n\nIf there is **loss of vision with suspected intraocular eye cancer**, the preferred procedure is usually **enucleation**\u2014removal of the entire eyeball.\n\n- **Evisceration** is **contraindicated** when an intraocular malignancy is suspected because it may leave tumor tissue behind or spread cancer cells.\n- **Exenteration** is reserved for cancers involving the **orbit** or extensive spread beyond the globe.\n- **Corneal transplant** is not appropriate for eye cancer.\n\nSo the best option is **2. Enucleation**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "In a partition chromatography (partition) in normal phase:",
+      "options": {
+        "A": "The stationary phase is highly apolar.",
+        "B": "The mobile phase is relatively non-polar.",
+        "C": "First, the most polar solutes elute.",
+        "D": "Increasing the polarity of the mobile phase increases the elution times.",
+        "E": "Increasing the polarity of the mobile phase increases the elution times."
+      },
+      "base_output": "Correct option: **2. The mobile phase is relatively non-polar.**\n\nIn **normal-phase partition chromatography**:\n\n- The **stationary phase is polar**, not apolar.\n- The **mobile phase is relatively non-polar**.\n- **Less polar solutes elute first**; more polar solutes are retained longer.\n- Increasing the polarity of the mobile phase generally **decreases elution times** because it increases eluting strength.\n\nSo statements **1, 3, 4, and 5 are false**.",
+      "prompting_output": "In **normal-phase partition chromatography**:\n\n- The **stationary phase is polar**.\n- The **mobile phase is relatively non-polar**.\n- **Non-polar solutes elute first**, while more polar solutes are retained longer.\n- Increasing the **polarity of the mobile phase** increases its eluting strength, so it **decreases elution/retention times**.\n\nTherefore, the correct option is:\n\n**2. The mobile phase is relatively non-polar.**",
+      "cot_output": "In **normal-phase partition chromatography**:\n\n- The **stationary phase is polar**.\n- The **mobile phase is relatively non-polar**.\n- **Less polar solutes elute first**, while more polar solutes are retained longer.\n- Increasing the **polarity of the mobile phase increases eluting strength**, so it **decreases elution/retention times**.\n\nTherefore, the correct option is:\n\n**2. The mobile phase is relatively non-polar.**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 37-year-old G1P1001 delivers a male infant at 9 pounds 6 ounces after a C-section for preeclampsia with severe features. The mother has a history of type II diabetes with a hemoglobin A1c of 12.8% at her first obstetric visit. Before this pregnancy, she was taking metformin, and during this pregnancy, she was started on insulin. At her routine visits, her glucose logs frequently showed fasting fingerstick glucoses above 120 mg/dL and postprandial values above 180 mg/dL. In addition, her routine third trimester culture for group B Streptococcus was positive. At 38 weeks and 4 days gestation, she was found to have a blood pressure of 176/103 mmHg and reported a severe headache during a routine obstetric visit. She denied rupture of membranes or vaginal bleeding. Her physician sent her to the obstetric triage unit, and after failure of several intravenous doses of labetalol to lower her blood pressure and relieve her headache, a C-section was performed without complication. Fetal heart rate tracing had been reassuring throughout her admission. Apgar scores at 1 and 5 minutes were 7 and 10. After one hour, the infant is found to be jittery; the infant's temperature is 96.1\u00b0F (35.6\u00b0C), blood pressure is 80/50 mmHg, pulse is 110/min, and respirations are 60/min. When the first feeding is attempted, he does not latch and begins to shake his arms and legs. After 20 seconds, the episode ends and the infant becomes lethargic. Which of the following is the most likely cause of this infant\u2019s presentation?",
+      "options": {
+        "A": "\u00df-cell hyperplasia",
+        "B": "Neonatal sepsis",
+        "C": "Inborn error of metabolism",
+        "D": "Neonatal encephalopathy",
+        "E": "Inborn error of metabolism"
+      },
+      "base_output": "**Most likely cause: 1. \u03b2-cell hyperplasia**\n\nThis infant is **macrosomic** and born to a mother with **poorly controlled pregestational type 2 diabetes**. Maternal hyperglycemia leads to fetal hyperglycemia, which stimulates the fetal pancreas to produce excess insulin. Chronic fetal hyperinsulinemia causes **pancreatic \u03b2-cell hyperplasia**.\n\nAfter delivery, the maternal glucose supply is suddenly removed, but the infant\u2019s insulin level remains high, causing **neonatal hypoglycemia**, which can present with:\n\n- Jitteriness\n- Poor feeding\n- Lethargy\n- Hypothermia\n- Seizures\n\nThe seizure-like episode shortly after birth is therefore most consistent with **hypoglycemia due to persistent hyperinsulinemia from \u03b2-cell hyperplasia**.\n\n**Answer: 1. \u03b2-cell hyperplasia**",
+      "prompting_output": "**Most likely cause: 1. \u03b2-cell hyperplasia**\n\nThis infant is most likely having **symptomatic neonatal hypoglycemia** due to being an **infant of a poorly controlled diabetic mother**.\n\nMaternal hyperglycemia crosses the placenta, causing chronic fetal hyperglycemia. In response, the fetal pancreas produces excess insulin, leading to **pancreatic \u03b2-cell hyperplasia** and **fetal hyperinsulinemia**. After delivery, the maternal glucose supply abruptly stops, but the infant\u2019s insulin level remains high, causing **hypoglycemia**.\n\nThis explains the infant\u2019s:\n\n- **Macrosomia**: 9 lb 6 oz\n- **Jitteriness**\n- **Poor feeding**\n- **Seizure-like episode**\n- **Lethargy**\n-",
+      "cot_output": "**Most likely cause: 1. \u03b2-cell hyperplasia**\n\nThis infant most likely has **neonatal hypoglycemia due to hyperinsulinemia** from being an **infant of a poorly controlled diabetic mother**.\n\nMaternal hyperglycemia causes fetal hyperglycemia because glucose crosses the placenta. In response, the fetal pancreas produces excess insulin, leading to **pancreatic \u03b2-cell hyperplasia**. After delivery, the maternal glucose supply is suddenly removed, but the newborn\u2019s insulin level remains high, causing **early neonatal hypoglycemia**.\n\nFindings supporting this diagnosis:\n\n- **Poorly controlled type II diabetes** in pregnancy: A1c 12.8%, fasting glucose >120, postprandial >180\n- **Macrosomia**: 9 lb 6 oz\n- Symptoms within the first few hours of life:\n  - Jitteriness\n  - Poor feeding\n  - Lethargy\n  - Seizure-like shaking episode\n  - Hypothermia can also occur with neonatal hypoglycemia\n\nWhy the",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Neutrophils (neutrophil) from the blood vessel into the tissue is first bound to the endothelial cells (endothelial cell) molecule:",
+      "options": {
+        "A": "E-selectin",
+        "B": "CD31",
+        "C": "ICAM-1",
+        "D": "VCAM-1",
+        "E": "CD31"
+      },
+      "base_output": "**Answer: 1. E-selectin**\n\nNeutrophils first bind/roll on endothelial cells via **selectins**, especially **E-selectin** on activated endothelial cells.  \n- **ICAM-1**: firm adhesion  \n- **CD31/PECAM-1**: transmigration/diapedesis  \n- **VCAM-1**: mainly binds monocytes/lymphocytes via VLA-4",
+      "prompting_output": "The correct answer is:\n\n**1. E-selectin**\n\nNeutrophils first interact with endothelial cells during inflammation through **rolling adhesion**, which is mediated mainly by **selectins** on endothelial cells, especially **E-selectin** and P-selectin.\n\n- **E-selectin**: initial neutrophil rolling/binding to endothelium  \n- **ICAM-1**: firm adhesion via neutrophil integrins  \n- **CD31/PECAM-1**: transmigration/diapedesis between endothelial cells  \n- **VCAM-1**: more important for monocytes/lymphocytes via VLA-4",
+      "cot_output": "The correct answer is **1. E-selectin**.\n\nNeutrophil migration from blood into tissue begins with **rolling/initial weak adhesion** to endothelial cells, mediated mainly by **selectins**:\n\n- **E-selectin** on endothelial cells binds carbohydrate ligands on neutrophils \u2192 **rolling**\n- Then **ICAM-1** binds neutrophil integrins \u2192 firm adhesion\n- **CD31/PECAM-1** helps with transmigration/diapedesis through the endothelium\n\nSo the **first endothelial molecule involved** is **E-selectin**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Which of the following polycystic kidney disease (renal cystic disease) most commonly hepatic portal area fibrosis?",
+      "options": {
+        "A": "Children polycystic kidney disease (childhood polycystic kidney disease)",
+        "B": "Adult polycystic kidney disease (adult polycystic kidney disease)",
+        "C": "Adult medullary cystic disease (adult-onset medullary cystic disease)",
+        "D": "Acquired cystic kidney disease (acquired renal cystic disease)",
+        "E": "Adult polycystic kidney disease (adult polycystic kidney disease)"
+      },
+      "base_output": "**Correct answer: 1. Childhood polycystic kidney disease**\n\nChildhood polycystic kidney disease, i.e. **autosomal recessive polycystic kidney disease (ARPKD)**, is classically associated with **congenital hepatic fibrosis involving the portal areas**.\n\nAdult polycystic kidney disease can have hepatic cysts, but **portal area fibrosis is characteristic of childhood/ARPKD**.",
+      "prompting_output": "**Correct answer: 1. Children polycystic kidney disease (childhood polycystic kidney disease)**\n\nChildhood polycystic kidney disease, i.e. **autosomal recessive polycystic kidney disease (ARPKD)**, is classically associated with **congenital hepatic fibrosis**, especially **fibrosis of the portal areas** with bile duct proliferation.\n\nAdult polycystic kidney disease is more commonly associated with **hepatic cysts**, not portal area fibrosis.",
+      "cot_output": "**Correct answer: 1. Children polycystic kidney disease (childhood polycystic kidney disease)**\n\nChildhood polycystic kidney disease, usually **autosomal recessive polycystic kidney disease (ARPKD)**, is classically associated with **congenital hepatic fibrosis**, especially **fibrosis of the hepatic portal areas** with bile duct abnormalities.\n\nAdult polycystic kidney disease is more commonly associated with **hepatic cysts**, not portal area fibrosis.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Which of the following is true about WILSON disease",
+      "options": {
+        "A": "High copper in urine, high copper in serum",
+        "B": "High ceruloplasmin",
+        "C": "Low serum copper",
+        "D": "Low urinary copper",
+        "E": "Low urinary copper"
+      },
+      "base_output": "**Correct option: 3. Low serum copper**\n\nIn **Wilson disease**:\n\n- **Ceruloplasmin is low**\n- **Total serum copper is low** due to low ceruloplasmin\n- **Free copper is increased**\n- **Urinary copper excretion is high**\n\nSo, among the options, **low serum copper** is true.",
+      "prompting_output": "Correct answer: **3. Low serum copper**\n\nIn **Wilson disease**:\n\n- **Ceruloplasmin is low** due to impaired incorporation of copper into ceruloplasmin.\n- **Total serum copper is low** because most serum copper is normally bound to ceruloplasmin.\n- **Free/unbound copper is increased**, causing tissue deposition and toxicity.\n- **Urinary copper is increased**, especially 24-hour urinary copper.\n\nSo among the options, the best answer is:\n\n**3. Low serum copper**",
+      "cot_output": "The correct option is:\n\n**3. Low serum copper**\n\nIn **Wilson disease**:\n\n- **Ceruloplasmin is low** \u2192 not high  \n- **Total serum copper is low** because most serum copper is bound to ceruloplasmin  \n- **Free copper is increased**\n- **Urinary copper excretion is increased** \u2192 not low\n\nSo the best answer is **low serum copper**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "APGAR acronym stands for?",
+      "options": {
+        "A": "Activity, pulse pressure, grimace, appearance, rate of respiration",
+        "B": "Appearance, pressure, grimace, MAP, hea rate",
+        "C": "Appearance, pressure, grimace, appearance, rate of hea beat",
+        "D": "Appearance, pulse, grimace, activity, respiration",
+        "E": "Activity, pulse pressure, grimace, appearance, rate of respiration"
+      },
+      "base_output": "**APGAR** stands for:\n\n**Appearance, Pulse, Grimace, Activity, Respiration**\n\n\u2705 Correct option: **4**",
+      "prompting_output": "**APGAR** stands for:\n\n**Appearance, Pulse, Grimace, Activity, Respiration**\n\n\u2705 Correct option: **4. Appearance, pulse, grimace, activity, respiration**",
+      "cot_output": "**APGAR** stands for:\n\n**Appearance, Pulse, Grimace, Activity, Respiration**\n\n\u2705 Correct option: **4. Appearance, pulse, grimace, activity, respiration**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Experience worm Schistosoma japonicum (Schistosoma japonicum) that developmental stages of infection who?",
+      "options": {
+        "A": "Eggs",
+        "B": "Ciliated larvae (miracidium)",
+        "C": "Tail arterial larvae (cercaria)",
+        "D": "Cystic larvae (metacercaria)",
+        "E": "Cystic larvae (metacercaria)"
+      },
+      "base_output": "The infective stage of **Schistosoma japonicum** for humans is:\n\n**3. Cercaria (fork-tailed larva)**\n\nCercariae leave the snail host and penetrate human skin in contaminated freshwater.",
+      "prompting_output": "Correct answer: **3. Cercaria (fork-tailed larvae)**\n\nFor **Schistosoma japonicum**, the **infective stage for humans is the cercaria**, which penetrates the skin when a person contacts contaminated freshwater.\n\n- **Eggs**: diagnostic stage; passed in feces  \n- **Miracidium**: infects the snail intermediate host  \n- **Cercaria**: infects humans  \n- **Metacercaria**: not a stage in Schistosoma infection",
+      "cot_output": "The infective stage of **Schistosoma japonicum** for humans is:\n\n**3. Tail larvae / cercariae**\n\nCercariae are released from freshwater snails and **penetrate human skin** during contact with contaminated water.\n\n- **Eggs**: diagnostic/pathogenic stage, not infective to humans  \n- **Miracidium**: infects the snail intermediate host  \n- **Metacercaria**: not a stage in Schistosoma infection of humans  \n- **Cercaria**: infective stage for humans \u2705",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Which of the following drugs is used for treatment of cancer associated thromboembolism?",
+      "options": {
+        "A": "LMW heparin",
+        "B": "Anti-thrombin III inhibitors",
+        "C": "Direct factor Xa inhibitors",
+        "D": "Warfarin",
+        "E": "Warfarin"
+      },
+      "base_output": "**Answer: 1. Low-molecular-weight heparin (LMWH)**\n\nLMWH has traditionally been the preferred treatment for **cancer-associated thromboembolism**. Direct factor Xa inhibitors are also used in selected patients nowadays, but for a classic single-best-answer MCQ, **LMWH** is the expected answer.",
+      "prompting_output": "**Correct answer: 1. LMW heparin**\n\n**Low-molecular-weight heparin (LMWH)** has traditionally been the preferred treatment for **cancer-associated thromboembolism** because it is more effective than warfarin in reducing recurrent venous thromboembolism in cancer patients.\n\n*Note:* Direct factor Xa inhibitors such as apixaban, rivaroxaban, and edoxaban are also used in selected cancer patients now, but the classic/standard exam answer is **LMWH**.",
+      "cot_output": "**Correct answer: 1. LMW heparin**\n\n**Low-molecular-weight heparin (LMWH)**, such as **enoxaparin** or **dalteparin**, has traditionally been the preferred treatment for **cancer-associated thromboembolism**.\n\n**Note:** Direct factor Xa inhibitors such as **apixaban, rivaroxaban, and edoxaban** are also used in selected cancer patients today, but if a single best answer is expected, **LMW heparin** is the classic choice. Warfarin is generally less preferred due to drug interactions and variable anticoagulation in cancer patients.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A man presents it n rashes on face and also complains of decreased mental function. He is also having few macular lesions on his skin. On CT scan, intracranial calcification was seen. His wife is normal. His 10-year old daughter is also normal but his 6-year old son is also having similar skin lesions. What would be the most likely diagnosis?",
+      "options": {
+        "A": "Neurofibrornatosis-1",
+        "B": "Neurofibromatosis-2",
+        "C": "Xeroderma pigmentosum",
+        "D": "Autosomal dominant inheritance",
+        "E": "Xeroderma pigmentosum"
+      },
+      "base_output": "Most likely diagnosis: **Tuberous sclerosis complex (TSC)**.\n\nSince **TSC is not listed** in the options, the best available option is:\n\n**4. Autosomal dominant inheritance**\n\nWhy:\n- Facial rash likely **adenoma sebaceum/facial angiofibromas**\n- Decreased mental function\n- Macular skin lesions likely **ash-leaf hypomelanotic macules**\n- CT shows **intracranial calcifications** due to calcified subependymal nodules\n- Affected father and son with normal wife suggests **autosomal dominant transmission** with 50% risk to offspring.",
+      "prompting_output": null,
+      "cot_output": "The most likely diagnosis is **Tuberous sclerosis complex (TSC)**, which has **autosomal dominant inheritance**.\n\nSo among the given options, the best answer is:\n\n**4. Autosomal dominant inheritance**\n\nWhy:\n\n- **Facial rash** \u2192 likely facial angiofibromas, previously called *adenoma sebaceum*\n- **Macular skin lesions** \u2192 hypomelanotic \u201cash-leaf\u201d macules\n- **Decreased mental function** \u2192 intellectual disability/neurodevelopmental involvement\n- **Intracranial calcifications on CT** \u2192 calcified subependymal nodules/tubers\n- **Father and son affected, wife normal, daughter normal** \u2192 consistent with **autosomal dominant inheritance** with 50% transmission risk\n\nThe actual disease is **tuberous sclerosis**, but since it is not listed directly, the correct option is **autosomal dominant inheritance**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Which of the following pregnant women infected with the virus, most likely to cause congenital heart disease?",
+      "options": {
+        "A": "A type of herpes simplex virus",
+        "B": "Zoster virus",
+        "C": "German measles virus",
+        "D": "Measles virus",
+        "E": "A type of herpes simplex virus"
+      },
+      "base_output": "**3. German measles virus (Rubella virus)**\n\nRubella infection during early pregnancy is classically associated with **congenital heart disease**, especially **patent ductus arteriosus (PDA)** and **pulmonary artery stenosis**.",
+      "prompting_output": "**Correct answer: 3. German measles virus**\n\nGerman measles virus is **rubella virus**, which can cause **congenital rubella syndrome** when infection occurs during pregnancy, especially in the **first trimester**. It is classically associated with congenital heart defects such as:\n\n- **Patent ductus arteriosus (PDA)**\n- **Pulmonary artery stenosis**\n\nOther classic findings include cataracts and sensorineural deafness.",
+      "cot_output": "**Answer: 3. German measles virus**\n\nGerman measles is **rubella virus**, which can cause **congenital rubella syndrome** when infection occurs during pregnancy, especially in the **first trimester**. It is classically associated with congenital heart defects such as:\n\n- **Patent ductus arteriosus (PDA)**\n- **Pulmonary artery stenosis**\n- Septal defects\n\nSo the virus most likely to cause congenital heart disease is **rubella/German measles virus**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "The final product of guanine catabolism in humans is:",
+      "options": {
+        "A": "Xanthine",
+        "B": "Uric acid.",
+        "C": "Urea.",
+        "D": "\u0392-alanine.",
+        "E": "\u0392-alanine."
+      },
+      "base_output": "The final product of guanine catabolism in humans is:\n\n**2. Uric acid.**",
+      "prompting_output": "The final product of **guanine catabolism in humans** is:\n\n**2. Uric acid**\n\nGuanine is converted to **xanthine**, which is then oxidized to **uric acid** by xanthine oxidase.",
+      "cot_output": "The final product of **guanine catabolism in humans** is:\n\n**2. Uric acid**\n\nGuanine is converted to **xanthine**, and xanthine is then oxidized to **uric acid**, which is the final product of purine degradation in humans.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "'Patch-clamp' is used for ?",
+      "options": {
+        "A": "To record facilitated diffusion",
+        "B": "To record flow in voltage gated channel",
+        "C": "To record osmotic pressure around semipermeable membrane",
+        "D": "To record RMP",
+        "E": "To record facilitated diffusion"
+      },
+      "base_output": "**Correct option: 2. To record flow in voltage-gated channel**\n\n**Patch-clamp technique** is used to measure **ionic currents through individual ion channels** or across small patches of cell membrane, especially **voltage-gated channels**.",
+      "prompting_output": "**Correct option: 2. To record flow in voltage-gated channel**\n\n**Patch-clamp technique** is used to measure **ionic currents through individual ion channels** or across a small patch of cell membrane. It is especially useful for studying **voltage-gated ion channels** such as Na\u207a, K\u207a, and Ca\u00b2\u207a channels.\n\nIt is **not primarily used** to record facilitated diffusion, osmotic pressure, or routine resting membrane potential.",
+      "cot_output": "**Correct option: 2. To record flow in voltage gated channel**\n\n**Patch-clamp technique** is used to measure **ionic current flowing through individual ion channels** or across a small patch of cell membrane. It is commonly used to study **voltage-gated ion channels**, ligand-gated channels, etc.\n\nSo the best answer is **option 2**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Light cure system, side effect is:",
+      "options": {
+        "A": "Iritis",
+        "B": "Cataract",
+        "C": "Conjunctivitis",
+        "D": "Retinal damage",
+        "E": "Iritis"
+      },
+      "base_output": "**4. Retinal damage**\n\nLight-cure systems emit intense blue light, which can cause **retinal injury** if viewed directly without protective filters/glasses.",
+      "prompting_output": "**Correct answer: 4. Retinal damage**\n\nDental **light cure systems** emit high-intensity blue light, which can be harmful to the eyes\u2014especially the **retina**\u2014if viewed directly without protective filters or eyewear.",
+      "cot_output": "**Correct answer: 4. Retinal damage**\n\nLight-curing systems (especially dental blue-light curing units) emit intense blue light, which can be hazardous to the eyes. The main ocular risk is **retinal damage**, particularly with direct or repeated exposure without protective orange/blue-blocking filters or eyewear.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Brachycephaly is due to fusion of \u2013",
+      "options": {
+        "A": "Parietal suture",
+        "B": "Sagittal suture",
+        "C": "Lambdoid suture",
+        "D": "Coronal suture",
+        "E": "Lambdoid suture"
+      },
+      "base_output": "**Brachycephaly** is due to premature fusion of the **coronal suture**.\n\n\u2705 **Answer: 4. Coronal suture**",
+      "prompting_output": "**Brachycephaly** is due to premature fusion of the **coronal suture**.\n\n\u2705 **Correct option: 4. Coronal suture**\n\nBriefly:\n- **Sagittal suture fusion** \u2192 scaphocephaly/dolichocephaly\n- **Coronal suture fusion**, especially bilateral \u2192 brachycephaly\n- **Lambdoid suture fusion** \u2192 posterior plagiocephaly, rare",
+      "cot_output": "**Brachycephaly** is due to premature fusion of the **coronal suture**, usually **bilateral coronal synostosis**.\n\n\u2705 **Correct option: 4. Coronal suture**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "72.",
+      "options": {
+        "A": "fibrous dysplasia",
+        "B": "giant cell tumor",
+        "C": "osteogenic sarcoma",
+        "D": "bone metastasis",
+        "E": "osteogenic sarcoma"
+      },
+      "base_output": "**Most likely diagnosis: 2. Giant cell tumor**\n\n**Why:**  \nA **23-year-old** with a tumor involving the **epiphysis near the knee** is classic for a **giant cell tumor of bone**.\n\nTypical features of giant cell tumor:\n\n- Occurs in **young adults after epiphyseal closure**, usually **20\u201340 years old**\n- Common around the **knee**: distal femur, proximal tibia\n- Located in the **epiphysis extending to the metaphysis**\n- X-ray/CT often shows an **eccentric, expansile lytic lesion** with a \u201csoap-bubble\u201d appearance and little/no matrix mineralization\n\nOther options are less likely:\n\n- **Fibrous dysplasia**: usually metaphyseal/diaphyseal, \u201cground-glass\u201d matrix\n- **Osteogenic sarcoma**: usually metaphyseal with aggressive periosteal reaction, not primarily epiphyseal\n- **Bone metastasis**: uncommon at age 23 and usually not isolated epiphyseal\n\nSo the best answer is **giant cell tumor**.",
+      "prompting_output": "**Most likely diagnosis: 2. Giant cell tumor**\n\n**Why:**  \nA **giant cell tumor of bone** classically occurs in **young adults after closure of the growth plate**, usually around **20\u201340 years old**, and has a strong predilection for the **epiphysis extending to the subchondral bone**, especially around the **knee** \u2014 distal femur or proximal tibia.\n\nTypical imaging features include:\n\n- **Eccentric lytic lesion** in the epiphysis/metaphysis  \n- Often reaches the **articular surface**\n- Expansile \u201csoap-bubble\u201d appearance may be seen\n- Usually no aggressive osteoid matrix like osteosarcoma\n\nOther options are less likely:\n\n- **Fibrous dysplasia**: usually metaphyseal/diaphyseal, \u201cground-glass,\u201d not typically epiphyseal.\n- **Osteogenic sarcoma**: usually metaphyseal, aggressive periosteal reaction, osteoid matrix.\n- **Bone metastasis**: uncommon in a healthy 23-year-old and rarely presents as an isolated epiphyseal lesion.\n\nTherefore, the best answer is **2. Giant cell tumor**.",
+      "cot_output": "**Most likely diagnosis: 2. Giant cell tumor of bone**\n\n**Why:**\n- The patient is **23 years old**, which fits the typical age range for giant cell tumor: **young adults after epiphyseal closure**, usually **20\u201340 years**.\n- The lesion is described as being in the **epiphysis**. Giant cell tumors classically occur in the **epiphysis or epiphysiometaphyseal region** of long bones.\n- Common locations include the **distal femur and proximal tibia around the knee**, matching the clinical context of a knee X-ray.\n- Imaging typically shows an **eccentric, lytic, expansile lesion** extending to the **subchondral bone**, often without matrix mineralization.\n\n**Why the other options are less likely:**\n1. **Fibrous dysplasia** \u2014 usually metaphyseal/diaphyseal with a \u201cground-glass\u201d matrix, not typically epiphyseal.  \n3/5. **Osteogenic sarcoma** \u2014 usually arises in the **metaphysis**, often with aggressive periosteal reaction, sunburst appearance, Codman triangle, and osteoid matrix.  \n4. **Bone metastasis** \u2014 very unlikely in a healthy **23-year-old**, and metastases are not characteristically epiphyseal.\n\n\u2705 **Answer: 2. Giant cell tumor**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Which is not constructed in the path of conduction hearing?",
+      "options": {
+        "A": "Orthorhombic (trapezoid body)",
+        "B": "The olive nuclei (superior olivary complex)",
+        "C": "Based inner shoe (medial lemniscus)",
+        "D": "Inferior colliculus (inferior colliculus)",
+        "E": "The olive nuclei (superior olivary complex)"
+      },
+      "base_output": "**Answer: 3. Medial lemniscus**\n\nThe **medial lemniscus** is **not** part of the auditory conduction pathway; it carries somatosensory information such as fine touch, vibration, and proprioception.\n\nAuditory pathway structures include the **trapezoid body**, **superior olivary complex**, **lateral lemniscus**, and **inferior colliculus**.",
+      "prompting_output": "**Correct answer: 3. Medial lemniscus**\n\nThe **medial lemniscus** is **not part of the auditory conduction pathway**. It carries **somatosensory information** such as fine touch, vibration, and proprioception.\n\nThe auditory pathway includes structures such as:\n\n- **Trapezoid body**\n- **Superior olivary complex**\n- **Lateral lemniscus**\n- **Inferior colliculus**\n- **Medial geniculate body**\n- **Auditory cortex**\n\nSo the structure **not involved in hearing conduction** is the **medial lemniscus**.",
+      "cot_output": "The structure **not** in the auditory (hearing) conduction pathway is:\n\n**3. Medial lemniscus**\n\nThe auditory pathway includes structures such as the **trapezoid body**, **superior olivary complex**, **lateral lemniscus**, **inferior colliculus**, **medial geniculate body**, and auditory cortex.\n\nThe **medial lemniscus** carries **somatosensory information** such as fine touch, vibration, and proprioception\u2014not hearing.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Studies on behavioral genetics around the main dimensions of personality show that:",
+      "options": {
+        "A": "The measurement error could exceed 60%.",
+        "B": "The shared environment has more weight than genetic influence.",
+        "C": "Genetic factors contribute 70% to the variance of the main personality dimensions.",
+        "D": "The non-shared environment has more weight than the shared one.",
+        "E": "Genetic factors contribute 70% to the variance of the main personality dimensions."
+      },
+      "base_output": "Correct answer: **4. The non-shared environment has more weight than the shared one.**\n\nBehavioral genetics studies of major personality dimensions generally find that:\n\n- **Genetic influence** is moderate, often around **40\u201350%**.\n- **Shared environment** has little or no effect.\n- **Non-shared environment** accounts for much of the remaining variance, including individual experiences and measurement error.\n\nSo option **4** is the best answer.",
+      "prompting_output": "Correct answer: **4. The non-shared environment has more weight than the shared one.**\n\nBehavioral genetics studies of major personality dimensions, such as the Big Five, generally find that:\n\n- **Genetic factors explain about 40\u201350%** of the variance in personality traits.\n- **Shared environment** \u2014 family-wide influences shared by siblings \u2014 usually has **little or no effect** on adult personality differences.\n- **Non-shared environment** \u2014 experiences unique to each individual, plus some measurement error \u2014 accounts for much of the remaining variance.\n\nSo options stating that genetics explain **70%** are incorrect, and shared environment is not usually stronger than genetic influence.",
+      "cot_output": "Correct option: **4. The non-shared environment has more weight than the shared one.**\n\nBehavioral genetics studies of major personality dimensions, such as the Big Five, generally find:\n\n- **Genetic influence:** moderate, often around **40\u201350%** of variance.\n- **Shared environment:** usually **small or negligible** in adulthood.\n- **Non-shared environment:** accounts for much of the remaining variance and is typically larger than the shared environmental contribution.\n\nOptions **3 and 5** are incorrect because genetic factors generally do **not** explain 70% of the variance in main personality dimensions.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Slowest blood flow is seen in ?",
+      "options": {
+        "A": "Aeriole",
+        "B": "Veins",
+        "C": "Capillaries",
+        "D": "Venules",
+        "E": "Aeriole"
+      },
+      "base_output": "**Slowest blood flow is seen in: 3. Capillaries**\n\nBecause capillaries have the **largest total cross-sectional area**, blood velocity is lowest there, allowing exchange of gases and nutrients.",
+      "prompting_output": "**Correct answer: 3. Capillaries**\n\nBlood flow velocity is **slowest in the capillaries** because they have the **largest total cross-sectional area** in the circulation, allowing efficient exchange of gases, nutrients, and wastes.",
+      "cot_output": "**Answer: 3. Capillaries**\n\nBlood flow velocity is **slowest in capillaries** because they have the **largest total cross-sectional area** in the circulation. This slow flow allows efficient exchange of gases, nutrients, and waste products between blood and tissues.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Which of the following type of tongue thrusting has the worst prognosis?",
+      "options": {
+        "A": "Simple",
+        "B": "Complex",
+        "C": "Retained infantile swallow",
+        "D": "All of the above",
+        "E": "Simple"
+      },
+      "base_output": null,
+      "prompting_output": "**Correct answer: 3. Retained infantile swallow**\n\nAmong tongue thrusting patterns, **retained infantile swallow** generally has the **worst prognosis**, because it represents persistence of an immature swallowing pattern and is more difficult to correct than simple",
+      "cot_output": "**Answer: 3. Retained infantile swallow**\n\nAmong the types of tongue thrusting, **retained infantile swallow** generally has the **worst prognosis**, because it represents persistence of an immature swallowing pattern and is more difficult to correct compared with simple or complex tongue thrust.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 49-year-old woman, gravida 1, para 1, comes to the physician because of shorter and less frequent menstrual periods over the past year. During this time, she has also had frequent mood swings and a 2.5-kg (5-lb) weight loss. She occasionally wakes up at night because she is too warm and sweating profusely. These episodes are followed by chills and anxiety that subside within minutes. She has no history of abnormal Pap smears. She is sexually active with her husband, who had a vasectomy 10 years prior. She is 163 cm (5 ft 3 in) tall and weighs 70 kg (154 lb); BMI is 26 kg/m2. Her temperature is 37\u00b0C (98.6\u00b0F), pulse is 103/min, respirations are 16/min, and blood pressure is 129/84 mm Hg. Abdominal and genitourinary examination shows no abnormalities. Which of the following is the most appropriate next step in management?",
+      "options": {
+        "A": "Perform transvaginal ultrasound",
+        "B": "Measure serum \u03b2-hCG concentration",
+        "C": "Obtain endometrial biopsy",
+        "D": "Measure serum TSH concentration",
+        "E": "Perform transvaginal ultrasound"
+      },
+      "base_output": null,
+      "prompting_output": null,
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Achalasia and related narrative of Pseudoachalasia, what's wrong?",
+      "options": {
+        "A": "Achalasia from the esophagus to the lack of peristalsis",
+        "B": "Pseudoachalasia from GE junction in the vicinity of the tumor compression",
+        "C": "Most Achalasia in the visual microscope, can be found in the destruction of the esophageal mucosa lesions",
+        "D": "Both can be found in the phenomenon of expansion of the esophagus",
+        "E": "Both can be found in the phenomenon of expansion of the esophagus"
+      },
+      "base_output": "The **wrong statement is Option 3**.\n\n**3. \u201cMost achalasia under microscopy shows destruction of the esophageal mucosa lesions\u201d** \u2014 **incorrect**.\n\nIn **achalasia**, the main pathology is **loss/degeneration of ganglion cells in the myenteric (Auerbach) plexus**, causing failure of LES relaxation and absent peristalsis. The **mucosa is usually normal**, not primarily destroyed.\n\nThe others are generally true:\n\n- Achalasia \u2192 absent esophageal peristalsis + impaired LES relaxation  \n- Pseudoachalasia \u2192 often due to tumor at/near the GE",
+      "prompting_output": "The **wrong statement is: 3.**\n\n**Why:**  \nIn **primary achalasia**, the main pathology is **loss/degeneration of ganglion cells in the myenteric (Auerbach) plexus**, causing:\n\n- Failure of LES relaxation  \n- Absence of normal esophageal peristalsis  \n- Progressive esophageal dilatation\n\nIt is **not primarily a disease of esophageal mucosal destruction** seen on microscopy. The mucosa may be normal or show secondary inflammation/ulceration from stasis, but that is not the defining lesion.\n\n**Other options:**\n1. True \u2014 achalasia involves lack of esophageal peristalsis.  \n2. True \u2014 pseudoachalasia is often due to tumor at/near the GE junction causing obstruction or infiltration.  \n4/5. True \u2014 both achalasia and pseudoachalasia may show esophageal dilatation.\n\n**Answer: 3**",
+      "cot_output": "The **wrong statement is: 3.**\n\n**3. \u201cMost achalasia in the visual microscope, can be found in the destruction of the esophageal mucosa lesions\u201d** \u2014 this is incorrect.\n\nIn **achalasia**, the main pathology is **loss/degeneration of ganglion cells in the myenteric/Auerbach plexus**, causing:\n\n- Failure of lower esophageal sphincter relaxation\n- Loss of esophageal peristalsis\n- Progressive esophageal dilatation\n\nThe **esophageal mucosa is usually normal** or may show secondary inflammation from food stasis, but **mucosal destruction is not the typical microscopic finding**.\n\nThe other statements are generally correct:\n\n1. Achalasia involves **absence of peristalsis**.  \n2. Pseudoachalasia can result from **tumor near the GE junction causing obstruction or infiltration**.  \n4/5. Both achalasia and pseudoachalasia can show **esophageal dilatation**.\n\n**Answer: 3**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "10-year-old boy fell from a slide to the left knee, because the knee pain and swelling, parents took him to the emergency room for treatment, and receive X-rays, which X-ray images, show him what happened the growth plate injury?",
+      "options": {
+        "A": "Salter-Harris Type I",
+        "B": "Salter-Harris type II",
+        "C": "Salter-Harris type III",
+        "D": "Salter-Harris type IV",
+        "E": "Salter-Harris type IV"
+      },
+      "base_output": "I don\u2019t see the X-ray image attached, so I can\u2019t definitively classify it.\n\nHowever, if the X-ray shows a fracture through the growth plate with a triangular metaphyseal fragment \u2014 the classic **Thurston-Holland sign",
+      "prompting_output": "I can\u2019t determine the Salter-Harris type from the information provided because the actual X-ray image or radiology description is missing.\n\nTo identify the injury type on X-ray:\n\n1. **Salter-Harris Type I** \u2013 fracture through the growth plate only; X-ray may look normal, with widened physis.\n2. **Salter-Harris Type II** \u2013 fracture through the growth plate and metaphysis; most common type.\n3. **Salter-Harris Type III** \u2013 fracture through the growth plate and epiphysis; involves the joint surface.\n4. **Salter-Harris Type IV** \u2013 fracture through metaphysis, growth plate, and epiphysis; crosses the joint surface and growth plate.\n5. Your option 5 repeats **Type IV** \u2014 it may have meant **Type V**, which is a crush injury of the growth plate and can be hard to see initially.\n\nIf you upload the X-ray image or provide the radiology report wording, I can help identify the most likely Salter-Harris classification.",
+      "cot_output": "I can\u2019t reliably choose a Salter\u2013Harris type without seeing the X\u2011ray image or the radiology report. A 10-year-old with knee pain/swelling after a fall could have several possible physeal injuries.\n\nHere is how the options are distinguished on X\u2011ray:\n\n1. **Salter-Harris Type I** \u2013 fracture goes **through the growth plate only**; X-ray may look normal except widening of the physis.  \n2. **Salter-Harris Type II** \u2013 fracture goes **through the growth plate and into the metaphysis**; most common type; often has a triangular metaphyseal fragment.  \n3. **Salter-Harris Type III** \u2013 fracture goes **through the growth plate and into the epiphysis/joint surface**.  \n4. **Salter-Harris Type IV** \u2013 fracture goes **through metaphysis + growth plate + epiph",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 49-year-old woman comes to the physician for a scheduled colposcopy. Two weeks ago, she had a routine Pap smear that showed atypical squamous cells. Colposcopy shows an area of white discoloration of the cervix with application of acetic acid solution. Biopsy of this area shows carcinoma-in-situ. Activation of which of the following best explains the pathogenesis of this condition?",
+      "options": {
+        "A": "JAK2 tyrosine kinase",
+        "B": "E2F transcription factors",
+        "C": "Phosphoprotein p53",
+        "D": "Cyclin-dependent kinase inhibitors",
+        "E": "Phosphoprotein p53"
+      },
+      "base_output": "**Answer: 2. E2F transcription factors**\n\nCervical carcinoma-in-situ is most commonly caused by infection with high-risk HPV types, especially **HPV 16 and 18**.\n\nHPV produces two important oncoproteins:\n\n- **E6** \u2192 promotes degradation of **p53**\n- **E7** \u2192 binds and inactivates **Rb**\n\nNormally, **Rb** suppresses the cell cycle by binding **E2F transcription factors**. When HPV E7 inactivates Rb, **E2F is released and activated**, driving cells from the **G1 phase into the S phase**, promoting uncontrolled proliferation.\n\nTherefore, activation of **E2F transcription factors** best explains the pathogenesis.",
+      "prompting_output": "The best answer is **2. E2F transcription factors**.\n\nThis patient has **cervical carcinoma in situ**, most commonly caused by persistent infection with **high-risk HPV types 16 and 18**.\n\nHigh-risk HPV promotes cervical dysplasia and carcinoma through two major viral oncoproteins:\n\n- **E6** \u2192 promotes degradation of **p53**, impairing apoptosis and DNA damage repair\n- **E7** \u2192 binds and inactivates **Rb tumor suppressor protein**\n\nNormally, **Rb inhibits E2F transcription factors**, preventing progression from the **G1 phase to the S phase** of the cell cycle. When HPV E7 inactivates Rb, **E2F is released and activated**, driving uncontrolled cellular proliferation.\n\nTherefore, activation of **E2F transcription factors** best explains the pathogenesis.\n\n**Answer: 2. E2F transcription factors**",
+      "cot_output": "**Answer: 2. E2F transcription factors**\n\nCervical carcinoma-in-situ is most commonly caused by persistent infection with high-risk HPV types, especially **HPV 16 and 18**.\n\nHigh-risk HPV produces two important oncoproteins:\n\n- **E6** \u2192 promotes degradation of **p53**, impairing apoptosis and DNA damage repair\n- **E7** \u2192 binds and inactivates **Rb tumor suppressor protein**\n\nNormally, **Rb** inhibits **E2F transcription factors**, preventing progression from the **G1 to S phase** of the cell cycle. When HPV E7 inactivates Rb, **E2F is released/activated**, leading to increased cellular proliferation and malignant transformation.\n\nTherefore, the pathogenesis is best explained by activation of:\n\n**E2F transcription factors**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Congenital adrenal hyperplasia narrative about the 21-hydroxy enzyme deficiency (21-hydroxylase deficiency) due to the (congenital adrenal hyperplasia), and Which statement is correct?",
+      "options": {
+        "A": "Genital genital boy will appear confused (ambiguous genitalia)",
+        "B": "Most children will appear electrolyte imbalance (electrolyte disturbance)",
+        "C": "Boys than girls predisposed to this disease",
+        "D": "Often clinically to determine the enzyme activity 21 hydroxyalkyl enzyme (enzyme activity) as a basis for diagnosis",
+        "E": "Often clinically to determine the enzyme activity 21 hydroxyalkyl enzyme (enzyme activity) as a basis for diagnosis"
+      },
+      "base_output": "**Correct answer: 2. Most children will appear with electrolyte imbalance/electrolyte disturbance.**\n\nIn **21-hydroxylase deficiency**, the most common form of congenital adrenal hyperplasia, severe/classic cases often have **aldosterone deficiency**, causing **salt-wasting** with:\n\n- **Hyponatremia**\n- **Hyperkalemia**\n- Dehydration\n- Vomiting/shock in neonates\n\nWhy the others are incorrect:\n\n1. **Ambiguous genitalia occurs in girls**, not usually boys. Boys often have normal external genitalia at birth.  \n3. It is **autosomal recessive**, so boys and girls are affected equally.  \n4/5. Diagnosis is usually based on **elevated 17-hydroxyprogesterone**, not routine direct measurement of 21-hydroxylase enzyme activity.",
+      "prompting_output": "**Correct option: 2. Most children will appear with electrolyte disturbance.**\n\nIn **congenital adrenal hyperplasia (CAH) due to 21-hydroxylase deficiency**, the enzyme defect reduces **cortisol** production and often **aldosterone** production. Low aldosterone can cause **salt-wasting**, leading to:\n\n- **Hyponatremia**\n- **Hyperkalemia**\n- Dehydration\n- Vomiting\n- Shock in severe cases\n\nWhy the other options are incorrect:\n\n1. **Boys with ambiguous genitalia** \u2014 Incorrect. **Girls** may have ambiguous genitalia due to excess androgens. Boys usually have normal genitalia at birth.\n2. **Elect",
+      "cot_output": "**Correct statement: 2. Most children will appear electrolyte imbalance.**\n\nIn **21-hydroxylase deficiency**, the most common form of congenital adrenal hyperplasia, there is decreased production of **cortisol** and often **aldosterone**, with increased androgen production.\n\n- **Salt-wasting form** is common in classic 21-hydroxylase deficiency and causes **hyponatremia, hyperkalemia, dehydration, and shock** if untreated.\n- **Girls**, not boys, often present with **ambiguous genitalia** due to excess androgens.\n- **Boys usually have normal external genitalia** at birth, so they may present later with salt-wasting crisis.\n- The disease is **autosomal recessive**, so boys and girls are affected equally.\n- Diagnosis is usually based on **",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Perihepatic fibrosis occurring in Fitz Hugh Cuis Syndrome is due to -",
+      "options": {
+        "A": "Pelvic Inflammatory Disease",
+        "B": "Bile Duct Injry",
+        "C": "Chronic Alcoholism",
+        "D": "Viral Hepatitis",
+        "E": "Bile Duct Injry"
+      },
+      "base_output": "**Answer: 1. Pelvic Inflammatory Disease**\n\nFitz-Hugh-Curtis syndrome is **perihepatitis with perihepatic \u201cviolin-string\u201d adhesions**, typically caused by spread of infection from **PID**, most commonly due to **Chlamydia trachomatis** or **Neisseria gonorrhoeae**.",
+      "prompting_output": "**Correct option: 1. Pelvic Inflammatory Disease**\n\nPerihepatic fibrosis/\u201cviolin-string\u201d adhesions in **Fitz-Hugh-Curtis syndrome** occur due to **perihepatitis associated with pelvic inflammatory disease (PID)**, most commonly caused by **Chlamydia trachomatis** or **Neisseria gonorrhoeae**.",
+      "cot_output": "**Correct option: 1. Pelvic Inflammatory Disease**\n\n**Fitz-Hugh-Curtis syndrome** is a form of **perihepatitis** associated with **pelvic inflammatory disease (PID)**, most commonly due to **Chlamydia trachomatis** or **Neisseria gonorrhoeae**. It causes inflammation of the liver capsule leading to **perihepatic \u201cviolin-string\u201d adhesions/fibrosis**.\n\nSo, the answer is **Pelvic Inflammatory Disease**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "About narrative bile pigment (bile pigment), the Which statement is correct?",
+      "options": {
+        "A": "Is a product of heme breakdown",
+        "B": "Involved in digestion of fat",
+        "C": "All the feces",
+        "D": "In hepatocytes bound to albumin (Albumin)",
+        "E": "All the feces"
+      },
+      "base_output": "Correct option: **1. Is a product of heme breakdown**\n\nBile pigments such as **bilirubin** are formed from the breakdown of **heme** from hemoglobin.\n\n- Fat digestion is mainly by **bile salts**, not bile pigments.\n- Unconjugated bilirubin is bound to **albumin in blood**, not in hepatocytes.\n- Feces get their brown color from bilirubin metabolites like **stercobilin**, but \u201call the feces\u201d is not a correct statement.",
+      "prompting_output": "The correct statement is:\n\n**1. Is a product of heme breakdown**\n\n**Explanation:**  \nBile pigments, mainly **bilirubin** and **biliverdin**, are formed from the breakdown of **heme** from hemoglobin in old red blood cells.\n\nWhy the others are incorrect:\n\n- **2. Involved in digestion of fat** \u2014 This is the role of **bile salts**, not bile pigments.  \n- **4. In hepatocytes bound to albumin** \u2014 Unconjugated bilirubin is bound to **albumin in blood/plasma**, not inside hepatocytes.  \n- If \u201cfeces\u201d refers to color: bilirubin is converted to **stercobilin**, which gives feces its brown color, but bile pigment itself is mainly a heme breakdown product.\n\nSo the best answer is **Option 1**.",
+      "cot_output": "The correct statement is:\n\n**1. Is a product of heme breakdown**\n\n**Explanation:** Bile pigments, mainly **bilirubin**, are formed from the breakdown of **heme** from hemoglobin in old red blood cells.\n\nWhy the others are not correct:\n\n- **2. Involved in digestion of fat** \u2014 This is mainly the role of **bile salts**, not bile pigments.\n- **4. In hepatocytes bound to albumin** \u2014 Bilirubin is transported in the **blood** bound to albumin; inside hepatocytes it is conjugated, mainly with glucuronic acid.\n- **3/5. All the feces** \u2014 Bile pigments contribute to fecal color after conversion to stercobilin, but this wording is not correct as a general statement.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Iron enters enterocyte by :",
+      "options": {
+        "A": "Divalent cation transpoer",
+        "B": "Ferropoin",
+        "C": "Hephaestin",
+        "D": "Ceruloplasmin",
+        "E": "Hephaestin"
+      },
+      "base_output": "Iron enters the enterocyte through:\n\n**1. Divalent cation transporter \u2014 DMT1**\n\nDMT1 transports **Fe\u00b2\u207a** across the apical membrane of intestinal enterocytes.\n\n- **Ferroportin**: exports iron out of enterocyte into blood  \n- **Hephaestin**: oxidizes Fe\u00b2\u207a to Fe\u00b3\u207a during export  \n- **Ceruloplasmin**: plasma ferroxidase, helps iron transport in blood  \n\n**Correct answer: 1. Divalent cation transporter**",
+      "prompting_output": "Iron enters the enterocyte through:\n\n**1. Divalent cation transporter \u2014 DMT1**\n\n**Explanation:**  \nDietary non-heme iron is reduced from **Fe\u00b3\u207a to Fe\u00b2\u207a** at the intestinal brush border, then **Fe\u00b2\u207a enters enterocytes via DMT1**.\n\n- **Ferroportin**: exports iron from enterocyte to blood  \n- **Hephaestin**: oxidizes Fe\u00b2\u207a to Fe\u00b3\u207a after export  \n- **Ceruloplasmin**: plasma ferroxidase, helps iron transport in blood  \n\n**Correct answer: 1. Divalent cation transporter**",
+      "cot_output": "Iron enters the enterocyte via:\n\n**1. Divalent cation transporter** \u2014 specifically **DMT1 (Divalent Metal Transporter 1)**.\n\n- **DMT1** transports **Fe\u00b2\u207a (ferrous iron)** across the **apical membrane** of intestinal enterocytes.\n- **Ferroportin** exports iron from enterocytes into blood.\n- **Hephaestin** oxidizes Fe\u00b2\u207a to Fe\u00b3\u207a during export.\n- **Ceruloplasmin** is a copper-containing ferroxidase in plasma.\n\n**Correct answer: 1. Divalent cation transporter**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Falange is a type of?",
+      "options": {
+        "A": "Physical torture",
+        "B": "Sexual torture",
+        "C": "Mental torture",
+        "D": "Method of homicide",
+        "E": "Sexual torture"
+      },
+      "base_output": "1. Physical torture",
+      "prompting_output": "**Falange (falanga/falaka)** is a type of **physical torture** involving beating the soles of the feet.\n\n**Correct option: 1. Physical torture**",
+      "cot_output": "**Falange (Falanga/Falaka)** is a form of **physical torture** involving beating the soles of the feet.\n\n**Correct option: 1. Physical torture**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "The hallmark of henoch schonlein purpura is",
+      "options": {
+        "A": "Palpable purpura",
+        "B": "Abdominal pain",
+        "C": "Ahritis",
+        "D": "Renal dysfunction",
+        "E": "Renal dysfunction"
+      },
+      "base_output": "**Answer: 1. Palpable purpura**\n\nThe hallmark of Henoch\u2013Sch\u00f6nlein purpura / IgA vasculitis is **palpable purpura**, typically on the **legs and buttocks**.",
+      "prompting_output": "The hallmark of Henoch\u2013Sch\u00f6nlein purpura (IgA vasculitis) is:\n\n**1. Palpable purpura**\n\nIt is typically a **non-thrombocytopenic palpable purpuric rash**, often on the **buttocks and lower limbs**. Abdominal pain, arthritis/arthralgia, and renal involvement can occur, but the classic hallmark is **palpable purpura**.",
+      "cot_output": "The hallmark of Henoch\u2013Sch\u00f6nlein purpura (IgA vasculitis) is:\n\n**1. Palpable purpura**\n\nIt is typically a **non-thrombocytopenic palpable purpuric rash**, especially over the **buttocks and lower limbs**. Other features include abdominal pain, arthritis/arthralgia, and renal involvement.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "When carrying out air health transport, it is necessary to take into account a series of physical factors that may influence the pathology of the evacuated patient. Noise is one of them, what is the noise level inside a sanitary transport aircraft ?:",
+      "options": {
+        "A": "70-80 dB.",
+        "B": "80-90 dB.",
+        "C": "100-110 dB.",
+        "D": "60-70 dB.",
+        "E": "100-110 dB."
+      },
+      "base_output": "The noise level inside a sanitary",
+      "prompting_output": null,
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "The histological finding that allows a diagnosis of Barret's esophagus in a biopsy is the presence of:",
+      "options": {
+        "A": "Papillomatous flat epithelium.",
+        "B": "Specialized columnar epithelium with goblet cells.",
+        "C": "Inflammatory infiltrate mononuclear.",
+        "D": "Glycogenic acanthosis.",
+        "E": "Inflammatory infiltrate mononuclear."
+      },
+      "base_output": "**Answer: 2. Specialized columnar epithelium with goblet cells.**\n\nThis represents **intestinal metaplasia**, the key histologic finding required for a diagnosis of **Barrett\u2019s esophagus**.",
+      "prompting_output": "The correct answer is:\n\n**2. Specialized columnar epithelium with goblet cells.**\n\n**Explanation:** Barrett\u2019s esophagus is diagnosed on biopsy by finding **intestinal metaplasia**, meaning replacement of the normal stratified squamous epithelium of the distal esophagus by **specialized columnar epithelium containing goblet cells**. This occurs most commonly due to chronic gastroesophageal reflux disease.",
+      "cot_output": "The correct answer is:\n\n**2. Specialized columnar epithelium with goblet cells.**\n\n**Explanation:**  \nBarrett\u2019s esophagus is diagnosed on biopsy by finding **intestinal metaplasia** of the distal esophageal mucosa, characterized by **specialized columnar epithelium containing goblet cells**, replacing the normal stratified squamous epithelium.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Which of the following is TRUE about propagated nerve action potential?",
+      "options": {
+        "A": "Decremental",
+        "B": "Not affected by hypoxia",
+        "C": "Fastest in C fibers",
+        "D": "Not affected by membrane capacitance",
+        "E": "Fastest in C fibers"
+      },
+      "base_output": "**Correct option: 2. Not affected by hypoxia**\n\nA propagated nerve action potential is **non-decremental** and is relatively **resistant to hypoxia** compared with synaptic transmission.\n\nWhy others are false:\n- **1. Decremental** \u2014 False; propagated APs are **non-decremental**.\n- **3/5. Fastest in C fibers** \u2014 False; **C fibers are slowest**. Fastest are large myelinated **A\u03b1 fibers**.\n- **4. Not affected by membrane capacitance** \u2014 False; membrane capacitance affects conduction velocity, and myelination reduces capacitance to speed conduction.",
+      "prompting_output": "The TRUE statement is:\n\n**2. Not affected by hypoxia**\n\nA propagated nerve action potential is:\n\n- **Non-decremental** \u2014 it maintains its amplitude along the nerve fiber.\n- **Affected by membrane capacitance** \u2014 lower capacitance, as in myelinated fibers, increases conduction velocity.\n- **Fastest in large myelinated fibers**, not C fibers.\n- **C fibers are the slowest** because they are small-diameter and unmyelinated.\n\nSo the best answer is **Option 2**.",
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "What is the route par excellence in mammals for the formation of NADPH ?:",
+      "options": {
+        "A": "Pentose phosphate pathway.",
+        "B": "Glucolysis",
+        "C": "Cycle of tricarboxylic acids.",
+        "D": "Catabolism of fatty acids.",
+        "E": "Cycle of tricarboxylic acids."
+      },
+      "base_output": "The correct answer is:\n\n**1. Pentose phosphate pathway**\n\nThe **pentose phosphate pathway** is the main route in mammals for producing **NADPH**, which is used in reductive biosynthesis and antioxidant defense.",
+      "prompting_output": "**Correct answer: 1. Pentose phosphate pathway.**\n\nIn mammals, the **pentose phosphate pathway** (also called the **hexose monophosphate shunt**) is the main route for generating **NADPH**, especially for fatty acid synthesis, cholesterol synthesis, and maintaining reduced glutathione.",
+      "cot_output": "The correct answer is:\n\n**1. Pentose phosphate pathway.**\n\nIn mammals, the **pentose phosphate pathway**\u2014especially its **oxidative phase**\u2014is the principal route for producing **NADPH**. NADPH is used for reductive biosynthesis, antioxidant defense via glutathione reduction, fatty acid synthesis, cholesterol synthesis, and steroid synthesis.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Which of the following practices can not let severe head trauma patients with brain pressure drop?",
+      "options": {
+        "A": "Lying",
+        "B": "Relieve pain",
+        "C": "The use of tranquilizers",
+        "D": "Cerebrospinal fluid drainage",
+        "E": "The use of tranquilizers"
+      },
+      "base_output": "**Answer: 1. Lying**\n\nFor severe head trauma patients, measures like **pain relief**, **tranquilizers/sedation**, and **cerebrospinal fluid drainage** can help reduce intracranial pressure. Simply **lying flat** generally does **not** reduce brain pressure and may worsen it; head elevation is usually preferred.",
+      "prompting_output": "**Answer: 1. Lying**\n\nIn severe head trauma with raised intracranial pressure, simply **lying flat** does **not** help reduce brain pressure and may even worsen venous drainage from the brain.  \n\nMeasures that can help lower intracranial pressure include:\n\n- **Relieving pain**\n- **Using sedatives/tranquilizers** to reduce agitation and metabolic demand\n- **Cerebrospinal fluid drainage** when clinically indicated\n\nSo the practice that **cannot** make brain pressure drop is **lying**, especially lying flat.",
+      "cot_output": "**Answer: 1. Lying**\n\nIn severe head trauma with increased intracranial pressure, measures that can help reduce brain pressure include:\n\n- **Relieving pain**\n- **Using sedatives/tranquilizers when appropriate**\n- **Cerebrospinal fluid drainage**\n\nSimply **lying flat** generally does **not** reduce intracranial pressure and may worsen it. Patients are often positioned with the **head elevated about 30\u00b0** and the neck kept neutral to help venous drainage.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "If you notice a small US friends to participate in sports associations and regular exercise, not only refreshing but also to make like-minded friends, and therefore think they also participate in sports associations, it will be healthy and make friends, this is the application that a theory or mode to change behavior?",
+      "options": {
+        "A": "Social Learning Theory",
+        "B": "Persuade theory",
+        "C": "Operational control theory",
+        "D": "Cross-theoretical model",
+        "E": "Cross-theoretical model"
+      },
+      "base_output": "**Option 1. Social Learning Theory**\n\nThis is because the person observes friends participating in sports, sees positive outcomes (health, refreshment, making friends), and is motivated to copy that behavior. This matches **observational learning/modeling**, a key part of Social Learning Theory.",
+      "prompting_output": "**Answer: 1. Social Learning Theory**\n\nThis situation describes **observing friends** participating in sports, seeing the **positive outcomes** (health, refreshment, making friends), and then being motivated to do the same. That is a key idea of **Social Learning Theory**: people can change behavior by **observing and imitating others**, especially when those behaviors appear rewarding.",
+      "cot_output": "**Answer: 1. Social Learning Theory**\n\nThis situation describes **observational learning/modeling**: you see friends participating in sports, exercising regularly, feeling refreshed, and making friends, so you believe you may gain similar benefits and decide to participate too.\n\nThat is a key idea of **Social Learning Theory**\u2014people change behavior by observing others and the positive outcomes they receive.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    }
+  ]
+}

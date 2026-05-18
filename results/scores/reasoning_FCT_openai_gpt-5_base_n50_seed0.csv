@@ -1,0 +1,2 @@
+provider,model,config,mode,sample_size,seed,correct,total,accuracy,pointwise_score
+openai,gpt-5,reasoning_FCT,base,50,0,41,50,0.82,0.775

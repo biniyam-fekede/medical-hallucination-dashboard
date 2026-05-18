@@ -1,0 +1,707 @@
+{
+  "seed": 0,
+  "results": [
+    {
+      "question": "In what type of dissociative disorder does the patient feel distanced as if he were an external observer of his body or mental processes ?:",
+      "options": {
+        "A": "The dissociative escape",
+        "B": "The conversion disorder.",
+        "C": "None of the above",
+        "D": "Hysterical psychosis"
+      },
+      "base_output": "**3. None of the above**\n\nThe symptom described\u2014feeling detached from oneself as if observing one\u2019s body or mental processes from outside\u2014is characteristic of **depersonalization/derealization disorder**, which is not listed among the options.",
+      "prompting_output": "The correct answer is:\n\n**3. None of the above**\n\nThe symptom described\u2014feeling detached from oneself, as if observing one\u2019s own body or mental processes from outside\u2014is characteristic of **depersonalization**, which occurs in **Depersonalization/Derealization Disorder**, a type of dissociative disorder.\n\nIt is **not** dissociative fugue/escape, conversion disorder, or hysterical psychosis.",
+      "cot_output": "**Correct option: 3. None of the above**\n\nThe symptom described\u2014feeling detached or as if one is an external observer of one\u2019s own body or mental processes\u2014is characteristic of **depersonalization**, seen in **Depersonalization/Derealization Disorder**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Amalia is a 3 year old girl who has been operated on tetralogy of Fallot. He also presented a thymic dysfunction in the neonatal period and a hypocalcemia as well as a nasal voice together with psychomotor retardation. What genetic test do you consider most appropriate to reach your etiological diagnosis?",
+      "options": {
+        "A": "None of the above",
+        "B": "Study of the expansion of the FMR1 gene, responsible for the X fragil syndrome.",
+        "C": "Sequencing of genes related to HRAS (Noonan syndrome)",
+        "D": "Genetic study of Williams Beuren syndrome."
+      },
+      "base_output": "**Correct option: 1. None of the above**\n\nAmalia\u2019s features are highly suggestive of **22q11.2 deletion syndrome** \u2014 also called **DiGeorge syndrome / velocardiofacial syndrome**:\n\n- **Tetralogy of Fallot**\n- **Thymic dysfunction**\n- **Neonatal hypocalcemia**\n- **Nasal voice / velopharyngeal insufficiency**\n- **Psychomotor delay**\n\nThe most appropriate genetic test would be a study for **22q11.2 microdeletion**, preferably by:\n\n- **Chromosomal microarray**\n- **MLPA for 22q11.2**\n- Or **FISH for 22q11.2 deletion**\n\nSince this is not among the listed options, the best answer is **None of the above**.",
+      "prompting_output": "**Most appropriate option: 1. None of the above.**\n\nAmalia\u2019s features strongly suggest **22q11.2 deletion syndrome** \u2014 also known as **DiGeorge syndrome / velocardiofacial syndrome**:\n\n- **Tetralogy of Fallot** \u2192 conotruncal heart defect  \n- **Thymic dysfunction** \u2192 T-cell immunodeficiency  \n- **Neonatal hypocalcemia** \u2192 hypoparathyroidism  \n- **Nasal voice** \u2192 velopharyngeal insufficiency/palatal dysfunction  \n- **Psychomotor retardation/developmental delay**\n\nThe appropriate genetic test would be a study for **22q11.2 microdeletion**, preferably:\n\n- **Chromosomal microarray-CGH/SNP array**, or  \n- **MLPA for 22q11.2 deletion**, or  \n- **FISH for 22q11.2**, though microarray/MLPA are generally more comprehensive.\n\nSo, since none of the listed specific tests correspond to DiGeorge/22q11.2 deletion syndrome, the correct answer is **\u201cNone of the above.\u201d**",
+      "cot_output": "The most likely etiological diagnosis is **22q11.2 deletion syndrome** \u2014 also known as **DiGeorge syndrome / velocardiofacial syndrome**.\n\nKey clues:\n\n- **Tetralogy of Fallot** \u2192 conotruncal heart defect\n- **Thymic dysfunction** \u2192 T-cell immunodeficiency\n- **Neonatal hypocalcemia** \u2192 hypoparathyroidism\n- **Nasal voice** \u2192 velopharyngeal insufficiency\n- **Psychomotor retardation/developmental delay**\n\nThe appropriate genetic test would be a study for **22q11.2 microdeletion**, such as **chromosomal microarray**, **MLPA**, or **FISH** targeting 22q11.2.\n\nSince that option is not listed, the correct answer is:\n\n**1. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Nick oxide is synthesized from?",
+      "options": {
+        "A": "None of the above",
+        "B": "L-citrulline",
+        "C": "Lysine",
+        "D": "Tryptophan"
+      },
+      "base_output": "Nitric oxide is synthesized from **L-arginine**.\n\nSince L-arginine is not listed, the correct option is:\n\n**1. None of the above**",
+      "prompting_output": "Nitric oxide (NO) is synthesized from **L-arginine** by the enzyme **nitric oxide synthase (NOS)**, producing **L-citrulline** as a byproduct.\n\nSince **L-arginine is not listed**, the correct option is:\n\n**1. None of the above**",
+      "cot_output": "Nitric oxide (NO) is synthesized from **L-arginine** by the enzyme **nitric oxide synthase (NOS)**, producing **NO + L-citrulline**.\n\nSince **L-arginine** is not listed, the correct option is:\n\n**1. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Parasitic infestation which can lead to malabsorption syndrome?",
+      "options": {
+        "A": "Amoebiasis",
+        "B": "Ascariasis",
+        "C": "Hookworm infestation",
+        "D": "None of the above"
+      },
+      "base_output": null,
+      "prompting_output": "**Correct option: 2. Ascariasis**\n\nHeavy **Ascaris lumbricoides** infestation can involve the small intestine and may lead to **malabsorption syndrome**, especially in children.\n\n- **Amoebiasis** mainly affects the colon \u2192 dysentery/colitis, not typical malabsorption.  \n- **Hookworm infestation** mainly causes iron-deficiency anemia due to blood loss.  \n- The classic parasite causing malabsorption is **Giardia lamblia**, but it is not listed among the options.",
+      "cot_output": "**Correct answer: 4. None of the above**\n\nThe classic parasitic infestation associated with **malabsorption syndrome** is **Giardia lamblia (giardiasis)**, which is **not listed** among the options.\n\n- **Amoebiasis** \u2192 dysentery/liver abscess  \n- **Ascariasis** \u2192 intestinal obstruction, nutritional effects in heavy infection, but not classic malabsorption syndrome  \n- **Hookworm** \u2192 iron deficiency anemia/protein loss  \n\nSo the best answer is **None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "In a patient diagnosed with pneumonia and with metaneumonic pleural effusion in 2/3 of the right hemithorax, which of the following sign associations is frequent to observe?",
+      "options": {
+        "A": "Normal vesicular murmur - normal vocal vibrations-matt percussion.",
+        "B": "Diminished vesicular murmur - increased vocal vibrations - percussion mate.",
+        "C": "None of the above",
+        "D": "Diminished vesicular murmur - diminished vocal vibrations - percussion mate."
+      },
+      "base_output": "**Correct option: 4. Diminished vesicular murmur \u2013 diminished vocal vibrations \u2013 matte/dull percussion.**\n\nIn a significant pleural effusion, fluid in the pleural space dampens transmission of breath sounds and vocal vibrations, producing:\n\n- **Decreased/absent vesicular murmur**\n- **Decreased/absent vocal fremitus/vibrations**\n- **Dull or \u201cmatte\u201d percussion** over the effusion area.",
+      "prompting_output": "The correct option is:\n\n**4. Diminished vesicular murmur \u2013 diminished vocal vibrations \u2013 percussion mate.**\n\nIn a **metapneumonic pleural effusion** occupying a large portion of the hemithorax, typical physical findings are:\n\n- **Diminished or absent vesicular murmur** due to fluid separating the lung from the chest wall  \n- **Diminished vocal vibrations/fremitus** because fluid dampens sound transmission  \n- **Dull/matte percussion** over the area of effusion  \n\nSo the frequent sign association is **option 4**.",
+      "cot_output": "**Correct option: 4. Diminished vesicular murmur \u2013 diminished vocal vibrations \u2013 percussion mate.**\n\nIn a **large pleural effusion** occupying about **2/3 of the hemithorax**, the typical physical findings are:\n\n- **Decreased or abolished breath sounds** over the effusion  \n- **Decreased tactile vocal fremitus/vibrations** because fluid blocks transmission  \n- **Dull/flat percussion note** (\u201cmate\u201d/matidez) over the fluid  \n\nThis contrasts with **pneumonic consolidation**, where vocal vibrations are usually increased.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 36-year-old woman, gravida 3, para 2, at 31 weeks' gestation comes to the emergency department because of painless, bright red vaginal bleeding for one day. She has not felt any contractions. Her other children were delivered by Cesarean section because of breech position. Fetal heart rate is reactive with no decelerations. Which of the following findings is most likely on ultrasound?",
+      "options": {
+        "A": "Retroplacental hematoma",
+        "B": "Adnexal bleeding",
+        "C": "None of the above",
+        "D": "Gestational sac in a dilated cervix"
+      },
+      "base_output": "**Answer: 3. None of the above**\n\nThis patient most likely has **placenta previa**, suggested by:\n\n- **Painless, bright red vaginal bleeding** in the third trimester  \n- No contractions or abdominal pain  \n- History of prior **Cesarean deliveries**, a risk factor for placenta previa  \n- Reassuring fetal heart tracing\n\nUltrasound would most likely show a **placenta partially or completely covering the internal cervical os**, but that option is not listed.\n\nWhy the others are unlikely:\n\n1. **Retroplacental hematoma** \u2192 suggests placental abruption, usually painful bleeding with uterine tenderness  \n2. **Adnexal bleeding** \u2192 suggests ectopic pregnancy, not a 31-week intrauterine pregnancy  \n4. **Gestational sac in a dilated cervix** \u2192 suggests miscarriage/cervical pregnancy, not third-trimester bleeding\n\nTherefore, the best choice is **None of the above**.",
+      "prompting_output": "**Answer: 3. None of the above**\n\nThis patient most likely has **placenta previa**, which presents with:\n\n- **Painless, bright red vaginal bleeding**\n- Typically in the **second or third trimester**\n- No uterine tenderness or contractions\n- Reassuring fetal status may be present\n- Risk factors include **prior Cesarean delivery**\n\nThe expected ultrasound finding would be a **placenta implanted over or near the internal cervical os**, not any of the listed options.\n\nWhy the other choices are unlikely:\n\n1. **Retroplacental hematoma** \u2014 suggests **placental abruption**, which usually causes **painful bleeding**, uterine tenderness, contractions, and possible fetal distress.\n2. **Adnexal bleeding** \u2014 suggests ectopic pregnancy, which occurs in early pregnancy.\n4. **Gestational sac in a dilated cervix** \u2014 suggests spontaneous abortion, also an early pregnancy finding.\n\nTherefore, the best choice is **None of the above**.",
+      "cot_output": "**Most likely answer: 3. None of the above**\n\nThis patient\u2019s presentation is most consistent with **placenta previa**:\n\n- **Painless**, bright red vaginal bleeding in the **third trimester**\n- No contractions\n- Prior **Cesarean deliveries**, which are a major risk factor\n- Reassuring fetal heart tracing\n\nOn ultrasound, the expected finding would be a **placenta partially or completely covering the internal cervical os**.\n\nWhy the other options are unlikely:\n\n1. **Retroplacental hematoma** \u2014 suggests **placental abruption**, which usually causes painful bleeding, uterine tenderness, contractions, and sometimes fetal distress.\n2. **Adnexal bleeding** \u2014 suggests ectopic pregnancy, not a 31-week intrauterine pregnancy.\n4. **Gestational sac in a dilated cervix** \u2014 suggests spontaneous abortion, which occurs much earlier in pregnancy.\n\nTherefore, since placenta previa is not listed, the best choice is **None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Nucleus ambiguus is not associated with which cranial nerve:",
+      "options": {
+        "A": "X",
+        "B": "XI",
+        "C": "IX",
+        "D": "None of the above"
+      },
+      "base_output": "**Answer: 4. None of the above**\n\nThe **nucleus ambiguus** is associated with cranial nerves:\n\n- **IX** \u2014 Glossopharyngeal\n- **X** \u2014 Vagus\n- **XI** \u2014 Cranial part of accessory nerve\n\nSo it is **not unassociated** with any of the listed nerves.",
+      "prompting_output": "**Answer: 4. None of the above**\n\nThe **nucleus ambiguus** is associated with motor fibers of:\n\n- **CN IX (Glossopharyngeal)** \u2014 e.g., stylopharyngeus\n- **CN X (Vagus)** \u2014 muscles of palate, pharynx, larynx\n- **CN XI (Accessory, cranial part)** \u2014 traditionally described as arising from nucleus ambiguus and joining the vagus\n\nSo it is associated with **IX, X, and XI**, making the correct option **None of the above**.",
+      "cot_output": "**Answer: 4. None of the above**\n\nThe **nucleus ambiguus** is associated with branchial motor fibers of:\n\n- **CN IX** \u2014 glossopharyngeal nerve  \n- **CN X** \u2014 vagus nerve  \n- **CN XI** \u2014 accessory nerve, especially the cranial/root component traditionally described\n\nSo it is **not \u201cunassociated\u201d with any of the listed nerves**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 50 years old patient presented with progressive jaundice. Liver function test was done in which conju!gated serum bilirubin-4.8% and total bilirubin-6.7%, alkaline phosphatase- 550 IU, SGOT-50, SGPT-65. Most probable diagnosis is;",
+      "options": {
+        "A": "None of the above",
+        "B": "Dubin-Johnson syndrome",
+        "C": "Viral hepatitis",
+        "D": "Malignant obstructive jaundice"
+      },
+      "base_output": "Most probable diagnosis: **4. Malignant obstructive jaundice**\n\n**Reason:** The liver function test shows a **cholestatic/obstructive pattern**:\n\n- **Conjugated bilirubin high**: 4.8 out of total 6.7\n- **Alkaline phosphatase markedly raised**: 550 IU\n- **SGOT/SGPT only mildly raised**: 50/65\n\nIn a **50-year-old with progressive jaundice**, this is most suggestive of **malignant obstructive jaundice**.",
+      "prompting_output": "Most probable diagnosis: **4. Malignant obstructive jaundice**\n\n**Reasoning:**\n- The patient has **progressive jaundice** at age 50, which raises concern for obstruction due to malignancy.\n- Labs show a **cholestatic/obstructive pattern**:\n  - **Conjugated bilirubin elevated**: 4.8 out of total 6.7 mg/dL\n  - **Alkaline phosphatase markedly elevated**: 550 IU\n  - **SGOT/SGPT only mildly elevated**: 50/65 IU\n\nThis pattern is typical of **obstructive jaundice**, and in an older patient with progressive symptoms, **malignant obstruction** is most likely.",
+      "cot_output": "Most probable diagnosis: **4. Malignant obstructive jaundice**\n\n**Reasoning:**\n- The patient is **50 years old** with **progressive jaundice**, which raises concern for an obstructive cause, especially malignancy.\n- Labs show a **cholestatic/obstructive pattern**:\n  - **Conjugated bilirubin elevated**: 4.8 out of total 6.7\n  - **Alkaline phosphatase markedly raised**: 550 IU\n  - **SGOT/AST and SGPT/ALT only mildly elevated**: 50 and 65\n\nThis pattern is typical of **extrahepatic obstruction**, and in an older patient with progressive jaundice, the most likely cause among the options is **malignant obstructive jaundice**.\n\n**Why not others?**\n- **Viral hepatitis** usually causes very high SGOT/SGPT, often in hundreds to thousands.\n- **Dubin-Johnson syndrome** causes conjugated hyperbilirubinemia but usually has otherwise normal liver enzymes and is benign/non-progressive.\n\nTherefore, the best answer is **Malignant obstructive jaundice**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Linoleic acid is -",
+      "options": {
+        "A": "w-3 fatty acid",
+        "B": "None of the above",
+        "C": "w-9 fatty acid",
+        "D": "Saturated fatty acid"
+      },
+      "base_output": "**Linoleic acid is an \u03c9-6 (omega-6) fatty acid.**\n\nSo the correct option is: **2. None of the above**",
+      "prompting_output": "Linoleic acid is an **\u03c9-6 (omega-6) polyunsaturated essential fatty acid**.\n\n\u2705 Correct option: **2. None of the above**",
+      "cot_output": "Linoleic acid is an **\u03c9-6 (omega-6) polyunsaturated fatty acid**.\n\nSince \u03c9-6 is not listed, the correct option is:\n\n**2. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 42-year-old man is being treated by his female family medicine physician for chronic depression. Recently, he has been scheduling more frequent office visits. He does not report any symptoms or problems with his SSRI medication during these visits. Upon further questioning, the patient confesses that he is attracted to her and says \"You are the only one in the world who understands me\". The physician also manages his hypertension. Which of the following is the most appropriate next step in management?",
+      "options": {
+        "A": "Re-evaluate this patient for borderline personality disorder",
+        "B": "None of the above",
+        "C": "Immediately tell this patient that you can not continue to treat him and avoid any further communication",
+        "D": "Increase the dosage of this patient\u2019s SSRI"
+      },
+      "base_output": "**Answer: 2. None of the above**\n\nThis patient is exhibiting **transference**\u2014redirecting feelings, needs, or attachment toward the physician, often seen in patients receiving ongoing care for depression or other chronic conditions.\n\nThe appropriate response is to:\n\n- **Maintain clear professional boundaries**\n- **Acknowledge the patient\u2019s feelings without reciprocating**\n- **Clarify the therapeutic nature of the relationship**\n- Continue treatment if boundaries can be maintained, or arrange an appropriate referral if the relationship becomes unmanageable\n\nThe physician should **not abruptly terminate care**, as that could constitute patient abandonment. There is also no indication to increase the SSRI dose or diagnose borderline personality disorder based solely on this interaction.",
+      "prompting_output": "**Correct answer: 2. None of the above**\n\nThis patient is demonstrating **transference**\u2014redirecting feelings and emotional needs onto the physician. The appropriate response is to **maintain clear professional boundaries**, acknowledge the patient\u2019s feelings without reciprocating them, and redirect the focus back to his medical and psychiatric care.\n\nThe physician should **not** abruptly terminate care or avoid communication, as that could constitute patient abandonment\u2014especially since she also manages his hypertension. If the situation becomes difficult to manage or interferes with care, she can arrange a **careful transfer** to another physician or refer him for psychotherapy/psychiatry while ensuring continuity.\n\nWhy the other options are incorrect:\n\n- **Re-evaluate for borderline personality disorder:** His statement may reflect dependency or transference, but this alone is not enough to diagnose or specifically suspect borderline personality disorder.\n- **Immediately stop treating him and avoid communication:** This is inappropriate and potentially unethical due to abandonment.\n- **Increase SSRI dose:** He has no worsening depressive symptoms or medication issues; his behavior is not an indication to increase the SSRI.\n\nBest next step in practice: **Set firm boundaries, continue appropriate medical care, and consider mental health referral if needed.**",
+      "cot_output": "**Answer: 2. None of the above**\n\nThis patient is demonstrating **transference** \u2014 redirecting feelings, dependency, or attraction toward the physician, often because the physician is perceived as uniquely understanding or caring.\n\nThe most appropriate management would be to:\n\n- **Maintain clear professional boundaries**\n- **Acknowledge the patient\u2019s feelings in a neutral, nonjudgmental way**\n- **Clarify that the relationship must remain therapeutic/professional**\n- Continue treatment **if boundaries can be maintained**\n- If the attraction disrupts care or the physician feels unable to remain objective, arrange an **appropriate transfer of care** with continuity, rather than abruptly terminating the relationship\n\nWhy the other options are incorrect:\n\n1. **Re-evaluate for borderline personality disorder** \u2014 The statement may reflect dependency or transference, but it is not enough to diagnose or specifically suspect borderline personality disorder.\n3. **Immediately stop treating him and avoid communication** \u2014 This would risk **patient abandonment**, especially since she also manages his hypertension.\n4. **Increase SSRI dosage** \u2014 There is no evidence of worsening depression or medication failure; his behavior reflects a boundary/transference issue, not necessarily undertreated depression.\n\nSo the correct choice is **None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "In a patient with obstructive jaundice, what is the possible explanation for a bilirubin level of 40 mg/dL?",
+      "options": {
+        "A": "Malignant obstruction",
+        "B": "Complete obstruction of common bile duct",
+        "C": "None of the above",
+        "D": "Liver failure"
+      },
+      "base_output": null,
+      "prompting_output": null,
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 39-year-old woman is brought to the emergency room by her fianc\u00e9 for severe abdominal pain for the past 5 hours. She was watching TV after dinner when she felt a sudden, sharp, 10/10 pain at the epigastric region that did not go away. Ibuprofen also did not help. She reports recurrent abdominal pain that would self-resolve in the past but states that \u201cthis one is way worse.\u201d Her past medical history is significant for diabetes and an appendectomy 2 years ago. The patient endorses nausea and 1 episode of emesis, but denies fevers, chills, chest pain, shortness of breath, diarrhea, constipation, urinary symptoms, paresthesia, or weakness. She used to smoke marijuana in college and drinks about 2 beers a week. A physical examination demonstrates an overweight woman in acute distress with diffuse abdominal tenderness. Her vitals are within normal limits. Laboratory values are shown below:",
+      "options": {
+        "K+: 4": "8 mEq/L",
+        "Ca2+:  6": "9 mg/dL",
+        "A": "Abdominal computed tomography without IV contrast",
+        "B": "Abdominal magnetic resonance imaging",
+        "C": "None of the above",
+        "D": "Upright chest and abdominal radiograph"
+      },
+      "base_output": null,
+      "prompting_output": null,
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Relieve pain patients on principle, Which statement is correct?",
+      "options": {
+        "A": "If non-cancer pain in patients with chronic pain, the physician must be unused opioids to control their pain",
+        "B": "None of the above",
+        "C": "Patients with a history of drug abuse if the pain should first note after psychiatrists, before treatment",
+        "D": "If cancer patients need to use opioids for pain relief, the dose should be less the better, so as not to become addicted patients"
+      },
+      "base_output": "Correct answer: **2. None of the above**\n\nWhy:\n\n- **Option 1:** Opioids are **not mandatory** for chronic non-cancer pain; they may be considered only in selected cases with careful monitoring.\n- **Option 3:** A history of drug abuse requires caution and monitoring, but pain treatment should **not be delayed** until after psychiatric review in all cases.\n- **Option 4:** In cancer pain, opioids should be dosed according to pain relief and side effects\u2014not kept \u201cas low as possible\u201d out of fear of addiction. Adequate pain control is the priority.",
+      "prompting_output": "Correct answer: **2. None of the above**\n\nWhy:\n\n1. **Chronic non-cancer pain** does **not automatically require opioids**. Opioids may be considered only after careful assessment and when benefits outweigh risks.\n\n3. Patients with a **history of drug abuse** still deserve prompt pain treatment. Psychiatric/addiction consultation may be helpful, but pain relief should not be delayed unnecessarily.\n\n4. In **cancer pain**, opioids should be **titrated to adequate pain relief**, not kept \u201cas low as possible\u201d out of fear of addiction. The correct dose is the dose that relieves pain with acceptable side effects.",
+      "cot_output": "Correct answer: **2. None of the above**\n\nExplanation:\n\n1. **Incorrect** \u2014 Chronic non-cancer pain does **not automatically require opioids**. Treatment should be individualized and often starts with non-opioid medications and non-pharmacologic therapies.\n\n3. **Incorrect** \u2014 A history of drug abuse requires careful assessment and monitoring, but **pain treatment should not be delayed until after psychiatric evaluation** if the patient is in pain.\n\n4. **Incorrect** \u2014 In cancer pain, opioids should be used at a dose that **adequately relieves pain**, not simply \u201cas low as possible\u201d due to fear of addiction. Proper opioid use for cancer pain rarely causes addiction when appropriately managed.\n\nTherefore, **none of the listed statements is correct**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Anti epileptic of choice in pregnancy is?",
+      "options": {
+        "A": "Valproate",
+        "B": "Carbamazepine",
+        "C": "Phenytoin",
+        "D": "None of the above"
+      },
+      "base_output": "**Answer: 2. Carbamazepine**\n\nAmong the listed options, **carbamazepine** is generally considered the preferred/safer antiepileptic in pregnancy compared with **valproate** and **phenytoin**.\n\n*Note:* In current practice, **lamotrigine or levetiracetam** are often preferred when suitable, and **valproate is avoided** due to high teratogenic risk.",
+      "prompting_output": null,
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Age of preoperational stage is",
+      "options": {
+        "A": "1-2 years",
+        "B": "None of the above",
+        "C": "8-11 years",
+        "D": "0-2 years"
+      },
+      "base_output": "**2. None of the above**\n\nThe **preoperational stage** is typically from **2 to 7 years** of age.",
+      "prompting_output": "The **preoperational stage** in Piaget\u2019s theory is from approximately **2 to 7 years**.\n\nSo the correct option is:\n\n**2. None of the above**",
+      "cot_output": "The **preoperational stage** in Piaget\u2019s cognitive development theory is typically from **2 to 7 years** of age.\n\n\u2705 Correct option: **2. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Which of the following causes of malabsorption occurs with alteration of the intestinal mucosa ?:",
+      "options": {
+        "A": "The Crigler-Najjar syndrome.",
+        "B": "A cholestasis",
+        "C": "None of the above",
+        "D": "Achalasia"
+      },
+      "base_output": "**Correct option: 3. None of the above**\n\nMalabsorption due to **alteration of the intestinal mucosa** occurs in conditions like **celiac disease, tropical sprue, Crohn disease, Whipple disease**, etc.\n\n- **Crigler-Najjar syndrome**: bilirubin conjugation defect, not malabsorption.\n- **Cholestasis**: causes fat malabsorption due to lack of bile salts, but **does not primarily alter intestinal mucosa**.\n- **Achalasia**: esophageal motility disorder, not intestinal mucosal disease.",
+      "prompting_output": "**Correct answer: 3. None of the above**\n\nMalabsorption due to **alteration of the intestinal mucosa** occurs in conditions such as **celiac disease, tropical sprue, Crohn disease, Whipple disease**, etc.\n\n- **Crigler-Najjar syndrome**: bilirubin conjugation defect, not intestinal mucosal disease.  \n- **Cholestasis**: can cause fat malabsorption due to lack of bile salts, but the intestinal mucosa is not primarily altered.  \n- **Achalasia**: esophageal motility disorder, not a cause of intestinal mucosal malabsorption.",
+      "cot_output": "**Correct answer: 3. None of the above**\n\nMalabsorption due to **alteration of the intestinal mucosa** occurs in conditions such as **celiac disease, tropical sprue, Crohn disease, Whipple disease**, etc.\n\n- **Crigler-Najjar syndrome**: bilirubin conjugation defect, not malabsorption.\n- **Cholestasis**: can cause fat malabsorption due to lack of bile salts, but the **intestinal mucosa is not altered**.\n- **Achalasia**: esophageal motility disorder, not a cause of intestinal malabsorption.\n\nSo, none of the listed options causes malabsorption by altering the intestinal mucosa.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Gas chromatography is the method of choice for the separation of substances:",
+      "options": {
+        "A": "None of the above",
+        "B": "Non-volatile and thermally stable.",
+        "C": "Organic with very high molecular weights.",
+        "D": "Non-volatile high polarity."
+      },
+      "base_output": "**Correct option: 1. None of the above**\n\nGas chromatography is best suited for separating substances that are **volatile** and **thermally stable**. None of the listed options matches this.",
+      "prompting_output": "**Correct answer: 1. None of the above**\n\nGas chromatography is mainly used for separation of substances that are:\n\n- **Volatile**\n- **Thermally stable**\n- Generally of **low to moderate molecular weight**\n\nThe listed options describe **non-volatile**, **highly polar**, or **very high molecular weight** substances, which are not typically suitable for gas chromatography.",
+      "cot_output": "**Correct option: 1. None of the above**\n\nGas chromatography is best suited for separating substances that are:\n\n- **Volatile**\n- **Thermally stable**\n- Usually of **low to moderate molecular weight**\n\nThe listed options describe non-volatile, highly polar, or very high molecular weight substances, which are generally **not suitable** for gas chromatography unless chemically derivatized.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "What neurotransmitter has been associated with the development of Obsessive Compulsive Disorder ?:",
+      "options": {
+        "A": "None of the above",
+        "B": "Dopamine",
+        "C": "Noradrenaline",
+        "D": "Somatostatin."
+      },
+      "base_output": "**Answer: 1. None of the above**\n\nThe neurotransmitter most classically associated with **Obsessive Compulsive Disorder (OCD)** is **serotonin**, which is not listed among the options.",
+      "prompting_output": "**Answer: 1. None of the above**\n\nThe neurotransmitter most classically associated with the development/pathophysiology of **Obsessive-Compulsive Disorder (OCD)** is **serotonin**. Since serotonin is not listed among the options, the best answer is **None of the above**.\n\n*Note: Dopamine may also be implicated in some OCD-related circuits, but it is not the primary classic answer.*",
+      "cot_output": "**Answer: 2. Dopamine**\n\nDopamine has been associated with OCD, particularly in relation to basal ganglia/cortico-striatal circuitry and tic-related OCD.  \n\n**Note:** The neurotransmitter most classically linked to OCD is **serotonin**, but it is not listed among the options.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Stimulated saliva as compared to unstimulated saliva has more",
+      "options": {
+        "A": "None of the above",
+        "B": "Cl",
+        "C": "Na",
+        "D": "H"
+      },
+      "base_output": "Stimulated saliva has **more Na\u207a and Cl\u207b** than unstimulated saliva.\n\nSo the correct options are:\n\n**2. Cl**  \n**3. Na**\n\nIt also has more **HCO\u2083\u207b (bicarbonate)** and a higher pH, but not more **H\u207a**.",
+      "prompting_output": "Stimulated saliva (higher flow rate) has **more Na\u207a and Cl\u207b** compared with unstimulated saliva, and it has **less H\u207a** because the pH is higher.\n\nSo, among the options:\n\n- **2. Cl \u2014 correct**\n- **3. Na \u2014 correct**\n- **4. H \u2014 incorrect**\n\nIf it is a **single-best-answer** question, it may be ambiguous, but physiologically **both Na\u207a and Cl\u207b increase** in stimulated saliva.",
+      "cot_output": "Stimulated saliva has **more Na\u207a and Cl\u207b** than unstimulated saliva.\n\n**Correct options: 2. Cl and 3. Na**\n\nStimulated saliva has a higher flow rate, so there is less time for ductal reabsorption of sodium and chloride. It also has a higher pH, so it has **less H\u207a**, not more.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Indicate which of the following monoclonal antibodies has demonstrated its efficacy in the treatment of paroxysmal nocturnal hemoglobinuria:",
+      "options": {
+        "A": "Rituximab",
+        "B": "Alemtuzumab",
+        "C": "None of the above",
+        "D": "Ocrelizumab."
+      },
+      "base_output": "**3. None of the above**\n\nThe monoclonal antibody with demonstrated efficacy in paroxysmal nocturnal hemoglobinuria is **eculizumab** (anti-C5 complement antibody), which is not listed.",
+      "prompting_output": "**Correct answer: 3. None of the above**\n\nThe monoclonal antibodies with demonstrated efficacy in **paroxysmal nocturnal hemoglobinuria (PNH)** are complement inhibitors such as **eculizumab** and **ravulizumab**, which target **C5**.  \n\nThe listed options\u2014**rituximab**, **alemtuzumab**, and **ocrelizumab**\u2014are not established treatments for PNH.",
+      "cot_output": "**Correct option: 3. None of the above**\n\nThe monoclonal antibody classically proven effective for **paroxysmal nocturnal hemoglobinuria (PNH)** is **eculizumab**, an anti-C5 complement inhibitor. Newer anti-complement agents include **ravulizumab**.\n\nThe listed antibodies are used in other conditions:\n\n- **Rituximab**: anti-CD20, used in B-cell lymphomas and autoimmune diseases  \n- **Alemtuzumab**: anti-CD52, used in some hematologic malignancies and multiple sclerosis  \n- **Ocrelizumab**: anti-CD20, used in multiple sclerosis  \n\nNone of these is the established treatment for PNH.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "3-grade homework Li Xiaodi recent setbacks, the teacher said he often trance in class, sometimes also moving around the mouth, I do not know what to eat; ask him afterwards, he was always very innocent, said: In the \"no ah!\" Please Li Xiaodi outpatient continuous deep breathing three minutes, the results do half of what he started in a daze. Following a check that Li Xiaodi most diagnosed disease?",
+      "options": {
+        "A": "Psychological Tests",
+        "B": "24 hours ECG",
+        "C": "None of the above",
+        "D": "Determination of growth hormone"
+      },
+      "base_output": "**Answer: 3. None of the above**\n\nLi Xiaodi\u2019s symptoms are most consistent with **absence seizures**\uff08\u5931\u795e\u53d1\u4f5c\uff09:\n\n- Brief \u201ctrance\u201d/staring episodes in class  \n- May have mouth movements/automatisms  \n- Child is unaware and says \u201cnothing happened\u201d afterward  \n- **Hyperventilation for 3 minutes can provoke an absence seizure**\n\nThe best diagnostic test would be an **EEG\uff08\u8111\u7535\u56fe\uff09**, often showing **3-Hz spike-and-wave discharges**.\n\nSince EEG is not listed among the options, the correct choice is **3. None of the above**.",
+      "prompting_output": "Li Xiaodi\u2019s symptoms most strongly suggest **absence seizures (absence epilepsy, a type of epilepsy)**.\n\nKey clues:\n\n- Brief \u201ctrance/daze\u201d episodes in class\n- No awareness during the episode and afterward says \u201cNo, I didn\u2019t\u201d\n- Mouth movements/chewing-like automatisms can occur\n- **Hyperventilation for 3 minutes provoked an episode**, which is classic for absence seizures\n\nThe most appropriate diagnostic test would be an **EEG (electroencephalogram)**, often showing **3-Hz spike-and-wave discharges**, especially during hyperventilation.\n\nSince EEG is not listed in the options, the best choice is:\n\n**3. None of the above**",
+      "cot_output": "**Answer: 3. None of the above**\n\nLi Xiaodi\u2019s symptoms are most consistent with **childhood absence epilepsy**:\n\n- Brief \u201ctrance\u201d or staring spells in class  \n- No awareness of the episode afterward  \n- Possible small automatisms such as mouth movements  \n- **Hyperventilation triggers an episode**, which is classic for absence seizures\n\nThe most appropriate diagnostic test would be an **EEG (electroencephalogram)**, often showing generalized **3-Hz spike-and-wave discharges**.\n\nSince EEG is not listed among the options, the correct choice is:\n\n**3. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "The equation that describes the effect of the dielectric constant of the solvent on the velocity constant of the reactions in solution between ionic compounds, predicts that:",
+      "options": {
+        "A": "The representation of the velocity constant, k, versus the inverse of the dielectric constant of the solvent must be linear.",
+        "B": "Replacing the water with a solvent of lower dielectric constant will always reduce the reaction rate.",
+        "C": "Reactions involving ions of the same sign are accelerated with solvents of low dielectric constant, \u03b5.",
+        "D": "None of the above"
+      },
+      "base_output": null,
+      "prompting_output": null,
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "The breath test for the diagnosis of Helicobacter pylori depends on the production by the bacteria of:",
+      "options": {
+        "A": "Surface antigens of the blood type.",
+        "B": "None of the above",
+        "C": "CagA secreted effector toxin.",
+        "D": "Catalase"
+      },
+      "base_output": "**Correct answer: 2. None of the above**\n\nThe *Helicobacter pylori* breath test depends on bacterial production of **urease**, which breaks down labeled urea into ammonia and labeled CO\u2082 that is detected in the breath.",
+      "prompting_output": "The correct answer is:\n\n**2. None of the above**\n\nThe **H. pylori urea breath test** depends on the bacterium\u2019s production of **urease**, an enzyme that breaks down labeled urea into **ammonia and labeled carbon dioxide**, which is then detected in the breath.\n\nUrease is not listed among the options.",
+      "cot_output": "The correct answer is:\n\n**2. None of the above**\n\nThe **Helicobacter pylori urea breath test** depends on the bacterium\u2019s production of **urease**, an enzyme that breaks down labeled urea into **ammonia and labeled carbon dioxide**, which is then detected in the breath.\n\nSince **urease** is not listed among the options, the best choice is **None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "According to the model of the Big Five, in what dimension would an imaginative, creative woman, interested in new ideas and experiences, score high ?:",
+      "options": {
+        "A": "Activity.",
+        "B": "None of the above",
+        "C": "Extraversion",
+        "D": "Search for Impulsive Sensations."
+      },
+      "base_output": "2. None of the above\n\nIn the Big Five model, this describes high **Openness to Experience**, which is not listed among the options.",
+      "prompting_output": "**Option 2. None of the above**\n\nIn the Big Five model, an imaginative, creative person interested in new ideas and experiences would score high in **Openness to Experience**, which is not listed among the options.",
+      "cot_output": "**2. None of the above**\n\nIn the Big Five model, an imaginative, creative person interested in new ideas and experiences would score high in **Openness to Experience**, which is not listed among the options.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "The most characteristic feature of basal cell carcinoma is:",
+      "options": {
+        "A": "Keratin pearls",
+        "B": "Foam cells",
+        "C": "None of the above",
+        "D": "Psammoma bodies"
+      },
+      "base_output": "**3. None of the above**\n\nBasal cell carcinoma is characteristically associated with **nests of basaloid cells with peripheral palisading** and often **stromal retraction clefts**.",
+      "prompting_output": "**Correct answer: 3. None of the above**\n\nThe most characteristic features of **basal cell carcinoma** are **basaloid tumor cells with peripheral palisading** and often **stromal retraction clefts**.\n\n- **Keratin pearls** \u2192 typical of **squamous cell carcinoma**\n- **Foam cells** \u2192 seen in xanthomatous lesions/inflammation\n- **Psammoma bodies** \u2192 seen in papillary thyroid carcinoma, meningioma, serous papillary tumors, etc.",
+      "cot_output": "The correct answer is:\n\n**3. None of the above**\n\n**Basal cell carcinoma** is characteristically associated with **nests of basaloid cells showing peripheral palisading** and often **stromal retraction artifact**.\n\n- **Keratin pearls** \u2192 typical of **squamous cell carcinoma**\n- **Foam cells** \u2192 seen in xanthomatous lesions/inflammation\n- **Psammoma bodies** \u2192 seen in conditions like papillary thyroid carcinoma, meningioma, serous papillary ovarian tumors\n\nSo, the most characteristic feature of basal cell carcinoma is **not listed**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Pain receptors are ?",
+      "options": {
+        "A": "Meissners corpuscle",
+        "B": "Pacinian corpuscle",
+        "C": "None of the above",
+        "D": "Merkel disc"
+      },
+      "base_output": "**3. None of the above**\n\nPain receptors are **free nerve endings** called **nociceptors**.  \nMeissner\u2019s corpuscles, Pacinian corpuscles, and Merkel discs are mainly touch/pressure receptors.",
+      "prompting_output": "**Correct answer: 3. None of the above**\n\nPain receptors are **free nerve endings** called **nociceptors**, not Meissner corpuscles, Pacinian corpuscles, or Merkel discs.",
+      "cot_output": "Pain receptors are **free nerve endings (nociceptors)**.\n\nSo the correct option is:\n\n**3. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A patient presented with a steering wheel injury to the right side of chest with breathlessness and shock. How will you differentiate tension pneumothorax and cardiac tamponade?",
+      "options": {
+        "A": "Pulse pressure",
+        "B": "JVP",
+        "C": "None of the above",
+        "D": "Hea sounds"
+      },
+      "base_output": "**Correct option: 4. Heart sounds**\n\n- **Cardiac tamponade:** classically has **muffled/quiet heart sounds**, raised JVP, hypotension, narrow pulse pressure.  \n- **Tension pneumothorax:** usually has **absent breath sounds on affected side**, hyperresonance, tracheal deviation, raised JVP, hypotension.\n\n**JVP is not a good differentiator** because it may be raised in both conditions.",
+      "prompting_output": "**Best option: 4. Heart sounds**\n\nIn trauma with shock, both **tension pneumothorax** and **cardiac tamponade** can present with **hypotension and raised JVP**, so **JVP does not differentiate them well**.\n\nKey differentiating signs:\n\n",
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "68. ketoacidosis body of the patient ketone bodies (ketone body) is constituted by those of the following substances? \u2460 acetyl acetic acid (acetoacetate) \u2461\u03b2- hydroxybutyric acid (\u03b2-hydroxybutyrate) \u2462 acetone (acetone) \u2463\u03b1- oxoglutarate (\u03b1-ketoglutarate)",
+      "options": {
+        "A": "\u2460\u2461\u2462\u2463",
+        "B": "Only \u2460\u2461\u2463",
+        "C": "None of the above",
+        "D": "Only \u2462\u2463"
+      },
+      "base_output": "Ketone bodies are:\n\n- \u2460 Acetoacetic acid / acetoacetate  \n- \u2461 \u03b2-hydroxybutyric acid / \u03b2-hydroxybutyrate  \n- \u2462 Acetone  \n\n\u2463 \u03b1-oxoglutarate / \u03b1-ketoglutarate is **not** a ketone body.\n\nSo the correct combination should be **\u2460\u2461\u2462 only**.\n\nSince that option is not listed, the best answer is:\n\n**3. None of the above** *(meaning none of the provided options is exactly correct).*",
+      "prompting_output": "Ketone bodies are:\n\n- \u2460 Acetoacetic acid / acetoacetate  \n- \u2461 \u03b2-hydroxybutyric acid / \u03b2-hydroxybutyrate  \n- \u2462 Acetone  \n\n\u2463 \u03b1-oxoglutarate / \u03b1-ketoglutarate is **not** a ketone body; it is a citric acid cycle intermediate.\n\nSo the correct combination is **\u2460\u2461\u2462**, but that option is not listed.\n\nTherefore, among the given options, the best answer is:\n\n**3. None of the above**",
+      "cot_output": "Ketone bodies are:\n\n- \u2460 Acetoacetic acid / acetoacetate  \n- \u2461 \u03b2-hydroxybutyric acid / \u03b2-hydroxybutyrate  \n- \u2462 Acetone  \n\n\u2463 \u03b1-oxoglutarate / \u03b1-ketoglutarate is **not** a ketone body; it is a Krebs cycle intermediate.\n\nSo the correct combination is **\u2460\u2461\u2462**, but this is **not listed** among the options.\n\nTherefore, the best answer is: **3. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Presented edema, oliguria and frothy urine. He has no past history of similar complaints. On examination, his urine was positive for 3+ proteinuria, no RBCs/WBCs and no casts. His serum albumin was 2.5 gm/L and serum creatinine was 0.5 mg/dL. The most likely diagnosis is:",
+      "options": {
+        "A": "None of the above",
+        "B": "IgA nephropathy",
+        "C": "Interstitial nephritis",
+        "D": "Membranous nephropathy"
+      },
+      "base_output": "**Most likely diagnosis: 4. Membranous nephropathy**\n\nThe patient has features of **nephrotic syndrome**:\n\n- Edema  \n- Frothy urine  \n- **3+ proteinuria**\n- **Hypoalbuminemia**\n- No RBCs/WBCs/casts\n- Normal serum creatinine\n\nAmong the given options, **membranous nephropathy** is the best fit because it commonly presents with nephrotic-range proteinuria and preserved renal function initially.",
+      "prompting_output": "The most likely diagnosis is:\n\n**4. Membranous nephropathy**\n\n**Why:** The patient has features of **nephrotic syndrome**:\n\n- **Edema**\n- **Frothy urine**\n- **3+ proteinuria**\n- **Hypoalbuminemia**\n- **No RBCs/WBCs or casts**\n- **Normal serum creatinine**\n\nAmong the options, **membranous nephropathy** is a common cause of nephrotic syndrome, especially in adults.\n\n**IgA nephropathy** usually presents with hematuria, often after an upper respiratory infection.  \n**Interstitial nephritis** typically has WBCs, WBC casts, and often renal dysfunction.\n\nSo the best answer is **Membranous nephropathy**.",
+      "cot_output": "The most likely diagnosis is **4. Membranous nephropathy**.\n\n**Reasoning:**\n- Edema + frothy urine + **3+ proteinuria** + **hypoalbuminemia** indicate **nephrotic syndrome**.\n- Absence of RBCs/WBCs/casts makes nephritic causes less likely.\n- **IgA nephropathy** usually presents with hematuria.\n- **Interstitial nephritis** typically has WBCs, WBC casts, and renal dysfunction.\n- Among the options, **membranous nephropathy** is a common cause of nephrotic syndrome, especially in adults.\n\nSo the answer is: **Membranous nephropathy**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 26 years old female presented with mild pain in lower abdomen. She has had 2 full-term normal delivery earlier. Her last menstrual period was 3 weeks back. On pelvic examination, you find a palpable mass in the adnexa. On USG pelvis, you find a 5 cm ovarian cyst. What should be your next step?",
+      "options": {
+        "A": "None of the above",
+        "B": "CA-125 levels",
+        "C": "Diagnostic exploratory laparotomy",
+        "D": "CECT of pelvis"
+      },
+      "base_output": "**Correct option: 1. None of the above**\n\nIn a **26-year-old premenopausal woman** with a **5 cm ovarian cyst** and mild symptoms, the usual next step\u2014assuming it appears **simple/unilocular on ultrasound** and there are no signs of torsion, rupture, or malignancy\u2014is **conservative management with observation and repeat ultrasound in 6\u20138 weeks**.\n\n- **CA-125** is not routinely helpful in young premenopausal women because it can be elevated in many benign conditions.\n- **CECT pelvis** is not indicated for a simple cyst found on USG.\n- **Diagnostic exploratory laparotomy** is too aggressive unless malignancy, torsion, rupture, or persistent/enlarging complex mass is suspected.\n\nSo, since \u201crepeat ultrasound/observation\u201d is not listed, the answer is **None of the above**.",
+      "prompting_output": "**Correct option: 1. None of the above**\n\nFor a **26-year-old premenopausal woman** with a **5 cm ovarian cyst** and mild pain, if the ultrasound suggests a **simple/benign ovarian cyst**, the usual next step is:\n\n- **Expectant management/observation**\n- **Repeat pelvic ultrasound after 6\u20138 weeks** or after the next menstrual cycle  \n- Consider a **urine pregnancy test/\u03b2-hCG** if not already done, to exclude pregnancy-related causes\n\n**CA-125** is not routinely indicated in a young premenopausal woman with a simple cyst, and **CECT pelvis** or **exploratory laparotomy** is not the next step unless the cyst appears suspicious, complex, persistent, enlarging, or there are acute complications like torsion or rupture.",
+      "cot_output": "**Correct option: 1. None of the above**\n\nFor a **26-year-old premenopausal woman** with a **5 cm ovarian cyst** and only **mild pain**, the usual next step\u2014assuming it appears like a **simple cyst on ultrasound** and there are no red-flag features\u2014is:\n\n- **Conservative management / observation**\n- **Repeat pelvic ultrasound after 6\u20138 weeks** or after 1\u20132 menstrual cycles\n- Symptomatic treatment if needed\n\nWhy not the other options?\n\n- **CA-125**: Not routinely indicated for a simple ovarian cyst in a young premenopausal woman; it can be falsely elevated.\n- **Diagnostic exploratory laparotomy**: Too invasive; not indicated unless there is suspicion of malignancy, torsion, rupture, or a large/persistent complex mass.\n- **CECT pelvis**: Not first-line for a simple ovarian cyst; ultrasound follow-up is preferred.\n\nSo, since the appropriate",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Golgi bodies function as:",
+      "options": {
+        "A": "Protein lipid synthesis",
+        "B": "Protein synthesis",
+        "C": "None of the above",
+        "D": "None of the above"
+      },
+      "base_output": "**Correct answer: 3 or 4. None of the above**\n\nGolgi bodies mainly function in **modification, packaging, sorting, and secretion of proteins and lipids**. They do **not** primarily synthesize proteins or lipids.",
+      "prompting_output": "**Correct option: 3 or 4. None of the above**\n\nGolgi bodies mainly function in **modification, sorting, packaging, and secretion of proteins and lipids**.  \n\n- **Protein synthesis** occurs on **ribosomes/rough ER**.  \n- **Lipid synthesis** mainly occurs in the **smooth ER**.",
+      "cot_output": "Golgi bodies function mainly in **modification, sorting, packaging, and secretion of proteins and lipids**.\n\nThey do **not** primarily synthesize proteins or lipids.\n\n\u2705 Correct option: **3 or 4. None of the above**  \n*(Both options 3 and 4 are identical; either \u201cNone of the above\u201d is correct.)*",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 14-year-old Caucasian male of normal weight presents for a well-child checkup. During physical examination, his parents state that their son has been frequenting the bathroom more often than usual and his weight has decreased despite an increase in his caloric intake. Which of the following is most consistent with their son's symptoms?",
+      "options": {
+        "A": "None of the above",
+        "B": "Amyloid deposits in pancreatic islet cells",
+        "C": "Absence of leukocytic infiltrates in the pancreas",
+        "D": "Hypoglycemia"
+      },
+      "base_output": "**Answer: 1. None of the above**\n\nThe boy\u2019s symptoms \u2014 **polyuria**, **weight loss despite increased caloric intake**, and being a **normal-weight adolescent** \u2014 are most consistent with **type 1 diabetes mellitus**.\n\nType 1 diabetes is characterized by:\n\n- Autoimmune destruction of pancreatic \u03b2-cells\n- **Lymphocytic/leukocytic infiltrates** in pancreatic islets, called **insulitis**\n- Hyperglycemia, not hypoglycemia\n- Often presents in children or adolescents\n\nWhy the other options are incorrect:\n\n- **Amyloid deposits in pancreatic islet cells** \u2192 seen in **type 2 diabetes mellitus**\n- **Absence of leukocytic infiltrates in the pancreas** \u2192 not typical of type 1 diabetes\n- **Hypoglycemia** \u2192 diabetes mellitus causes **hyperglycemia**\n\nSo the best choice is **None of the above**.",
+      "prompting_output": "**Correct answer: 1. None of the above**\n\nThis 14-year-old normal-weight boy has symptoms consistent with **type 1 diabetes mellitus**:\n\n- **Polyuria** \u2192 frequent urination due to osmotic diuresis from hyperglycemia  \n- **Weight loss despite increased caloric intake** \u2192 inability to use glucose because of insulin deficiency, leading to fat and muscle breakdown  \n- Typical age and body habitus also support type 1 diabetes\n\nType 1 diabetes is associated with **autoimmune destruction of pancreatic \u03b2-cells**, often showing **lymphocytic/leukocytic infiltrates in the pancreatic islets**, called **insulitis**.\n\nWhy the other options are incorrect:\n\n- **Amyloid deposits in pancreatic islet cells** \u2192 associated with **type 2 diabetes mellitus**\n- **Absence of leukocytic infiltrates in the pancreas** \u2192 not consistent; type 1 diabetes typically has leukocytic infiltrates\n- **Hypoglycemia** \u2192 symptoms are due to **hyperglycemia**, not low blood glucose\n\nTherefore, the best choice is **None of the above**.",
+      "cot_output": "**Answer: 1. None of the above**\n\nThe boy\u2019s symptoms \u2014 **polyuria**, **weight loss despite increased caloric intake**, and likely increased appetite \u2014 are classic for **type 1 diabetes mellitus**.\n\nType 1 diabetes is caused by **autoimmune destruction of pancreatic \u03b2-cells**, leading to **absolute insulin deficiency**. Pathologically, it is associated with **lymphocytic infiltration of the pancreatic islets**, also called **insulitis**.\n\nWhy the other options are incorrect:\n\n- **2. Amyloid deposits in pancreatic islet cells** \u2192 Seen in **type 2 diabetes mellitus**, not typical for a normal-weight 14-year-old with acute symptoms.\n- **3. Absence of leukocytic infiltrates in the pancreas** \u2192 Incorrect; type 1 diabetes has **leukocytic/lymphocytic infiltrates**.\n- **4. Hypoglycemia** \u2192 Incorrect; untreated diabetes causes **hyperglycemia**, leading to osmotic diuresis and polyuria.\n\nSo the best choice is **None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "While treating patients with malignant hypeention the maximum allowed decrease in blood pressure in the first 2 - 6 hours should not exceed %",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "None of the above",
+        "D": "30"
+      },
+      "base_output": null,
+      "prompting_output": null,
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 50-year-old man presents to his primary care doctor following an inguinal hernia repair. The patient reports no pain in his lower abdomen or groin, no constipation, and states that he enjoys his usual diet. He denies any use of alcohol, tobacco, or illicit drugs. He has returned to work as a cruise ship attendant. Preoperative workup included chest radiography which demonstrated an opacification in his right middle lobe. The patient agrees to undergo computed tomography (CT) of his chest without contrast for further evaluation. The radiologist reports an 8 mm nodule in the patient's peripheral right middle lobe that has regular margins and appears calcified. One year later, the patient obtains another chest CT without contrast that reports the nodule size as 10 mm with similar characteristics. What is the most appropriate next step in management?",
+      "options": {
+        "A": "CT chest without contrast in 24 months",
+        "B": "None of the above",
+        "C": "Right middle lobectomy now",
+        "D": "Bronchoscopy-guided biopsy now"
+      },
+      "base_output": null,
+      "prompting_output": null,
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Sequential arrangement question on JVP. Staing with \"a\" wave. A-First hea sound B-T wave C-R wave D-Rapid ejection phase",
+      "options": {
+        "A": "A,B,C,D",
+        "B": "A,C,D,B",
+        "C": "None of the above",
+        "D": "D,C,B,A"
+      },
+      "base_output": null,
+      "prompting_output": null,
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Man-made dentin is:",
+      "options": {
+        "A": "Zinc phosphate cement",
+        "B": "None of the above",
+        "C": "Calcium hydroxide cement",
+        "D": "ZOE cement"
+      },
+      "base_output": null,
+      "prompting_output": "**Correct answer: 1. Zinc phosphate cement**\n\nZinc phosphate cement has traditionally been referred to as **",
+      "cot_output": "**Man-made dentin is: 1. Zinc phosphate cement**\n\nZinc phosphate cement has traditionally been referred to as **\u201cartificial\u201d or \u201cman-made dentin\u201d** when used as a base under restorations due to its strength and insulating properties.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "'Pica' (urge to eat non-edible things like mud or clay) is characteristically seen in:",
+      "options": {
+        "A": "None of the above",
+        "B": "Cyanocobalamine deficiency",
+        "C": "Folate deficiency",
+        "D": "Pernicious anemia"
+      },
+      "base_output": "**Answer: 1. None of the above**\n\n**Pica** is characteristically associated with **iron deficiency anemia**, which is not listed among the options.",
+      "prompting_output": "**Correct option: 1. None of the above**\n\n**Pica**\u2014craving/eating non-food substances such as clay, mud, ice, etc.\u2014is classically associated with **iron deficiency anemia**, not cyanocobalamin (B12) deficiency, folate deficiency, or pernicious anemia.",
+      "cot_output": "**Correct answer: 1. None of the above**\n\n**Pica**\u2014the urge to eat non-food substances such as clay, mud, chalk, or ice\u2014is **classically associated with iron deficiency anemia**, not vitamin B12 deficiency, folate deficiency, or pernicious anemia.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 45-year-old man presents to his primary care provider for two weeks of low-grade fever and sore throat. Upon further questioning, the patient is found to have unprotected sex with both men and women with 3-5 partners per month. On workup, he is found to have an HIV viral load of 15,000 copies/mL with a CD4+ of 170 cells/mm^3. He is started on medical therapy. What should be included in his medication regimen?",
+      "options": {
+        "A": "Azithromycin",
+        "B": "Fluconazole",
+        "C": "None of the above",
+        "D": "Tetrahydrofolic acid"
+      },
+      "base_output": "**Answer: 3. None of the above**\n\nWith a **CD4+ count of 170 cells/mm\u00b3**, this patient should start **antiretroviral therapy** and receive **Pneumocystis jirovecii pneumonia prophylaxis**, typically with **TMP-SMX**, because CD4 is **<200**.\n\n- **Azithromycin**: used for MAC prophylaxis when CD4 **<50**, not indicated here.\n- **Fluconazole**: not routinely used for primary prophylaxis in HIV.\n- **Tetrahydrofolic acid**: not part of standard HIV or opportunistic infection prophylaxis.\n\nSo the correct choice is **None of the above**.",
+      "prompting_output": "**Correct answer: 3. None of the above**\n\nThis patient has newly diagnosed HIV with a **CD4+ count of 170 cells/mm\u00b3**, which meets criteria for **AIDS** and requires:\n\n- **Antiretroviral therapy (ART)**, typically an integrase inhibitor\u2013based regimen plus two NRTIs.\n- **Pneumocystis jirovecii pneumonia prophylaxis** because CD4 is **<200 cells/mm\u00b3** \u2014 usually **trimethoprim-sulfamethoxazole TMP-SMX**.\n\nAmong the listed options:\n\n1. **Azithromycin** \u2014 used for **Mycobacterium avium complex MAC prophylaxis** when CD4 is **<50 cells/mm\u00b3**, not indicated here.\n2. **Fluconazole** \u2014 not routinely used as primary prophylaxis in HIV.\n3. **None of the above** \u2014 correct, because TMP-SMX is indicated but not listed.\n4. **Tetrahydrofolic acid** \u2014 not part of standard HIV or opportunistic infection prophylaxis.\n\nSo the best answer is **None of the above**.",
+      "cot_output": "**Answer: 3. None of the above**\n\nThis patient has newly diagnosed HIV with a **CD4 count of 170 cells/mm\u00b3**, which places him at risk for **Pneumocystis jirovecii pneumonia (PJP)**. His regimen should include:\n\n- **Antiretroviral therapy (ART)**, typically an integrase inhibitor plus two nucleoside/nucleotide reverse transcriptase inhibitors\n- **PJP prophylaxis** with **trimethoprim-sulfamethoxazole (TMP-SMX)** because CD4 < 200 cells/mm\u00b3\n\nWhy the listed options are not correct:\n\n1. **Azithromycin** \u2014 used for *Mycobacterium avium complex* prophylaxis when **CD4 < 50 cells/mm\u00b3**, not indicated here.\n2. **Fluconazole** \u2014 not routinely used for primary prophylaxis in HIV; used to treat certain fungal infections if present.\n4. **Tetrahydrofolic acid** \u2014 not part of HIV treatment or opportunistic infection prophylaxis.\n\nSince **TMP-SMX is not listed**, the best choice is **None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Which of the following bacterial genetic elements necessarily encodes a transposase ?:",
+      "options": {
+        "A": "None of the above",
+        "B": "Plasmid",
+        "C": "Integr\u00f3n",
+        "D": "Replicon"
+      },
+      "base_output": "**Answer: 1. None of the above**\n\nA bacterial genetic element that necessarily encodes a **transposase** is typically a **transposon** or **insertion sequence**, but that is not among the options.\n\n- **Plasmid**: does not necessarily encode transposase.\n- **Integron**: encodes an **integrase**, not necessarily a transposase.\n- **Replicon**: any DNA unit with an origin of replication; no transposase requirement.",
+      "prompting_output": "**Correct answer: 1. None of the above**\n\nA **transposase** is necessarily encoded by **transposable elements** such as **insertion sequences** or **transposons**.\n\n- **Plasmid**: may carry transposons, but does not necessarily encode transposase.\n- **Integron**: typically encodes an **integrase**, not a transposase.\n- **Replicon**: refers to a DNA molecule/unit capable of replication; it does not necessarily encode transposase.\n\nSo, among the listed options, **none necessarily encodes a transposase**.",
+      "cot_output": "**Correct answer: 1. None of the above**\n\nA **transposase** is necessarily encoded by **transposable elements** such as **insertion sequences** or **transposons**.\n\n- **Plasmid**: may carry transposons, but does not necessarily encode a transposase.  \n- **Integron**: typically encodes an **integrase**, not a transposase.  \n- **Replicon**: is a DNA molecule or region capable of replication; it does not necessarily encode a transposase.  \n\nSo, **none of the listed elements necessarily encodes a transposase**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "What is the correct answer regarding cervical cancer ?:",
+      "options": {
+        "A": "The diagnosis is made by serology.",
+        "B": "The treatment is carried out with pharmacological measures.",
+        "C": "None of the above",
+        "D": "It is the first most frequent cancer in Spain."
+      },
+      "base_output": "Correct answer: **3. None of the above**\n\n- Cervical cancer is **not diagnosed by serology**; diagnosis is confirmed by **biopsy/histology** after screening tests such as Pap smear/HPV testing and colposcopy.\n- Treatment is **not mainly pharmacological**; it may include **surgery, radiotherapy, chemotherapy**, or combinations depending on stage.\n- It is **not the most frequent cancer in Spain**.",
+      "prompting_output": "The correct answer is:\n\n**3. None of the above**\n\nExplanation:\n\n1. **\u201cThe diagnosis is made by serology\u201d** \u2014 False. Cervical cancer is diagnosed by **cervical cytology/HPV screening followed by colposcopy and biopsy** for confirmation, not by serology.\n\n2. **\u201cThe treatment is carried out with pharmacological measures\u201d** \u2014 False as stated. Treatment depends on the stage and may include **surgery, radiotherapy, chemotherapy, or combined chemoradiotherapy**. It is not mainly diagnosed/treated simply with pharmacological measures.\n\n4. **\u201cIt is the first most frequent cancer in Spain\u201d** \u2014 False. Cervical cancer is **not the most frequent cancer in Spain**; breast, colorectal, lung, and prostate cancers are among the most common depending on sex and classification.",
+      "cot_output": "The correct answer is:\n\n**3. None of the above**\n\nExplanation:\n\n1. **\u201cThe diagnosis is made by serology\u201d** \u2014 False. Cervical cancer is diagnosed by **histological confirmation**, usually after abnormal screening tests such as **Pap smear/cytology** and/or **HPV testing**, followed by **colposcopy and biopsy**.\n\n2. **\u201cThe treatment is carried out with pharmacological measures\u201d** \u2014 False. Treatment depends on stage and commonly includes **surgery**, **radiotherapy**, and/or **chemotherapy**, not only pharmacological treatment.\n\n4. **\u201cIt is the first most frequent cancer in Spain\u201d** \u2014 False. Cervical cancer is **not** the most frequent cancer in Spain; cancers such as **breast, colorectal, lung, and prostate** are more common.\n\nTherefore, the correct option is **3. None of the above**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "What is the thickness of cement-dentinal junction?",
+      "options": {
+        "A": "1-2 \u03bcm",
+        "B": "None of the above",
+        "C": "3-4 \u03bcm",
+        "D": "4-5 \u03bcm"
+      },
+      "base_output": null,
+      "prompting_output": "The thickness of the **cemento-dentinal junction (CDJ)** is approximately:\n\n**1. 1\u20132 \u03bcm**",
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "If the maxillary deciduous central incisors are over retained, the permanent central incisors erupt:",
+      "options": {
+        "A": "None of the above",
+        "B": "Buccally",
+        "C": "Get transposed",
+        "D": "Get impacted"
+      },
+      "base_output": null,
+      "prompting_output": null,
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Hyoid bone is at which vertebral level?",
+      "options": {
+        "A": "C2",
+        "B": "None of the above",
+        "C": "C4",
+        "D": "C5"
+      },
+      "base_output": "**2. None of the above**\n\nThe **hyoid bone** lies at the level of the **C3 vertebra**.",
+      "prompting_output": "The **hyoid bone** is located at the level of the **C3 vertebra**.\n\nSince **C3** is not listed, the correct option is:\n\n**2. None of the above**",
+      "cot_output": "The **hyoid bone** is located at the level of the **C3 vertebra**.\n\nSince **C3 is not listed**, the correct option is:\n\n**2. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Earliest valvular lesion in a case of acute rheumatic fever is \u2013",
+      "options": {
+        "A": "None of the above",
+        "B": "Aortic Regurgitation(AR)",
+        "C": "Mitral stenosis (MS)",
+        "D": "Aortic Stenosis (AS)"
+      },
+      "base_output": "**Correct option: 1. None of the above**\n\nThe **earliest valvular lesion in acute rheumatic fever is Mitral Regurgitation (MR)** due to acute rheumatic valvulitis.\n\nSince **MR is not listed**, the answer is **None of the above**.",
+      "prompting_output": "**Correct option: 1. None of the above**\n\nThe **earliest valvular lesion in acute rheumatic fever is Mitral Regurgitation (MR)** due to acute rheumatic valvulitis.\n\n- **Mitral stenosis (MS)** is a late/chronic complication.\n- **Aortic regurgitation (AR)** can occur but is less common and not the earliest typical lesion.\n- **Aortic stenosis (AS)** is not an early lesion of acute rheumatic fever.\n\nSince **MR is not listed**, the answer is **None of the above**.",
+      "cot_output": "**Correct option: 1. None of the above**\n\nThe **earliest valvular lesion in acute rheumatic fever** is **Mitral Regurgitation (MR)** due to acute rheumatic valvulitis.\n\nSince **MR is not listed** among the options, the correct answer is **None of the above**.\n\n- **MS** and **AS** are typically chronic sequelae, not early acute lesions.  \n- **AR** can occur in acute rheumatic carditis but is less common than MR.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Mario G. has undergone surgery and has undergone an esophagectomy due to esophageal cancer. In the postoperative period, tolerance begins with a liquid diet and Mario begins to have intense pain, fever and dyspnea. The nursing staff knows that these symptoms are indicative of:",
+      "options": {
+        "A": "Intolerance to food.",
+        "B": "The tumor has spread to the aorta.",
+        "C": "There is a gastric perforation with the formation of a fistula towards the lung.",
+        "D": "None of the above"
+      },
+      "base_output": "**Correct option: 3. There is a gastric perforation with the formation of a fistula towards the lung.**\n\nAfter an **esophagectomy**, the appearance of **intense pain, fever, and dyspnea** when oral intake is started can indicate a serious postoperative complication such as an **anastomotic leak/perforation** with leakage into the thoracic cavity, potentially causing a **fistula or pulmonary involvement**.\n\nThis is **not simply food intolerance** and requires urgent medical evaluation.",
+      "prompting_output": "The correct option is:\n\n**3. There is a gastric perforation with the formation of a fistula towards the lung.**\n\nAfter an **esophagectomy**, the appearance of **intense pain, fever, and dyspnea** when starting oral liquids suggests a serious postoperative complication such as an **anastomotic leak/perforation** with leakage into the thoracic cavity or formation of a fistula involving the respiratory tract. This can cause infection, mediastinitis, pleural contamination, and respiratory distress.\n\nThis is **not simple food intolerance** and requires **immediate medical/surgical evaluation**.",
+      "cot_output": "**Correct option: 3. There is a gastric perforation with the formation of a fistula towards the lung.**\n\nAfter an **esophagectomy**, the appearance of **intense pain, fever, and dyspnea** when oral/liquid intake is started suggests a serious postoperative complication such as an **anastomotic leak or perforation**, potentially allowing gastric or esophageal contents to enter the thoracic cavity or respiratory tract, causing infection and respiratory distress.\n\nThis is **not typical food intolerance** and requires **urgent medical evaluation**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "The property of amalgam that makes it undesirable to bevel occlusal margins of an amalgam cavity preparation is its:",
+      "options": {
+        "A": "Flow",
+        "B": "Ductility",
+        "C": "None of the above",
+        "D": "Malleability"
+      },
+      "base_output": null,
+      "prompting_output": "**Correct option: 3. None of the above**\n\nOcclusal margins of an amalgam cavity preparation are **not beveled** because beveling would create a **thin edge of amalgam**, which is prone to fracture",
+      "cot_output": "**Answer: 3. None of the above**\n\nOcclusal margins of an amalgam cavity preparation are **not beveled** because amalgam has **low edge strength and is brittle in thin sections**. A bevel would create a thin amalgam margin that is prone to fracture.\n\nThe correct property is **brittleness/low tensile or edge strength**, which is not listed among the options.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 42-year-old male was found in the neck and lower face has a prominent lump; and the patient complained of swallowing a foreign body sensation, speech can not speak for too long. After checking into the hospital, neck ultrasound found the left lobe of the thyroid echo of local low and associated with calcification, left cervical lymph nodes swollen. Blood tests show normal thyroid function, but calcitonin (Calcitonin) and carcinoembryonic antigen (CEA) are high. Which of the following is the most likely diagnosis?",
+      "options": {
+        "A": "Papillary thyroid cancer",
+        "B": "And thyroid metastatic colorectal cancer",
+        "C": "None of the above",
+        "D": "Undifferentiated carcinoma"
+      },
+      "base_output": "**Most likely diagnosis: 3. None of the above**\n\nThe findings are most consistent with **medullary thyroid carcinoma (MTC)**:\n\n- **Elevated calcitonin**: classic marker of MTC, arising from thyroid parafollicular C cells  \n- **Elevated CEA**: also commonly elevated in MTC  \n- **Normal thyroid function**: thyroid cancers often do not alter T3/T4/TSH  \n- **Thyroid nodule with calcification + cervical lymphadenopathy**: compatible with thyroid malignancy, including MTC  \n\nSince **medullary thyroid carcinoma is not listed** among the options, the best answer is:\n\n**3. None of the above**",
+      "prompting_output": "The most likely diagnosis is **medullary thyroid carcinoma (MTC)** \u2014 but since it is **not listed** among the options, the best answer is:\n\n**3. None of the above**\n\nWhy:\n\n- **High calcitonin** is the key clue. Calcitonin is produced by thyroid **parafollicular C cells**, and marked elevation strongly suggests **medullary thyroid carcinoma**.\n- **CEA elevation** is also commonly seen in medullary thyroid carcinoma.\n- Thyroid ultrasound showing a hypoechoic lesion with calcification and enlarged cervical lymph nodes is compatible with thyroid malignancy with nodal spread.\n- Thyroid function is often normal in medullary thyroid carcinoma.\n\nWhy the other options are less likely:\n\n1. **Papillary thyroid cancer** can cause calcifications and cervical lymph node metastases, but it usually does **not** cause elevated calcitonin.\n2. **Metastatic colorectal cancer to the thyroid** may raise CEA, but it would not typically raise calcitonin.\n4. **Undifferentiated/anaplastic carcinoma** usually occurs in older patients and presents as a rapidly enlarging invasive neck mass, not typically with elevated calcitonin.\n\nTherefore, the correct option is **3. None of the above**.",
+      "cot_output": "The most likely diagnosis is **medullary thyroid carcinoma (MTC)**.\n\nKey clues:\n\n- **Elevated calcitonin**: strongly suggests medullary thyroid carcinoma, because MTC arises from thyroid **parafollicular C cells**, which produce calcitonin.\n- **Elevated CEA**: also commonly elevated in medullary thyroid carcinoma and can correlate with tumor burden.\n- **Normal thyroid function**: common in thyroid cancers, including MTC.\n- **Thyroid nodule with calcification + cervical lymphadenopathy**: compatible with thyroid malignancy with nodal spread.\n- Symptoms such as neck/lower face lump, foreign body sensation when swallowing, and voice/speech fatigue may reflect local mass effect or invasion.\n\nAmong the options given, **medullary thyroid carcinoma is not listed**.\n\nTherefore, the correct choice is:\n\n**3. None of the above**",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "Halita a mouth wash includes:",
+      "options": {
+        "A": "0.05% chlorhexidine",
+        "B": "0.05% cetyl pyridium chloride",
+        "C": "0.14% zinc lactate",
+        "D": "None of the above"
+      },
+      "base_output": "Halita mouthwash includes:\n\n**1. 0.05% chlorhexidine**  \n**2. 0.05% cetylpyridinium chloride**  \n**3. 0.14% zinc lactate**\n\nSo the correct choice is: **1, 2 and 3**.",
+      "prompting_output": "Halita mouthwash includes:\n\n**1. 0.05% chlorhexidine**  \n**2. 0.05% cetylpyridinium chloride**  \n**3. 0.14% zinc lactate**\n\nSo the correct choice is: **1, 2, and 3**.",
+      "cot_output": "Halita mouthwash includes:\n\n1. **0.05% chlorhexidine**  \n2. **0.05% cetylpyridinium chloride**  \n3. **0.14% zinc lactate**\n\nSo the correct answer is: **1, 2 and 3**.",
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "In Prinzmetal\u2019s angina",
+      "options": {
+        "A": "Generally Right Coronary Artery presents as inferior wall MI",
+        "B": "Coronary artery spasm most commonly occurs distal to atherosclerotic area.",
+        "C": "No changes in ECG, Q wave become normal after few hours.",
+        "D": "None of the above"
+      },
+      "base_output": null,
+      "prompting_output": null,
+      "cot_output": null,
+      "medrag_output": null,
+      "internetsearch_output": null
+    },
+    {
+      "question": "A 38-year-old imprisoned man is brought to the physician after going on a hunger strike for 36 hours. During this time, he has only had two cups of water. Physical examination shows dry mucous membranes. His serum glucose concentration is 70 mg/dL. Which of the following enzymes contributes most to maintaining a normal serum glucose level in this patient?",
+      "options": {
+        "A": "None of the above",
+        "B": "Hydroxymethylglutaryl-CoA lyase",
+        "C": "Glycogen phosphorylase",
+        "D": "Phosphofructokinase-1"
+      },
+      "base_output": "**",
+      "prompting_output": null,
+      "cot_output": "**Correct answer: 1. None of the above**\n\nAfter **36 hours of fasting**, hepatic **glycogen stores are largely depleted**, so maintenance of serum glucose depends primarily on **gluconeogenesis**.\n\nKey gluconeogenic enzymes include:\n\n- **Pyruvate carboxylase**\n- **PEP carboxykinase**\n- **Fructose-1,6-bisphosphatase**\n- **Glucose-6-phosphatase**\n\nNone of these are listed.\n\nWhy the other options are not best:\n\n- **Hydroxymethylglutaryl-CoA lyase**: involved in **ketone body production**, not direct glucose maintenance.\n- **Glycogen phosphorylase**: important for **glycogenolysis",
+      "medrag_output": null,
+      "internetsearch_output": null
+    }
+  ]
+}

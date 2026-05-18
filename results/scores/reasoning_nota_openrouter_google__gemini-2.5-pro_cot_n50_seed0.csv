@@ -1,0 +1,2 @@
+provider,model,config,mode,sample_size,seed,correct,total,accuracy,pointwise_score
+openrouter,google/gemini-2.5-pro,reasoning_nota,cot,50,0,46,50,0.92,0.9

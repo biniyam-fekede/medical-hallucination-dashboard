@@ -1,0 +1,2 @@
+provider,model,config,mode,sample_size,seed,correct,total,accuracy,pointwise_score
+openrouter,deepseek/deepseek-r1,reasoning_fake,base,50,0,37,50,0.74,0.675

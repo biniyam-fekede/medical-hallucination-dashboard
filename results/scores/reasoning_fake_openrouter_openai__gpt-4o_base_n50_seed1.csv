@@ -1,0 +1,2 @@
+provider,model,config,mode,sample_size,seed,correct,total,accuracy,pointwise_score
+openrouter,openai/gpt-4o,reasoning_fake,base,50,1,24,50,0.48,0.35

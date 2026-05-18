@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+*.egg-info/
+
+# Large files
+model_cache/
+offloaded_weights_*/
+MedRAG/
+*.log
+/tmp/
+
+# Intermediate results
+results/*intermediate*
+
+# Keep results but not raw outputs
+dashboard_results/
+
+# Mac
+.DS_Store

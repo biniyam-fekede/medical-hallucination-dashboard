@@ -1,0 +1,2 @@
+provider,model,config,mode,sample_size,seed,correct,total,accuracy,pointwise_score
+openrouter,openai/o3-mini,reasoning_nota,system_prompt,50,0,44,50,0.88,0.85

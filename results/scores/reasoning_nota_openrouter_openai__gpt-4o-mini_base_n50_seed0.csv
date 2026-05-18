@@ -1,0 +1,2 @@
+provider,model,config,mode,sample_size,seed,correct,total,accuracy,pointwise_score
+openrouter,openai/gpt-4o-mini,reasoning_nota,base,50,0,27,50,0.54,0.425

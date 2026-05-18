@@ -1,0 +1,2 @@
+provider,model,config,mode,sample_size,seed,correct,total,accuracy,pointwise_score
+local,medgemma-4b-it,reasoning_FCT,system_prompt,48,0,40,48,0.8333333333333334,0.7916666666666667

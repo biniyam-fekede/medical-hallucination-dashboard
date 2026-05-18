@@ -1,0 +1,2 @@
+provider,model,config,mode,sample_size,seed,correct,total,accuracy,pointwise_score
+local,medgemma-4b-it,reasoning_fake,internetsearch,47,0,5,47,0.10638297872340426,-0.11702127659574468
