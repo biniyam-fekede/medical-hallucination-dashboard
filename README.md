@@ -10,7 +10,7 @@ A full reproduction of Kim et al. (2025) on the Med-HALT benchmark, extended wit
 
 | | |
 |---|---|
-| Live Dashboard | [medical-hallucination-dashboard.streamlit.app](https://YOUR_STREAMLIT_URL.streamlit.app) |
+| Live Dashboard | [medical-hallucination-dashboard.streamlit.app](https://medical-hallucination-dashboard-actgqqvlb7trs2je5a6bwt.streamlit.app) |
 | Original Paper | [medRxiv 2025.02.28.25323115](https://www.medrxiv.org/content/10.1101/2025.02.28.25323115v1) |
 | Original Repo | [medical-hallucination2025/medical-hallucination](https://github.com/ybkim95/medical-hallucination) |
 | My Results | [results/](https://github.com/biniyam-fekede/medical-hallucination-dashboard/tree/main/results) |
