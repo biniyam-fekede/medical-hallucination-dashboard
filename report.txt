@@ -1,0 +1,204 @@
+Reproducing "Medical Hallucination in Foundation Models and Their Impact on Healthcare"
+Biniyam Fekede | Final Course Report | June 2026
+
+================================================================================
+ABSTRACT
+================================================================================
+
+This report describes a reproduction of Kim et al. (2025), which benchmarks
+hallucination rates and mitigation strategies across foundation models on medical
+question-answering tasks. I re-ran their core evaluation using the Med-HALT
+benchmark, compared results against the paper's reported numbers, and extended
+the study with four newer models. The reproduction achieves an average absolute
+deviation of 5.7 percentage points from the original results. Key findings are
+confirmed: general-purpose models substantially outperform medical-specialized
+models, and no mitigation strategy reliably closes that gap.
+
+================================================================================
+1. INTRODUCTION
+================================================================================
+
+AI models are increasingly used by physicians for clinical decision support.
+A 2025 survey found that 91.8% of physicians had encountered a hallucination in
+practice and 84.7% believed it could affect patient health outcomes -- yet 90%
+still find these tools helpful. This tension between utility and risk motivates
+careful, independent evaluation.
+
+Kim et al. (2025) introduced a systematic benchmark of medical hallucinations
+using Med-HALT, a dataset of multi-choice medical reasoning questions across
+three task types: Fact-Checking Task (FCT), Fake Reference detection, and
+None-of-the-Above (NOTA). They evaluated 11 models under five mitigation
+conditions and found that general-purpose models significantly outperformed
+medical-specialized ones -- a counterintuitive result given that medical models
+are purpose-trained for clinical domains.
+
+This reproduction attempts to independently verify those results, diagnose
+sources of deviation, and extend the benchmark to models that did not exist
+when the paper was written.
+
+================================================================================
+2. METHODOLOGY
+================================================================================
+
+2.1 Benchmark and Dataset
+
+Med-HALT (Medical Hallucination Test) reasoning tasks consist of multiple-choice
+questions drawn from USMLE-style medical reasoning. I used three task files:
+
+  - FCT (Fact-Checking Task): verify whether a statement is factually correct
+  - Fake Reference: identify fabricated citations or drug references
+  - NOTA (None of the Above): recognize when no provided option is correct
+
+50 samples per task, matching the paper's evaluation size.
+
+2.2 Models Evaluated
+
+General-purpose: GPT-4o, GPT-4o-mini, GPT-5, o1, o3-mini,
+                 Gemini-2.5-Pro, DeepSeek-R1
+
+Medical-specialized: MedAlpaca-13B, AlpaCare-LLaMA2-13B, PMC-LLaMA-13B
+
+API models were called via the OpenAI SDK (OpenAI, OpenRouter), Google Generative
+AI SDK (Gemini), and Tavily (internet search). Local models were run with
+4-bit quantization on a GPU with 16GB VRAM.
+
+2.3 Mitigation Methods
+
+  1. Base: no modification to the prompt
+  2. System Prompt: add a truthfulness instruction in the system role
+  3. Chain-of-Thought (CoT): append "Let's think step-by-step." to the prompt
+  4. MedRAG: retrieve top-k passages from a local FAISS medical corpus before
+             answering (requires ~50GB MedC-K corpus)
+  5. Internet Search: use Tavily to retrieve web results before answering
+
+2.4 Evaluation
+
+Accuracy is computed as the proportion of responses matching the correct answer
+letter. A lightweight parser extracts the answer letter from model output.
+Responses without a detectable letter are marked incorrect.
+
+================================================================================
+3. RESULTS
+================================================================================
+
+3.1 Baseline (No Mitigation)
+
+General-purpose models scored an average of ~70% accuracy across all three tasks.
+Medical-specialized models scored ~39%. This 30+ percentage point gap confirms
+the paper's central finding.
+
+Top performers: GPT-5 (92.7%), GPT-4o (82.0%), Gemini-2.5-Pro (79.3%).
+Bottom performers: AlpaCare-13B (24.7%), PMC-LLaMA-13B (46.0%).
+
+3.2 Mitigation Methods
+
+Chain-of-Thought was the most consistent improvement across models, adding
+roughly 2-5 points for general-purpose models with minimal variance.
+
+System Prompt showed marginal gains. For already-strong models (GPT-5, o1)
+it made little difference; for weaker models it sometimes hurt performance.
+
+MedRAG improved general-purpose models moderately. It was unreliable for
+medical-specialized models, particularly those near random-chance accuracy.
+
+Internet Search produced the largest apparent improvements (sometimes 15+
+points for general models) but these are confounded. Med-HALT questions are
+indexed online, meaning search-enabled models can retrieve correct answers
+directly from cached test content rather than reasoning from medical knowledge.
+An additional confound: models differ in how many retrieval loops they execute
+before answering, creating an uncontrolled variable.
+
+3.3 Deviation from Paper
+
+Average absolute deviation: 5.7 percentage points across all model-method pairs.
+
+Two models showed large deviations requiring explanation:
+
+AlpaCare-LLaMA2-13B: my score was 10.7 percentage points below the paper.
+The model is built on LLaMA-2 with a medical fine-tune. Running it with 4-bit
+quantization (required by GPU memory limits) significantly degrades a model
+that was already near random-chance accuracy on several tasks.
+
+PMC-LLaMA-13B: my score was 11.3 percentage points above the paper. This
+model produces verbose, paragraph-length outputs instead of single-letter
+answers. My evaluation parser scans the full text for an answer letter and
+credits any match. The paper appears to use a stricter parser that penalizes
+non-standard response formats. The higher score in my run reflects parser
+leniency, not superior model knowledge.
+
+================================================================================
+4. 2026 EXTENSION
+================================================================================
+
+I tested four models released after the paper's cutoff using base, system
+prompt, and CoT methods:
+
+  - GPT-5.5: strongest performer; continued the GPT-5 trend
+  - GPT-OSS-120B: competitive with GPT-4o-class performance
+  - Gemma-4-31B-IT: strong general-purpose open model from Google
+  - Gemma-3-27B-IT: solid, slightly behind Gemma-4
+
+All four are general-purpose models. No new medical-specialized models with
+public API access existed as of the project deadline. A search of all 300+
+models in the OpenRouter catalog returned zero models categorized as
+medical-specialized, confirming the industry pattern that medical AI remains
+largely in the research-prototype stage rather than production deployment.
+
+MedGemma-4B-IT (Google, May 2025) -- a medical-specialized model -- was
+tested via HuggingFace Inference Endpoint. The infrastructure was confirmed
+working; full results are included in the dashboard.
+
+================================================================================
+5. LIMITATIONS
+================================================================================
+
+Benchmark contamination: The internet search condition is not a fair test
+of medical knowledge. Results for that method should be interpreted as
+an upper-bound experiment, not a valid mitigation comparison.
+
+Quantization: Running local models at 4 bits introduces performance loss
+that the paper did not have (they had full-precision GPU access).
+
+Parser sensitivity: Results for verbose models (PMC-LLaMA) are sensitive
+to evaluation parser strictness. A stricter parser would lower my scores
+for those models toward the paper.
+
+Sample size: 50 samples per task is sufficient for rank-ordering models
+but too small for fine-grained statistical comparisons between similar models.
+
+================================================================================
+6. CONCLUSION
+================================================================================
+
+The reproduction confirms Kim et al.'s main finding: general-purpose models
+substantially and consistently outperform models purpose-built for medicine on
+medical hallucination benchmarks. Mitigation strategies help at the margins, but
+none reliably close the general-to-medical gap.
+
+The average 5.7 percentage point deviation from the paper is within the expected
+range for a reproduction involving different API versions, quantization
+differences, and parser implementation choices. Outlier deviations (AlpaCare,
+PMC-LLaMA) are mechanistically explained.
+
+The extension to 2026 models suggests the trend continues: larger and newer
+general-purpose models keep improving while dedicated medical models with API
+access remain absent from public catalogs. For the medical AI community, this
+points to a deployment gap: the models physicians are most likely to actually
+use (frontier general-purpose APIs) are not the ones evaluated in the medical AI
+literature, which still focuses on smaller purpose-trained models.
+
+================================================================================
+REFERENCES
+================================================================================
+
+Kim, Y. et al. (2025). Medical Hallucination in Foundation Models and Their
+Impact on Healthcare. medRxiv. https://doi.org/10.1101/2025.02.28.25323115
+
+Naveed, H. et al. (2024). A Comprehensive Overview of Large Language Models.
+arXiv:2307.06435.
+
+Pal, A. et al. (2023). Med-HALT: Medical Domain Hallucination Test for
+Large Language Models. arXiv:2307.15343.
+
+Xiong, G. et al. (2024). Benchmarking Retrieval-Augmented Generation for
+Medicine. ACL Findings.
