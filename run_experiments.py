@@ -26,7 +26,10 @@ import gc
 import pandas as pd
 import argparse
 
-from google import genai
+try:
+    from google import genai
+except ImportError:
+    genai = None
 import openai
 from openai import OpenAI
 import transformers
@@ -36,7 +39,10 @@ import torch
 # Import MedRAG from the cloned repository
 import sys
 sys.path.insert(0, './MedRAG/src')
-from medrag import MedRAG
+try:
+    from medrag import MedRAG
+except ImportError:
+    MedRAG = None
 
 import random
 import numpy as np
@@ -195,6 +201,11 @@ class MedicalModelInference:
         elif self.model_class == "gemini":
             if not google_api_key:
                 raise ValueError("Google API key not found. Please set GOOGLE_API_KEY in your .env file")
+            if genai is None:
+                raise ImportError(
+                    "google-genai is not available in this environment. "
+                    "Install it with: pip install google-genai"
+                )
             self.client = genai.Client(api_key=google_api_key)
         elif self.model_class == "deepseek":
             if not openrouter_api_key:
@@ -350,15 +361,14 @@ class MedicalModelInference:
         elif self.model_class == "deepseek":
             try:
                 completion = self.client.chat.completions.create(
-                    model="deepseek/deepseek-r1",
+                    model="openai/gpt-oss-120b:free",
                     messages=[
                         {
                             "role": "user",
                             "content": text
                         }
                     ],
-                    temperature=0.7,
-                    max_completion_tokens=1024
+                    max_tokens=512
                 )
                 return completion.choices[0].message.content
             except Exception as e:
@@ -404,13 +414,14 @@ class MedicalModelInference:
 
         elif self.model_class == 'deepseek':
             completion = self.client.chat.completions.create(
-                model="deepseek/deepseek-r1",
+                model="openai/gpt-oss-120b:free",
                 messages=[
                     {
                     "role": "user",
                     "content": prompting_input
                     }
-                ]
+                ],
+                max_tokens=512
             )
             return completion.choices[0].message.content
 
@@ -453,13 +464,14 @@ class MedicalModelInference:
 
         elif self.model_class == "deepseek":
             completion = self.client.chat.completions.create(
-                model="deepseek/deepseek-r1",
+                model="openai/gpt-oss-120b:free",
                 messages=[
                     {
                     "role": "user",
                     "content": cot_input
                     }
-                ]
+                ],
+                max_tokens=512
             )
             return completion.choices[0].message.content
 
@@ -554,7 +566,6 @@ Based on the references above, select the most appropriate answer. Respond with 
             model_prefix = "Google"
         elif self.model_class == "deepseek":
             model_prefix = "deepseek-ai"
-            self.model_class = 'DeepSeek-R1'
         elif self.model_class == "google":  # Other Google models
             model_prefix = "google"
         elif 'alpacare' in model_lower:
@@ -653,13 +664,14 @@ Based on the references above, select the most appropriate answer. Respond with 
 
             elif self.model_class == "deepseek":
                 completion = self.client.chat.completions.create(
-                    model="deepseek/deepseek-r1",
+                    model="openai/gpt-oss-120b:free",
                     messages=[
                         {
                             "role": "user",
                             "content": combined_input
                         }
-                    ]
+                    ],
+                    max_tokens=512
                 )
                 return completion.choices[0].message.content
 
@@ -953,7 +965,7 @@ def main(args):
                             result_data, model_name, file_name, output_path, seed=args.seed, intermediate=True
                         )
 
-                    time.sleep(1)
+                    time.sleep(5)  # 5s gap → ~12 req/min, safely under free tier 15 req/min limit
 
                 # Save final results for this file
                 result_data = create_result_data(

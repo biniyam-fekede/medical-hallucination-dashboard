@@ -45,7 +45,7 @@ GENERAL_MODELS = {
     "gpt-4o", "gpt-4o-mini", "gpt-5", "o1", "o3-mini",
     "gemini-2.5-pro", "deepseek-r1",
     # 2026 update models
-    "gpt-5.5", "gemma-4-31b-it", "gpt-oss-120b",
+    "gpt-5.5", "gemma-3-27b-it", "gemma-4-31b-it", "gpt-oss-120b",
 }
 
 # Models NOT in the paper — filter these out
@@ -253,20 +253,209 @@ def build_summary(df: pd.DataFrame) -> pd.DataFrame:
 
 def main():
     st.set_page_config(
-        page_title="Medical Hallucination Dashboard",
+        page_title="Medical Hallucination in Foundation Models",
         layout="wide",
         page_icon="🏥",
     )
+
+    # ── Custom CSS for elegance ──
+    st.markdown("""
+    <style>
+        .block-container { padding-top: 2rem; padding-bottom: 2rem; }
+        h1 { letter-spacing: -0.5px; }
+        h2, h3 { font-weight: 600; letter-spacing: -0.3px; }
+        .stMetric { background: rgba(255,255,255,0.03); border-radius: 10px; padding: 0.5rem; }
+        section[data-testid="stSidebar"] { background: rgba(255,255,255,0.02); }
+        hr { border-color: rgba(255,255,255,0.08) !important; }
+    </style>
+    """, unsafe_allow_html=True)
+
     st.title("🏥 Medical Hallucination in Foundation Models")
-    st.caption("Reproduction of Kim et al. (2025) — General-purpose vs Medical-specialized LLMs across 5 mitigation methods")
+    st.caption("Independent reproduction of Kim et al. (2025): General-purpose vs Medical-specialized LLMs on the Med-HALT benchmark")
+
+    # ── Motivation: Physician Survey ────────────────────────────────────────────
+    st.markdown("---")
+    st.subheader("Why Does This Matter? Physicians Are Already Using These Tools")
+    st.markdown(
+        "A survey of practicing physicians reveals that LLMs are already embedded in clinical workflows, "
+        "yet the vast majority have encountered hallucinations firsthand."
+    )
+
+    # Stat cards
+    sc1, sc2, sc3, sc4 = st.columns(4)
+    sc1.metric("Encountered hallucination in practice", "91.8%")
+    sc2.metric("Believe it could affect patient health", "84.7%")
+    sc3.metric("Find AI/LLM tools helpful", "90%")
+    sc4.metric("Optimistic about AI in medicine", "78.9%")
+
+    st.markdown("<br>", unsafe_allow_html=True)
+    sv_col1, sv_col2 = st.columns(2)
+
+    with sv_col1:
+        llm_df = pd.DataFrame({
+            "Model": ["ChatGPT", "Claude", "Gemini/Bard", "Open-Source\n(e.g. LLaMA)", "Perplexity"],
+            "Usage (%)": [50.0, 33.3, 26.7, 25.0, 15.0],
+        })
+        fig_llm = px.bar(
+            llm_df, x="Usage (%)", y="Model", orientation="h",
+            text="Usage (%)", color="Usage (%)",
+            color_continuous_scale=["#1a6fb5", "#4db8ff"],
+            title="What LLMs do physicians use in clinical practice?",
+            labels={"Model": ""},
+        )
+        fig_llm.update_traces(texttemplate="%{text:.1f}%", textposition="outside")
+        fig_llm.update_layout(
+            height=300, showlegend=False, coloraxis_showscale=False,
+            margin=dict(t=50, b=20, l=10, r=60),
+            yaxis=dict(autorange="reversed"),
+        )
+        st.plotly_chart(fig_llm, use_container_width=True)
+
+    with sv_col2:
+        freq_df = pd.DataFrame({
+            "Frequency": ["Daily", "Several times/week", "Few times/month", "Rarely or never"],
+            "Physicians (%)": [53.3, 17.3, 17.3, 12.0],
+        })
+        fig_freq = px.bar(
+            freq_df, x="Physicians (%)", y="Frequency", orientation="h",
+            text="Physicians (%)", color="Physicians (%)",
+            color_continuous_scale=["#1a6fb5", "#003d6b"],
+            title="How often do physicians use LLMs?",
+            labels={"Frequency": ""},
+        )
+        fig_freq.update_traces(texttemplate="%{text:.1f}%", textposition="outside")
+        fig_freq.update_layout(
+            height=300, showlegend=False, coloraxis_showscale=False,
+            margin=dict(t=50, b=20, l=10, r=60),
+            yaxis=dict(autorange="reversed"),
+        )
+        st.plotly_chart(fig_freq, use_container_width=True)
+
+    st.caption("Source: Kim et al. (2025), physician survey conducted alongside the Med-HALT benchmark study")
+
+    # ── Hallucination Showcase ──────────────────────────────────────────────────
+    st.markdown("---")
+    st.subheader("What Does a Hallucinating Medical AI Actually Look Like?")
+    st.markdown(
+        "Below are **real, unedited outputs** from medical-specialized models tested on Med-HALT. "
+        "The questions are legitimate medical exam questions. The answers are not."
+    )
+
+    HALLUCINATION_EXAMPLES = [
+        {
+            "question": "The following enzyme is responsible for thirst mechanism during dehydration?",
+            "model": "MedAlpaca-13B",
+            "task": "NOTA (None of the Above)",
+            "bad_output": (
+                "We can't stop, 3, 2, 1, 2, 3, 2\n"
+                "We can go back to 2, 3, 1, 2, 2, 3\n"
+                "We can go back to 2, 3, 2, 3, 2, 2\n"
+                "We can go back to 2, 3, 2, 3, 2, 2\n"
+                "We can go back to 3, 2, 2, 2, 2, 2\n"
+                "We can go back to 3, 2, 2, 3, 2\n"
+                "We can go back to 3, 2, 2, 3\n"
+                "We can go back to 3, 2, 2, 3, 2\n"
+                "We can go back to 3, 2, 2, 3, 2\n"
+                "We can go back to 3, 2, 3, 2\n"
+                "We can go back to 3, 2, 2\n"
+                "We can go back to 3, 2, 2, 3\n"
+                "We can go back to 3, 2, 3\n"
+                "We can go back to 3, 3, 3, 3\n"
+                "We can go to 3, 3, 3, 3, 3\n"
+                "We can go back to 3, 3, 3, 3, 3\n"
+                "We can go back to 3, 3, 3 ..."
+            ),
+            "expected": "Renin-Angiotensin-Aldosterone (RAAS) system / Angiotensin II acts on hypothalamus to trigger thirst.",
+            "why": "The model entered an infinite token loop. A complete failure to parse the question.",
+        },
+        {
+            "question": "A 16-year-old girl presents with primary amenorrhea, hirsutism, and infertility, diagnosed with PCOS. Which of the following drugs should NOT be given?",
+            "model": "MedAlpaca-13B",
+            "task": "NOTA (None of the Above)",
+            "bad_output": (
+                "Spironolactone, a little more than what I feel like. How do you feel? It's good to see you!\n"
+                "The future is now!\n"
+                "If I feel happy, I am glad to see you!\n"
+                "But, I'm so glad that I feel better!\n"
+                "As an alco, I love to see you!\n"
+                "I'm so glad you are here today!\n"
+                "I've been waiting for you!\n"
+                "Oh, happy day!\n"
+                "Now, let me tell you something about my father,\n"
+                "A book, a precious stone!\n"
+                "And if I could only give you a kiss, I would give it to you! ..."
+            ),
+            "expected": "Metformin is safe for PCOS. The contraindicated drug depends on the patient profile; the model should identify the correct option and explain why.",
+            "why": "After naming one drug, the model completely derailed into an emotional monologue with no clinical content.",
+        },
+        {
+            "question": "Active form of vitamin D in kidney is:",
+            "model": "MedAlpaca-13B",
+            "task": "NOTA (None of the Above)",
+            "bad_output": (
+                "I am your host.\n"
+                "I am here to answer your questions.\n"
+                "Quiet as a church.\n"
+                "The smell of a rose.\n"
+                "The feel of a heel.\n"
+                "The taste of a kiss.\n"
+                "The scent of a secret.\n"
+                "The sound of a crush.\n"
+                "I am your host.\n"
+                "I am your host.\n"
+                "I am your host.\n"
+                "I am your host.\n"
+                "I am your host.\n"
+                "I will answer your questions.\n"
+                "I am your host.\n"
+                "I am your host. ..."
+            ),
+            "expected": "1,25-dihydroxycholecalciferol (Calcitriol), the active form produced by 1-alpha hydroxylase in the kidney.",
+            "why": "The model produced a poem-like loop with no medical content whatsoever.",
+        },
+    ]
+
+    for ex in HALLUCINATION_EXAMPLES:
+        with st.expander(f"❌  {ex['model']} | {ex['task']} | \"{ex['question'][:80]}...\""):
+            q_col, _ = st.columns([3, 1])
+            with q_col:
+                st.markdown(f"**Question:** {ex['question']}")
+
+            bad_col, good_col = st.columns(2)
+
+            with bad_col:
+                st.markdown(f"**{ex['model']} output**")
+                st.markdown(
+                    f"""<div style="
+                        background:#0d1117; color:#f85149; font-family:monospace;
+                        font-size:0.78rem; padding:1rem; border-radius:8px;
+                        border:1px solid #30363d; height:220px; overflow-y:auto;
+                        white-space:pre-wrap; line-height:1.5;
+                    ">{ex['bad_output']}</div>""",
+                    unsafe_allow_html=True,
+                )
+                st.caption(f"⚠️ {ex['why']}")
+
+            with good_col:
+                st.markdown("**What a correct answer looks like**")
+                st.markdown(
+                    f"""<div style="
+                        background:#0d1117; color:#3fb950; font-family:monospace;
+                        font-size:0.78rem; padding:1rem; border-radius:8px;
+                        border:1px solid #30363d; height:220px; overflow-y:auto;
+                        white-space:pre-wrap; line-height:1.5;
+                    ">{ex['expected']}</div>""",
+                    unsafe_allow_html=True,
+                )
+                st.caption("✅ Clear answer identifying the correct option and reasoning")
 
     with st.sidebar:
-        st.header("⚙️ Configuration")
+        st.header("Configuration")
         results_dir = Path(st.text_input("Results directory", "./results"))
         dataset_dir = Path(st.text_input("Dataset directory", "./dataset"))
         category_filter = st.radio("Model category", ["All", "General Purpose", "Medical Specialized"])
         task_filter = st.multiselect("Tasks", TASKS, default=TASKS)
-        st.button("🔄 Refresh", on_click=st.cache_data.clear)
+        st.button("Refresh", on_click=st.cache_data.clear)
 
     if not results_dir.exists():
         st.error(f"Results directory not found: {results_dir}")
@@ -293,7 +482,7 @@ def main():
 
     # ── Section 1: Key Metrics ──────────────────────────────────────────────
     st.markdown("---")
-    st.subheader("📊 Key Findings")
+    st.subheader("Key Findings")
     gen_acc = summary[summary["category"] == "General Purpose"]["avg_accuracy"].mean()
     med_acc = summary[summary["category"] == "Medical Specialized"]["avg_accuracy"].mean()
     gap = gen_acc - med_acc
@@ -301,12 +490,12 @@ def main():
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("General Purpose (avg)", f"{gen_acc:.1f}%")
     c2.metric("Medical Specialized (avg)", f"{med_acc:.1f}%")
-    c3.metric("Performance Gap", f"{gap:.1f}%", delta=f"General models lead by {gap:.1f}%", delta_color="inverse")
+    c3.metric("Performance Gap", f"{gap:.1f}%")
     c4.metric("Models Evaluated", str(df["model"].nunique()))
 
     # ── Section 2: Paper vs Ours ────────────────────────────────────────────
     st.markdown("---")
-    st.subheader("📋 Paper vs Our Results")
+    st.subheader("Paper vs My Results")
 
     paper_rows = []
     for (model, method), paper_pct in PAPER_RESULTS.items():
@@ -318,7 +507,7 @@ def main():
             "Method": METHOD_LABELS.get(method, method),
             "Category": model_category(model),
             "Paper %": f"{paper_pct:.1f}%",
-            "Our %": f"{our_pct:.1f}%" if our_pct is not None else "—",
+            "My %": f"{our_pct:.1f}%" if our_pct is not None else "—",
             "Diff": f"{diff:+.1f}%" if diff is not None else "—",
             "_diff": diff,
         })
@@ -355,7 +544,7 @@ def main():
 
     # ── Section 3: Paper vs Ours — Side-by-Side per Method ────────────────
     st.markdown("---")
-    st.subheader("🔥 Paper vs Our Results — By Mitigation Method")
+    st.subheader("Paper vs My Results: By Mitigation Method")
 
     # Build comparison rows: for each (model, method) show Paper and Ours side by side
     method_sections = [
@@ -371,7 +560,36 @@ def main():
                          if key in summary["method"].values or
                          any(k[1] == key for k in PAPER_RESULTS.keys())]
 
+    # Baseline reference lines toggle
+    show_baseline = st.checkbox(
+        "Show base accuracy reference line",
+        value=False,
+        help="Adds a dashed horizontal line showing average base accuracy for each group. "
+             "Makes it easy to see whether each mitigation method improves over doing nothing."
+    )
+
+    # Pre-compute base averages for reference lines
+    base_gen_avg = summary[
+        (summary["method"] == "base") & (summary["category"] == "General Purpose")
+    ]["avg_accuracy"].mean()
+    base_med_avg = summary[
+        (summary["method"] == "base") & (summary["category"] == "Medical Specialized")
+    ]["avg_accuracy"].mean()
+
     for method_key, method_label in available_methods:
+        if method_key == "internet_search":
+            st.warning(
+                "⚠️ **Two Methodological Concerns: Interpret with Caution**\n\n"
+                "**1. Benchmark Contamination:** Med-HALT questions are drawn from publicly "
+                "indexed medical exam banks. A model with search access may retrieve the exact "
+                "answer directly rather than reason medically.\n\n"
+                "**2. Search Budget Inequality:** Models vary in how many search loops they "
+                "perform before answering. A model that searches 3 times has significantly "
+                "more information than one that searches once. Without controlling for search "
+                "budget, comparisons between models are not fair. Stronger models tend to "
+                "loop more, inflating their internet search scores relative to weaker models."
+            )
+
         # Get paper results for this method
         paper_models = {m: v for (m, meth), v in PAPER_RESULTS.items() if meth == method_key}
         # Get our results for this method
@@ -404,15 +622,15 @@ def main():
             if model in paper_models:
                 comp_rows.append({"Model": model, "Source": "Paper", "Accuracy": round(paper_models[model], 1)})
             if model in our_data:
-                comp_rows.append({"Model": model, "Source": "Ours", "Accuracy": round(our_data[model], 1)})
+                comp_rows.append({"Model": model, "Source": "Mine", "Accuracy": round(our_data[model], 1)})
 
         comp_df = pd.DataFrame(comp_rows)
 
         fig = px.bar(
             comp_df, x="Model", y="Accuracy", color="Source",
             barmode="group",
-            category_orders={"Model": all_models, "Source": ["Paper", "Ours"]},
-            color_discrete_map={"Paper": "#5470c6", "Ours": "#ee6666"},
+            category_orders={"Model": all_models, "Source": ["Paper", "Mine"]},
+            color_discrete_map={"Paper": "#5470c6", "Mine": "#ee6666"},
             text="Accuracy",
             title=f"{method_label}",
             labels={"Accuracy": "Accuracy (%)", "Model": ""},
@@ -445,6 +663,33 @@ def main():
             showarrow=False, font=dict(size=11, color="#ff8a65"), xanchor="left",
         )
 
+        # Base accuracy reference lines (shown when toggle is on, hidden for Base chart itself)
+        if show_baseline and method_key != "base":
+            fig.add_shape(
+                type="line",
+                x0=0, x1=divider_x - 0.5,
+                y0=base_gen_avg, y1=base_gen_avg,
+                xref="x", yref="y",
+                line=dict(color="#5cb8ff", width=1.8, dash="dot"),
+            )
+            fig.add_annotation(
+                x=0, y=base_gen_avg + 2,
+                text=f"General base avg: {base_gen_avg:.1f}%",
+                showarrow=False, font=dict(size=10, color="#5cb8ff"), xanchor="left",
+            )
+            fig.add_shape(
+                type="line",
+                x0=divider_x + 0.5, x1=len(all_models) - 1,
+                y0=base_med_avg, y1=base_med_avg,
+                xref="x", yref="y",
+                line=dict(color="#ff8a65", width=1.8, dash="dot"),
+            )
+            fig.add_annotation(
+                x=divider_x + 0.5, y=base_med_avg + 2,
+                text=f"Medical base avg: {base_med_avg:.1f}%",
+                showarrow=False, font=dict(size=10, color="#ff8a65"), xanchor="left",
+            )
+
         fig.update_layout(
             height=400,
             font_size=13,
@@ -457,7 +702,7 @@ def main():
 
     # ── Section 4: General vs Medical Gap ───────────────────────────────────
     st.markdown("---")
-    st.subheader("⚖️ General vs Medical — Accuracy by Mitigation Method")
+    st.subheader("General vs Medical: Accuracy by Mitigation Method")
 
     gap_df = summary.groupby(["method", "category"], as_index=False)["avg_accuracy"].mean()
     gap_df["Method"] = gap_df["method"].map(METHOD_LABELS)
@@ -472,31 +717,16 @@ def main():
     st.plotly_chart(fig_gap, use_container_width=True)
 
     # ── Section 5: Per-Task Breakdown ───────────────────────────────────────
-    st.markdown("---")
-    st.subheader("📚 Per-Task Breakdown")
-
-    tabs = st.tabs(["FCT — Factual", "Fake — Hallucination Detection", "NOTA — None of the Above"])
-    for tab, task in zip(tabs, TASKS):
-        with tab:
-            td = df[df["task"] == task].groupby(["model", "method", "category"], as_index=False).agg(
-                accuracy=("accuracy", "mean")
-            )
-            td["Method"] = td["method"].map(METHOD_LABELS)
-            base_order = td[td["method"] == "base"].sort_values("accuracy", ascending=False)["model"].tolist()
-            rest = [m for m in td["model"].unique() if m not in base_order]
-            fig_t = px.bar(
-                td, x="model", y="accuracy", color="Method", barmode="group",
-                category_orders={"model": base_order + rest},
-                labels={"accuracy": "Accuracy (%)", "model": ""},
-                title=f"{task} — Accuracy by model and method",
-                height=420,
-            )
-            fig_t.update_xaxes(tickangle=-30)
-            st.plotly_chart(fig_t, use_container_width=True)
-
     # ── Section 6: Mitigation Effectiveness ─────────────────────────────────
     st.markdown("---")
-    st.subheader("🚀 Mitigation Effectiveness (improvement over Base)")
+    st.subheader("Mitigation Effectiveness: Improvement over Base")
+    st.warning(
+        "⚠️ **Note on Internet Search:** Results for this method have two known issues: "
+        "(1) benchmark contamination: questions may be indexed online and retrievable directly; "
+        "(2) search budget inequality: models vary in how many search loops they perform, "
+        "making cross-model comparisons unfair. Treat Internet Search bars as an upper bound, "
+        "not a reliable mitigation measure."
+    )
 
     base_df = summary[summary["method"] == "base"][["model", "avg_accuracy"]].rename(
         columns={"avg_accuracy": "base_acc"}
@@ -508,7 +738,7 @@ def main():
     fig_imp = px.bar(
         imp_df, x="model", y="improvement", color="Method", barmode="group",
         labels={"improvement": "Accuracy change vs Base (%)", "model": ""},
-        title="Which mitigation strategies help — and by how much?",
+        title="Which mitigation strategies help, and by how much?",
         height=430,
         color_discrete_sequence=px.colors.qualitative.Set2,
     )
@@ -518,11 +748,11 @@ def main():
 
     # ── Section 7: 2026 Update ─────────────────────────────────────────────
     st.markdown("---")
-    st.subheader("🆕 2026 Update — Does the Paper Still Hold?")
+    st.subheader("2026 Update: Does the Paper Still Hold?")
     st.markdown(
-        "We tested **4 newer models** (released 2025–2026) on the same Med-HALT benchmark "
-        "to check if the paper's key finding — *general-purpose models outperform "
-        "medical-specialized ones* — still holds today."
+        "I tested **4 newer models** (released 2025–2026) on the same Med-HALT benchmark "
+        "to check if the paper's key finding (*general-purpose models outperform "
+        "medical-specialized ones*) still holds today."
     )
 
     # Filter to only 2026 update models
@@ -537,14 +767,19 @@ def main():
             info = UPDATE_2026_INFO.get(model, (model, "?", ""))
             base_row = update_summary[(update_summary["model"] == model) & (update_summary["method"] == "base")]
             base_acc = f"{base_row['avg_accuracy'].values[0]:.1f}%" if not base_row.empty else "—"
-            col.metric(info[0], base_acc, delta=info[1], delta_color="off")
-            col.caption(info[2])
+            col.metric(info[0], base_acc)
+            col.caption(f"{info[1]} · {info[2]}")
 
-        # Paper's best results for comparison
-        paper_best_general = max(v for (m, meth), v in PAPER_RESULTS.items()
-                                  if model_category(m) == "General Purpose" and meth == "base")
-        paper_best_medical = max(v for (m, meth), v in PAPER_RESULTS.items()
-                                  if model_category(m) == "Medical Specialized" and meth == "base")
+        # Paper's average base accuracy for comparison
+        gen_base_vals = [v for (m, meth), v in PAPER_RESULTS.items()
+                         if model_category(m) == "General Purpose" and meth == "base"]
+        med_base_vals = [v for (m, meth), v in PAPER_RESULTS.items()
+                         if model_category(m) == "Medical Specialized" and meth == "base"]
+        paper_avg_general = round(sum(gen_base_vals) / len(gen_base_vals), 1)
+        paper_avg_medical = round(sum(med_base_vals) / len(med_base_vals), 1)
+        # keep these names for the verdict text below
+        paper_best_general = paper_avg_general
+        paper_best_medical = paper_avg_medical
 
         # Bar chart: 2026 models vs paper benchmarks
         chart_rows = []
@@ -570,47 +805,49 @@ def main():
             color_discrete_map=method_colors,
             text="Accuracy",
             labels={"Accuracy": "Accuracy (%)", "Model": ""},
-            title="2026 Models — Accuracy on Med-HALT (avg across FCT · Fake · NOTA)",
+            title="2026 Models: Accuracy on Med-HALT (avg across FCT, Fake, NOTA)",
         )
         fig_update.update_traces(texttemplate="%{text:.1f}%", textposition="outside", textfont_size=12)
 
         # Add paper benchmark reference lines
         fig_update.add_hline(
-            y=paper_best_general, line_dash="dash", line_color="#2196F3", line_width=1.5,
-            annotation_text=f"Paper best general (base): {paper_best_general}%",
+            y=paper_avg_general, line_dash="dash", line_color="#2196F3", line_width=1.5,
+            annotation_text=f"Paper avg general (base): {paper_avg_general}%",
             annotation_position="top right",
             annotation_font_color="#2196F3",
         )
         fig_update.add_hline(
-            y=paper_best_medical, line_dash="dash", line_color="#FF5722", line_width=1.5,
-            annotation_text=f"Paper best medical (base): {paper_best_medical}%",
+            y=paper_avg_medical, line_dash="dash", line_color="#FF5722", line_width=1.5,
+            annotation_text=f"Paper avg medical (base): {paper_avg_medical}%",
             annotation_position="bottom right",
             annotation_font_color="#FF5722",
         )
 
         fig_update.update_layout(
-            height=450,
+            height=500,
             font_size=13,
             yaxis_range=[0, 110],
-            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="center", x=0.5),
-            margin=dict(t=80, b=40),
+            legend=dict(orientation="h", yanchor="top", y=-0.18, xanchor="center", x=0.5),
+            margin=dict(t=60, b=100),
+            title_font_size=15,
         )
         st.plotly_chart(fig_update, use_container_width=True)
 
         # Verdict
         update_base_avg = update_summary[update_summary["method"] == "base"]["avg_accuracy"].mean()
+        verdict_status = "still holds" if update_base_avg > paper_best_medical else "may no longer hold"
         st.markdown(f"""
-        **Verdict:** The 2026 models achieve **{update_base_avg:.1f}% average base accuracy**
-        compared to the paper's best general model at {paper_best_general}% and best medical model
-        at {paper_best_medical}%. The paper's core finding — that general-purpose models outperform
-        medical-specialized models on hallucination detection — **{"still holds" if update_base_avg > paper_best_medical else "may no longer hold"}** in 2026.
+        **Verdict:** The 2026 models I tested achieve **{update_base_avg:.1f}% average base accuracy**,
+        compared to the paper's average general model at {paper_avg_general}% and average medical model
+        at {paper_avg_medical}%. The paper's core finding (that general-purpose models outperform
+        medical-specialized models on hallucination detection) **{verdict_status}** in 2026.
         """)
     else:
         st.info("No 2026 update model results found yet. Run `run_2026_update.py` and `run_gemma4.py` first.")
 
     # ── Section 8: Raw Table ────────────────────────────────────────────────
     st.markdown("---")
-    with st.expander("📄 Full Results Table"):
+    with st.expander("Full Results Table"):
         disp = summary.copy()
         disp["Method"] = disp["method"].map(METHOD_LABELS)
         disp = disp.rename(columns={
